@@ -1,0 +1,2124 @@
+{
+  "created_utc": "2026-10-19T00:28:29.974137+00:00",
+  "source_sha256": "6d4a9eebe205ef8a6ac7321e54eba968b2518d0307faf7404f2de6911937ad07",
+  "binary_sha256": "732141785747b5be93583042e2e2d61ecc6917fcdfd9d97b5a2fa31513e2aeb3",
+  "smoke_suite_version": 4,
+  "all_passed": true,
+  "tests": [
+    {
+      "test": "strong",
+      "passed": true,
+      "output": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/strong",
+      "reused": false,
+      "manifest": {
+        "identity": {
+          "source_sha256": "6d4a9eebe205ef8a6ac7321e54eba968b2518d0307faf7404f2de6911937ad07",
+          "binary_sha256": "732141785747b5be93583042e2e2d61ecc6917fcdfd9d97b5a2fa31513e2aeb3",
+          "matrix_sha256": "0d61a9e5accb4a3e58ec3065b2731e6123d140725a46d2a0d4e64a60d930f7fa",
+          "gateways_sha256": "1f10e38e0d1ccbdc6542384def20f2bb91de01ae117f11999a4a9d22e1f19a91",
+          "options": {
+            "nDevices": 0,
+            "selection": "all",
+            "gatewayIds": "all",
+            "duration": 12,
+            "period": 4,
+            "payload": 51,
+            "sf": 11,
+            "radioProfile": "custom915",
+            "channelCount": 1,
+            "txPowerDbm": 27,
+            "us915StartChannel": 8,
+            "matrixReferenceDbm": 27,
+            "dutyCycle": 1,
+            "seed": 42,
+            "run": 1,
+            "writeEvents": 1,
+            "enableForwarder": 1,
+            "synchronized": 1,
+            "drain": 20
+          },
+          "expected_input_rejection": false
+        },
+        "started_utc": "2026-10-19T00:28:24.328757+00:00",
+        "cwd": "/home/pucesa/ns-3",
+        "command": [
+          "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default",
+          "--matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_matrix.csv",
+          "--gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv",
+          "--output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/strong",
+          "--nDevices=0",
+          "--selection=all",
+          "--gatewayIds=all",
+          "--duration=12",
+          "--period=4",
+          "--payload=51",
+          "--sf=11",
+          "--radioProfile=custom915",
+          "--channelCount=1",
+          "--txPowerDbm=27",
+          "--us915StartChannel=8",
+          "--matrixReferenceDbm=27",
+          "--dutyCycle=1",
+          "--seed=42",
+          "--run=1",
+          "--writeEvents=1",
+          "--enableForwarder=1",
+          "--synchronized=1",
+          "--drain=20"
+        ],
+        "command_display": "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default --matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_matrix.csv --gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv --output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/strong --nDevices=0 --selection=all --gatewayIds=all --duration=12 --period=4 --payload=51 --sf=11 --radioProfile=custom915 --channelCount=1 --txPowerDbm=27 --us915StartChannel=8 --matrixReferenceDbm=27 --dutyCycle=1 --seed=42 --run=1 --writeEvents=1 --enableForwarder=1 --synchronized=1 --drain=20",
+        "environment": {
+          "recorded_utc": "2026-10-19T00:27:26.642885+00:00",
+          "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+          "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+          "ns3_version": "3-dev",
+          "ns3_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "f576896f5c2387874f49be221c13ae371e4f8f86",
+            "stderr": ""
+          },
+          "ns3_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "ns-3.48-96-gf576896f5",
+            "stderr": ""
+          },
+          "lorawan_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "67bcaefdeb45d367010e09a80083b9a0527f766b",
+            "stderr": ""
+          },
+          "lorawan_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "v0.3.7-1-g67bcaef",
+            "stderr": ""
+          },
+          "compiler": {
+            "command": [
+              "g++",
+              "--version"
+            ],
+            "returncode": 0,
+            "stdout": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+            "stderr": ""
+          }
+        },
+        "status": "complete",
+        "returncode": 0,
+        "completed_utc": "2026-10-19T00:28:24.741686+00:00",
+        "runtime_seconds": 0.41288593400000195,
+        "stdout_log": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/logs/strong.stdout.log",
+        "metrics_sha256": "eeead487b39f2bf7da3abb50630eea127f679ab5ba7808092e8411bc6c179133",
+        "artifact_sha256": {
+          "metrics.json": "eeead487b39f2bf7da3abb50630eea127f679ab5ba7808092e8411bc6c179133",
+          "configuration.json": "32d5754ba7d77ffa7d2d85afac7ed1ceb3ff5e74159a822bfff26050dfc72dab",
+          "packets.csv": "dc059d46e262938ad55c2f3f0d75a36ff640eeedff6ef5307e1ec05bc838d29b",
+          "events.csv": "f0392f25beda32b25ace71c6e4ad522db41972e7628e9a132d31e94e38841506"
+        }
+      },
+      "metrics": {
+        "n_devices": 1,
+        "n_gateways": 1,
+        "generated": 3,
+        "tx_unique": 3,
+        "tx_attempts": 3,
+        "gw_unique": 3,
+        "server_unique": 3,
+        "not_transmitted": 0,
+        "pdr_gw_generated_pct": 100,
+        "pdr_server_generated_pct": 100,
+        "pdr_gw_tx_pct": 100.0,
+        "pdr_server_tx_pct": 100.0,
+        "gw_reception_events": 3,
+        "server_reception_events": 3,
+        "interference_events": 0,
+        "under_sensitivity_events": 0,
+        "no_receiver_events": 0,
+        "delay_events": 0,
+        "unknown_events": 0,
+        "suppressed_reply_events": 0,
+        "tracker_mac_sent": 3,
+        "tracker_mac_received": 3,
+        "mean_server_latency_s": 1.480755215,
+        "invariants_ok": true
+      }
+    },
+    {
+      "test": "weak",
+      "passed": true,
+      "output": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/weak",
+      "reused": false,
+      "manifest": {
+        "identity": {
+          "source_sha256": "6d4a9eebe205ef8a6ac7321e54eba968b2518d0307faf7404f2de6911937ad07",
+          "binary_sha256": "732141785747b5be93583042e2e2d61ecc6917fcdfd9d97b5a2fa31513e2aeb3",
+          "matrix_sha256": "bdde571b93b3766a5b3f68bb925baaa4dfbf281d63c06e4abdfdb86e7285d1a5",
+          "gateways_sha256": "1f10e38e0d1ccbdc6542384def20f2bb91de01ae117f11999a4a9d22e1f19a91",
+          "options": {
+            "nDevices": 0,
+            "selection": "all",
+            "gatewayIds": "all",
+            "duration": 12,
+            "period": 4,
+            "payload": 51,
+            "sf": 11,
+            "radioProfile": "custom915",
+            "channelCount": 1,
+            "txPowerDbm": 27,
+            "us915StartChannel": 8,
+            "matrixReferenceDbm": 27,
+            "dutyCycle": 1,
+            "seed": 42,
+            "run": 1,
+            "writeEvents": 1,
+            "enableForwarder": 1,
+            "synchronized": 1,
+            "drain": 20
+          },
+          "expected_input_rejection": false
+        },
+        "started_utc": "2026-10-19T00:28:25.063495+00:00",
+        "cwd": "/home/pucesa/ns-3",
+        "command": [
+          "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default",
+          "--matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/weak_matrix.csv",
+          "--gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/weak_gateways.csv",
+          "--output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/weak",
+          "--nDevices=0",
+          "--selection=all",
+          "--gatewayIds=all",
+          "--duration=12",
+          "--period=4",
+          "--payload=51",
+          "--sf=11",
+          "--radioProfile=custom915",
+          "--channelCount=1",
+          "--txPowerDbm=27",
+          "--us915StartChannel=8",
+          "--matrixReferenceDbm=27",
+          "--dutyCycle=1",
+          "--seed=42",
+          "--run=1",
+          "--writeEvents=1",
+          "--enableForwarder=1",
+          "--synchronized=1",
+          "--drain=20"
+        ],
+        "command_display": "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default --matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/weak_matrix.csv --gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/weak_gateways.csv --output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/weak --nDevices=0 --selection=all --gatewayIds=all --duration=12 --period=4 --payload=51 --sf=11 --radioProfile=custom915 --channelCount=1 --txPowerDbm=27 --us915StartChannel=8 --matrixReferenceDbm=27 --dutyCycle=1 --seed=42 --run=1 --writeEvents=1 --enableForwarder=1 --synchronized=1 --drain=20",
+        "environment": {
+          "recorded_utc": "2026-10-19T00:27:26.642885+00:00",
+          "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+          "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+          "ns3_version": "3-dev",
+          "ns3_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "f576896f5c2387874f49be221c13ae371e4f8f86",
+            "stderr": ""
+          },
+          "ns3_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "ns-3.48-96-gf576896f5",
+            "stderr": ""
+          },
+          "lorawan_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "67bcaefdeb45d367010e09a80083b9a0527f766b",
+            "stderr": ""
+          },
+          "lorawan_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "v0.3.7-1-g67bcaef",
+            "stderr": ""
+          },
+          "compiler": {
+            "command": [
+              "g++",
+              "--version"
+            ],
+            "returncode": 0,
+            "stdout": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+            "stderr": ""
+          }
+        },
+        "status": "complete",
+        "returncode": 0,
+        "completed_utc": "2026-10-19T00:28:25.218341+00:00",
+        "runtime_seconds": 0.15479058500000065,
+        "stdout_log": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/logs/weak.stdout.log",
+        "metrics_sha256": "b0e3619ab7a70f6f50063e183a994451118739791eefea0a20f47eae931319d0",
+        "artifact_sha256": {
+          "metrics.json": "b0e3619ab7a70f6f50063e183a994451118739791eefea0a20f47eae931319d0",
+          "configuration.json": "3b24d33efcc8a548da86a68fa7b425e49371f1a661f1367ba4bcb5a1e2c90098",
+          "packets.csv": "7b92b58afc65933012edfb58a67d38cc6dd12a0f4857d829664b75099e593fb0",
+          "events.csv": "14ac9752dd6b3b7a4dbfab221b7d8d1a5af5a4bbd9ad2f053caaa88a219da80e"
+        }
+      },
+      "metrics": {
+        "n_devices": 1,
+        "n_gateways": 1,
+        "generated": 3,
+        "tx_unique": 3,
+        "tx_attempts": 3,
+        "gw_unique": 0,
+        "server_unique": 0,
+        "not_transmitted": 0,
+        "pdr_gw_generated_pct": 0,
+        "pdr_server_generated_pct": 0,
+        "pdr_gw_tx_pct": 0.0,
+        "pdr_server_tx_pct": 0.0,
+        "gw_reception_events": 0,
+        "server_reception_events": 0,
+        "interference_events": 0,
+        "under_sensitivity_events": 3,
+        "no_receiver_events": 0,
+        "delay_events": 0,
+        "unknown_events": 0,
+        "suppressed_reply_events": 0,
+        "tracker_mac_sent": 3,
+        "tracker_mac_received": 0,
+        "mean_server_latency_s": null,
+        "invariants_ok": true
+      }
+    },
+    {
+      "test": "dedup",
+      "passed": true,
+      "output": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/dedup",
+      "reused": false,
+      "manifest": {
+        "identity": {
+          "source_sha256": "6d4a9eebe205ef8a6ac7321e54eba968b2518d0307faf7404f2de6911937ad07",
+          "binary_sha256": "732141785747b5be93583042e2e2d61ecc6917fcdfd9d97b5a2fa31513e2aeb3",
+          "matrix_sha256": "58e47f0ab289c49a8ad0ae6464115c7cbfb0fb1e0238f25eeb92637294c08001",
+          "gateways_sha256": "2bec7ec210db5d0f567713cf694d72c816b2b374c037fdacdd305153826bf3b1",
+          "options": {
+            "nDevices": 0,
+            "selection": "all",
+            "gatewayIds": "all",
+            "duration": 12,
+            "period": 4,
+            "payload": 51,
+            "sf": 11,
+            "radioProfile": "custom915",
+            "channelCount": 1,
+            "txPowerDbm": 27,
+            "us915StartChannel": 8,
+            "matrixReferenceDbm": 27,
+            "dutyCycle": 1,
+            "seed": 42,
+            "run": 1,
+            "writeEvents": 1,
+            "enableForwarder": 1,
+            "synchronized": 1,
+            "drain": 20
+          },
+          "expected_input_rejection": false
+        },
+        "started_utc": "2026-10-19T00:28:25.690920+00:00",
+        "cwd": "/home/pucesa/ns-3",
+        "command": [
+          "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default",
+          "--matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/dedup_matrix.csv",
+          "--gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/dedup_gateways.csv",
+          "--output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/dedup",
+          "--nDevices=0",
+          "--selection=all",
+          "--gatewayIds=all",
+          "--duration=12",
+          "--period=4",
+          "--payload=51",
+          "--sf=11",
+          "--radioProfile=custom915",
+          "--channelCount=1",
+          "--txPowerDbm=27",
+          "--us915StartChannel=8",
+          "--matrixReferenceDbm=27",
+          "--dutyCycle=1",
+          "--seed=42",
+          "--run=1",
+          "--writeEvents=1",
+          "--enableForwarder=1",
+          "--synchronized=1",
+          "--drain=20"
+        ],
+        "command_display": "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default --matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/dedup_matrix.csv --gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/dedup_gateways.csv --output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/dedup --nDevices=0 --selection=all --gatewayIds=all --duration=12 --period=4 --payload=51 --sf=11 --radioProfile=custom915 --channelCount=1 --txPowerDbm=27 --us915StartChannel=8 --matrixReferenceDbm=27 --dutyCycle=1 --seed=42 --run=1 --writeEvents=1 --enableForwarder=1 --synchronized=1 --drain=20",
+        "environment": {
+          "recorded_utc": "2026-10-19T00:27:26.642885+00:00",
+          "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+          "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+          "ns3_version": "3-dev",
+          "ns3_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "f576896f5c2387874f49be221c13ae371e4f8f86",
+            "stderr": ""
+          },
+          "ns3_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "ns-3.48-96-gf576896f5",
+            "stderr": ""
+          },
+          "lorawan_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "67bcaefdeb45d367010e09a80083b9a0527f766b",
+            "stderr": ""
+          },
+          "lorawan_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "v0.3.7-1-g67bcaef",
+            "stderr": ""
+          },
+          "compiler": {
+            "command": [
+              "g++",
+              "--version"
+            ],
+            "returncode": 0,
+            "stdout": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+            "stderr": ""
+          }
+        },
+        "status": "complete",
+        "returncode": 0,
+        "completed_utc": "2026-10-19T00:28:25.835547+00:00",
+        "runtime_seconds": 0.1446025049999946,
+        "stdout_log": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/logs/dedup.stdout.log",
+        "metrics_sha256": "c751f6c3aeca0b8ea29b49773b3ac93954782d516d174ab3713aef2981881311",
+        "artifact_sha256": {
+          "metrics.json": "c751f6c3aeca0b8ea29b49773b3ac93954782d516d174ab3713aef2981881311",
+          "configuration.json": "50514d09ec3936819bbefc9bcbf4688e317f2cbcfc7484dfb00c43173e00c076",
+          "packets.csv": "a09f7b097b4eb7ef51828727d0c4746a8c3f91ad1b68e56fa54dd2c34f45b03b",
+          "events.csv": "e8697fce40e1c4ff712766072b47db02a3f9a6cfd52f591ae001f2887edec052"
+        }
+      },
+      "metrics": {
+        "n_devices": 1,
+        "n_gateways": 2,
+        "generated": 3,
+        "tx_unique": 3,
+        "tx_attempts": 3,
+        "gw_unique": 3,
+        "server_unique": 3,
+        "not_transmitted": 0,
+        "pdr_gw_generated_pct": 100,
+        "pdr_server_generated_pct": 100,
+        "pdr_gw_tx_pct": 100.0,
+        "pdr_server_tx_pct": 100.0,
+        "gw_reception_events": 6,
+        "server_reception_events": 6,
+        "interference_events": 0,
+        "under_sensitivity_events": 0,
+        "no_receiver_events": 0,
+        "delay_events": 0,
+        "unknown_events": 0,
+        "suppressed_reply_events": 0,
+        "tracker_mac_sent": 3,
+        "tracker_mac_received": 3,
+        "mean_server_latency_s": 1.480755215,
+        "invariants_ok": true
+      }
+    },
+    {
+      "test": "no_forwarder",
+      "passed": true,
+      "output": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/no_forwarder",
+      "reused": false,
+      "manifest": {
+        "identity": {
+          "source_sha256": "6d4a9eebe205ef8a6ac7321e54eba968b2518d0307faf7404f2de6911937ad07",
+          "binary_sha256": "732141785747b5be93583042e2e2d61ecc6917fcdfd9d97b5a2fa31513e2aeb3",
+          "matrix_sha256": "0d61a9e5accb4a3e58ec3065b2731e6123d140725a46d2a0d4e64a60d930f7fa",
+          "gateways_sha256": "1f10e38e0d1ccbdc6542384def20f2bb91de01ae117f11999a4a9d22e1f19a91",
+          "options": {
+            "nDevices": 0,
+            "selection": "all",
+            "gatewayIds": "all",
+            "duration": 12,
+            "period": 4,
+            "payload": 51,
+            "sf": 11,
+            "radioProfile": "custom915",
+            "channelCount": 1,
+            "txPowerDbm": 27,
+            "us915StartChannel": 8,
+            "matrixReferenceDbm": 27,
+            "dutyCycle": 1,
+            "seed": 42,
+            "run": 1,
+            "writeEvents": 1,
+            "enableForwarder": 0,
+            "synchronized": 1,
+            "drain": 20
+          },
+          "expected_input_rejection": false
+        },
+        "started_utc": "2026-10-19T00:28:26.136022+00:00",
+        "cwd": "/home/pucesa/ns-3",
+        "command": [
+          "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default",
+          "--matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_matrix.csv",
+          "--gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv",
+          "--output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/no_forwarder",
+          "--nDevices=0",
+          "--selection=all",
+          "--gatewayIds=all",
+          "--duration=12",
+          "--period=4",
+          "--payload=51",
+          "--sf=11",
+          "--radioProfile=custom915",
+          "--channelCount=1",
+          "--txPowerDbm=27",
+          "--us915StartChannel=8",
+          "--matrixReferenceDbm=27",
+          "--dutyCycle=1",
+          "--seed=42",
+          "--run=1",
+          "--writeEvents=1",
+          "--enableForwarder=0",
+          "--synchronized=1",
+          "--drain=20"
+        ],
+        "command_display": "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default --matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_matrix.csv --gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv --output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/no_forwarder --nDevices=0 --selection=all --gatewayIds=all --duration=12 --period=4 --payload=51 --sf=11 --radioProfile=custom915 --channelCount=1 --txPowerDbm=27 --us915StartChannel=8 --matrixReferenceDbm=27 --dutyCycle=1 --seed=42 --run=1 --writeEvents=1 --enableForwarder=0 --synchronized=1 --drain=20",
+        "environment": {
+          "recorded_utc": "2026-10-19T00:27:26.642885+00:00",
+          "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+          "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+          "ns3_version": "3-dev",
+          "ns3_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "f576896f5c2387874f49be221c13ae371e4f8f86",
+            "stderr": ""
+          },
+          "ns3_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "ns-3.48-96-gf576896f5",
+            "stderr": ""
+          },
+          "lorawan_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "67bcaefdeb45d367010e09a80083b9a0527f766b",
+            "stderr": ""
+          },
+          "lorawan_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "v0.3.7-1-g67bcaef",
+            "stderr": ""
+          },
+          "compiler": {
+            "command": [
+              "g++",
+              "--version"
+            ],
+            "returncode": 0,
+            "stdout": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+            "stderr": ""
+          }
+        },
+        "status": "complete",
+        "returncode": 0,
+        "completed_utc": "2026-10-19T00:28:26.257724+00:00",
+        "runtime_seconds": 0.12167244400001209,
+        "stdout_log": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/logs/no_forwarder.stdout.log",
+        "metrics_sha256": "bc7540008732a6efbf6983d2e6cfe0e2b0a6bd9e794f73982ef7ba0163fcae13",
+        "artifact_sha256": {
+          "metrics.json": "bc7540008732a6efbf6983d2e6cfe0e2b0a6bd9e794f73982ef7ba0163fcae13",
+          "configuration.json": "fad5f8894e7187a69463a3c8c148ed93acfd16b368b814141083788ff2c2b3cb",
+          "packets.csv": "528fdf7184deb81d8d5556a09c3fff080b7e363c7572651ffdddd3217a98ee8a",
+          "events.csv": "80863ce353f71de2dfaaefd404e99deb1993501142f96ec810d4ea45cec1a9dc"
+        }
+      },
+      "metrics": {
+        "n_devices": 1,
+        "n_gateways": 1,
+        "generated": 3,
+        "tx_unique": 3,
+        "tx_attempts": 3,
+        "gw_unique": 3,
+        "server_unique": 0,
+        "not_transmitted": 0,
+        "pdr_gw_generated_pct": 100,
+        "pdr_server_generated_pct": 0,
+        "pdr_gw_tx_pct": 100.0,
+        "pdr_server_tx_pct": 0.0,
+        "gw_reception_events": 3,
+        "server_reception_events": 0,
+        "interference_events": 0,
+        "under_sensitivity_events": 0,
+        "no_receiver_events": 0,
+        "delay_events": 0,
+        "unknown_events": 0,
+        "suppressed_reply_events": 0,
+        "tracker_mac_sent": 3,
+        "tracker_mac_received": 3,
+        "mean_server_latency_s": null,
+        "invariants_ok": true
+      }
+    },
+    {
+      "test": "collision",
+      "passed": true,
+      "output": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/collision",
+      "reused": false,
+      "manifest": {
+        "identity": {
+          "source_sha256": "6d4a9eebe205ef8a6ac7321e54eba968b2518d0307faf7404f2de6911937ad07",
+          "binary_sha256": "732141785747b5be93583042e2e2d61ecc6917fcdfd9d97b5a2fa31513e2aeb3",
+          "matrix_sha256": "697535a0c7b6c437bdaf69ea215d5eed0da26ab061ef6d1504813564cba96261",
+          "gateways_sha256": "1f10e38e0d1ccbdc6542384def20f2bb91de01ae117f11999a4a9d22e1f19a91",
+          "options": {
+            "nDevices": 0,
+            "selection": "all",
+            "gatewayIds": "all",
+            "duration": 12,
+            "period": 4,
+            "payload": 51,
+            "sf": 11,
+            "radioProfile": "custom915",
+            "channelCount": 1,
+            "txPowerDbm": 27,
+            "us915StartChannel": 8,
+            "matrixReferenceDbm": 27,
+            "dutyCycle": 1,
+            "seed": 42,
+            "run": 1,
+            "writeEvents": 1,
+            "enableForwarder": 1,
+            "synchronized": 1,
+            "drain": 20
+          },
+          "expected_input_rejection": false
+        },
+        "started_utc": "2026-10-19T00:28:26.558709+00:00",
+        "cwd": "/home/pucesa/ns-3",
+        "command": [
+          "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default",
+          "--matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/collision_matrix.csv",
+          "--gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/collision_gateways.csv",
+          "--output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/collision",
+          "--nDevices=0",
+          "--selection=all",
+          "--gatewayIds=all",
+          "--duration=12",
+          "--period=4",
+          "--payload=51",
+          "--sf=11",
+          "--radioProfile=custom915",
+          "--channelCount=1",
+          "--txPowerDbm=27",
+          "--us915StartChannel=8",
+          "--matrixReferenceDbm=27",
+          "--dutyCycle=1",
+          "--seed=42",
+          "--run=1",
+          "--writeEvents=1",
+          "--enableForwarder=1",
+          "--synchronized=1",
+          "--drain=20"
+        ],
+        "command_display": "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default --matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/collision_matrix.csv --gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/collision_gateways.csv --output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/collision --nDevices=0 --selection=all --gatewayIds=all --duration=12 --period=4 --payload=51 --sf=11 --radioProfile=custom915 --channelCount=1 --txPowerDbm=27 --us915StartChannel=8 --matrixReferenceDbm=27 --dutyCycle=1 --seed=42 --run=1 --writeEvents=1 --enableForwarder=1 --synchronized=1 --drain=20",
+        "environment": {
+          "recorded_utc": "2026-10-19T00:27:26.642885+00:00",
+          "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+          "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+          "ns3_version": "3-dev",
+          "ns3_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "f576896f5c2387874f49be221c13ae371e4f8f86",
+            "stderr": ""
+          },
+          "ns3_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "ns-3.48-96-gf576896f5",
+            "stderr": ""
+          },
+          "lorawan_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "67bcaefdeb45d367010e09a80083b9a0527f766b",
+            "stderr": ""
+          },
+          "lorawan_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "v0.3.7-1-g67bcaef",
+            "stderr": ""
+          },
+          "compiler": {
+            "command": [
+              "g++",
+              "--version"
+            ],
+            "returncode": 0,
+            "stdout": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+            "stderr": ""
+          }
+        },
+        "status": "complete",
+        "returncode": 0,
+        "completed_utc": "2026-10-19T00:28:26.680864+00:00",
+        "runtime_seconds": 0.12210929400001191,
+        "stdout_log": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/logs/collision.stdout.log",
+        "metrics_sha256": "75fb4a9eb2618d73fa290d6b6b416baa9e52c2f0fa5f1bd012902b6aa4f3dae2",
+        "artifact_sha256": {
+          "metrics.json": "75fb4a9eb2618d73fa290d6b6b416baa9e52c2f0fa5f1bd012902b6aa4f3dae2",
+          "configuration.json": "dd4021e97496451c7f85e45f5c40e34824e22a8a401758be38a6d0625a2ddff6",
+          "packets.csv": "d2e9986289985d8faf018ec7bed6f1710bb0e67b594f1bf5f0ef82ad0813f3f7",
+          "events.csv": "1e90dc8ce9853b2a9b2e29ac02cc58c6578ebc7da752c3e3e16202fea23e6807"
+        }
+      },
+      "metrics": {
+        "n_devices": 2,
+        "n_gateways": 1,
+        "generated": 6,
+        "tx_unique": 6,
+        "tx_attempts": 6,
+        "gw_unique": 0,
+        "server_unique": 0,
+        "not_transmitted": 0,
+        "pdr_gw_generated_pct": 0,
+        "pdr_server_generated_pct": 0,
+        "pdr_gw_tx_pct": 0.0,
+        "pdr_server_tx_pct": 0.0,
+        "gw_reception_events": 0,
+        "server_reception_events": 0,
+        "interference_events": 6,
+        "under_sensitivity_events": 0,
+        "no_receiver_events": 0,
+        "delay_events": 0,
+        "unknown_events": 0,
+        "suppressed_reply_events": 0,
+        "tracker_mac_sent": 6,
+        "tracker_mac_received": 0,
+        "mean_server_latency_s": null,
+        "invariants_ok": true
+      }
+    },
+    {
+      "test": "malformed",
+      "passed": true,
+      "output": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/malformed",
+      "reused": false,
+      "manifest": {
+        "identity": {
+          "source_sha256": "6d4a9eebe205ef8a6ac7321e54eba968b2518d0307faf7404f2de6911937ad07",
+          "binary_sha256": "732141785747b5be93583042e2e2d61ecc6917fcdfd9d97b5a2fa31513e2aeb3",
+          "matrix_sha256": "4418104b459c16d5a0bd076de30945b6f877ab7360b01b4d1c9ee38ad6ecc3ab",
+          "gateways_sha256": "1f10e38e0d1ccbdc6542384def20f2bb91de01ae117f11999a4a9d22e1f19a91",
+          "options": {
+            "nDevices": 0,
+            "selection": "all",
+            "gatewayIds": "all",
+            "duration": 12,
+            "period": 4,
+            "payload": 51,
+            "sf": 11,
+            "radioProfile": "custom915",
+            "channelCount": 1,
+            "txPowerDbm": 27,
+            "us915StartChannel": 8,
+            "matrixReferenceDbm": 27,
+            "dutyCycle": 1,
+            "seed": 42,
+            "run": 1,
+            "writeEvents": 1,
+            "enableForwarder": 1,
+            "synchronized": 1,
+            "drain": 20
+          },
+          "expected_input_rejection": true
+        },
+        "started_utc": "2026-10-19T00:28:26.983432+00:00",
+        "cwd": "/home/pucesa/ns-3",
+        "command": [
+          "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default",
+          "--matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/malformed_matrix.csv",
+          "--gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv",
+          "--output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/malformed",
+          "--nDevices=0",
+          "--selection=all",
+          "--gatewayIds=all",
+          "--duration=12",
+          "--period=4",
+          "--payload=51",
+          "--sf=11",
+          "--radioProfile=custom915",
+          "--channelCount=1",
+          "--txPowerDbm=27",
+          "--us915StartChannel=8",
+          "--matrixReferenceDbm=27",
+          "--dutyCycle=1",
+          "--seed=42",
+          "--run=1",
+          "--writeEvents=1",
+          "--enableForwarder=1",
+          "--synchronized=1",
+          "--drain=20"
+        ],
+        "command_display": "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default --matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/malformed_matrix.csv --gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv --output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/malformed --nDevices=0 --selection=all --gatewayIds=all --duration=12 --period=4 --payload=51 --sf=11 --radioProfile=custom915 --channelCount=1 --txPowerDbm=27 --us915StartChannel=8 --matrixReferenceDbm=27 --dutyCycle=1 --seed=42 --run=1 --writeEvents=1 --enableForwarder=1 --synchronized=1 --drain=20",
+        "environment": {
+          "recorded_utc": "2026-10-19T00:27:26.642885+00:00",
+          "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+          "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+          "ns3_version": "3-dev",
+          "ns3_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "f576896f5c2387874f49be221c13ae371e4f8f86",
+            "stderr": ""
+          },
+          "ns3_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "ns-3.48-96-gf576896f5",
+            "stderr": ""
+          },
+          "lorawan_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "67bcaefdeb45d367010e09a80083b9a0527f766b",
+            "stderr": ""
+          },
+          "lorawan_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "v0.3.7-1-g67bcaef",
+            "stderr": ""
+          },
+          "compiler": {
+            "command": [
+              "g++",
+              "--version"
+            ],
+            "returncode": 0,
+            "stdout": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+            "stderr": ""
+          }
+        },
+        "status": "complete",
+        "returncode": 1,
+        "completed_utc": "2026-10-19T00:28:27.057337+00:00",
+        "runtime_seconds": 0.07387438899999665,
+        "stdout_log": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/logs/malformed.stdout.log"
+      }
+    },
+    {
+      "test": "reproducibility_reference",
+      "passed": true,
+      "packets_sha256": "2544b881937807354f8f8c416401e6811dc88ddec4b7783e0be69ae007f11dca",
+      "first_generation_offsets_s": [
+        [
+          "0",
+          1.75443428
+        ]
+      ],
+      "output": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/reproducibility_reference",
+      "reused": false,
+      "manifest": {
+        "identity": {
+          "source_sha256": "6d4a9eebe205ef8a6ac7321e54eba968b2518d0307faf7404f2de6911937ad07",
+          "binary_sha256": "732141785747b5be93583042e2e2d61ecc6917fcdfd9d97b5a2fa31513e2aeb3",
+          "matrix_sha256": "0d61a9e5accb4a3e58ec3065b2731e6123d140725a46d2a0d4e64a60d930f7fa",
+          "gateways_sha256": "1f10e38e0d1ccbdc6542384def20f2bb91de01ae117f11999a4a9d22e1f19a91",
+          "options": {
+            "nDevices": 0,
+            "selection": "all",
+            "gatewayIds": "all",
+            "duration": 12,
+            "period": 4,
+            "payload": 51,
+            "sf": 11,
+            "radioProfile": "custom915",
+            "channelCount": 1,
+            "txPowerDbm": 27,
+            "us915StartChannel": 8,
+            "matrixReferenceDbm": 27,
+            "dutyCycle": 1,
+            "seed": 42,
+            "run": 1,
+            "writeEvents": 1,
+            "enableForwarder": 1,
+            "synchronized": 0,
+            "drain": 20
+          },
+          "expected_input_rejection": false
+        },
+        "started_utc": "2026-10-19T00:28:27.280135+00:00",
+        "cwd": "/home/pucesa/ns-3",
+        "command": [
+          "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default",
+          "--matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_matrix.csv",
+          "--gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv",
+          "--output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/reproducibility_reference",
+          "--nDevices=0",
+          "--selection=all",
+          "--gatewayIds=all",
+          "--duration=12",
+          "--period=4",
+          "--payload=51",
+          "--sf=11",
+          "--radioProfile=custom915",
+          "--channelCount=1",
+          "--txPowerDbm=27",
+          "--us915StartChannel=8",
+          "--matrixReferenceDbm=27",
+          "--dutyCycle=1",
+          "--seed=42",
+          "--run=1",
+          "--writeEvents=1",
+          "--enableForwarder=1",
+          "--synchronized=0",
+          "--drain=20"
+        ],
+        "command_display": "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default --matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_matrix.csv --gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv --output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/reproducibility_reference --nDevices=0 --selection=all --gatewayIds=all --duration=12 --period=4 --payload=51 --sf=11 --radioProfile=custom915 --channelCount=1 --txPowerDbm=27 --us915StartChannel=8 --matrixReferenceDbm=27 --dutyCycle=1 --seed=42 --run=1 --writeEvents=1 --enableForwarder=1 --synchronized=0 --drain=20",
+        "environment": {
+          "recorded_utc": "2026-10-19T00:27:26.642885+00:00",
+          "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+          "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+          "ns3_version": "3-dev",
+          "ns3_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "f576896f5c2387874f49be221c13ae371e4f8f86",
+            "stderr": ""
+          },
+          "ns3_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "ns-3.48-96-gf576896f5",
+            "stderr": ""
+          },
+          "lorawan_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "67bcaefdeb45d367010e09a80083b9a0527f766b",
+            "stderr": ""
+          },
+          "lorawan_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "v0.3.7-1-g67bcaef",
+            "stderr": ""
+          },
+          "compiler": {
+            "command": [
+              "g++",
+              "--version"
+            ],
+            "returncode": 0,
+            "stdout": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+            "stderr": ""
+          }
+        },
+        "status": "complete",
+        "returncode": 0,
+        "completed_utc": "2026-10-19T00:28:27.403105+00:00",
+        "runtime_seconds": 0.12293408400000772,
+        "stdout_log": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/logs/reproducibility_reference.stdout.log",
+        "metrics_sha256": "eeead487b39f2bf7da3abb50630eea127f679ab5ba7808092e8411bc6c179133",
+        "artifact_sha256": {
+          "metrics.json": "eeead487b39f2bf7da3abb50630eea127f679ab5ba7808092e8411bc6c179133",
+          "configuration.json": "bdc9f82c9be10b5870121a7b3a99f9e8748f3d2a61a4dcff98218e94e6d9fc57",
+          "packets.csv": "2544b881937807354f8f8c416401e6811dc88ddec4b7783e0be69ae007f11dca",
+          "events.csv": "05c18988a878bead75203c1abc846a631bca64298dd482d83a36cfa3eed48cb5"
+        }
+      },
+      "metrics": {
+        "n_devices": 1,
+        "n_gateways": 1,
+        "generated": 3,
+        "tx_unique": 3,
+        "tx_attempts": 3,
+        "gw_unique": 3,
+        "server_unique": 3,
+        "not_transmitted": 0,
+        "pdr_gw_generated_pct": 100,
+        "pdr_server_generated_pct": 100,
+        "pdr_gw_tx_pct": 100.0,
+        "pdr_server_tx_pct": 100.0,
+        "gw_reception_events": 3,
+        "server_reception_events": 3,
+        "interference_events": 0,
+        "under_sensitivity_events": 0,
+        "no_receiver_events": 0,
+        "delay_events": 0,
+        "unknown_events": 0,
+        "suppressed_reply_events": 0,
+        "tracker_mac_sent": 3,
+        "tracker_mac_received": 3,
+        "mean_server_latency_s": 1.480755215,
+        "invariants_ok": true
+      }
+    },
+    {
+      "test": "reproducibility_repeat",
+      "passed": true,
+      "packets_sha256": "2544b881937807354f8f8c416401e6811dc88ddec4b7783e0be69ae007f11dca",
+      "first_generation_offsets_s": [
+        [
+          "0",
+          1.75443428
+        ]
+      ],
+      "output": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/reproducibility_repeat",
+      "reused": false,
+      "manifest": {
+        "identity": {
+          "source_sha256": "6d4a9eebe205ef8a6ac7321e54eba968b2518d0307faf7404f2de6911937ad07",
+          "binary_sha256": "732141785747b5be93583042e2e2d61ecc6917fcdfd9d97b5a2fa31513e2aeb3",
+          "matrix_sha256": "0d61a9e5accb4a3e58ec3065b2731e6123d140725a46d2a0d4e64a60d930f7fa",
+          "gateways_sha256": "1f10e38e0d1ccbdc6542384def20f2bb91de01ae117f11999a4a9d22e1f19a91",
+          "options": {
+            "nDevices": 0,
+            "selection": "all",
+            "gatewayIds": "all",
+            "duration": 12,
+            "period": 4,
+            "payload": 51,
+            "sf": 11,
+            "radioProfile": "custom915",
+            "channelCount": 1,
+            "txPowerDbm": 27,
+            "us915StartChannel": 8,
+            "matrixReferenceDbm": 27,
+            "dutyCycle": 1,
+            "seed": 42,
+            "run": 1,
+            "writeEvents": 1,
+            "enableForwarder": 1,
+            "synchronized": 0,
+            "drain": 20
+          },
+          "expected_input_rejection": false
+        },
+        "started_utc": "2026-10-19T00:28:27.730376+00:00",
+        "cwd": "/home/pucesa/ns-3",
+        "command": [
+          "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default",
+          "--matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_matrix.csv",
+          "--gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv",
+          "--output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/reproducibility_repeat",
+          "--nDevices=0",
+          "--selection=all",
+          "--gatewayIds=all",
+          "--duration=12",
+          "--period=4",
+          "--payload=51",
+          "--sf=11",
+          "--radioProfile=custom915",
+          "--channelCount=1",
+          "--txPowerDbm=27",
+          "--us915StartChannel=8",
+          "--matrixReferenceDbm=27",
+          "--dutyCycle=1",
+          "--seed=42",
+          "--run=1",
+          "--writeEvents=1",
+          "--enableForwarder=1",
+          "--synchronized=0",
+          "--drain=20"
+        ],
+        "command_display": "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default --matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_matrix.csv --gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv --output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/reproducibility_repeat --nDevices=0 --selection=all --gatewayIds=all --duration=12 --period=4 --payload=51 --sf=11 --radioProfile=custom915 --channelCount=1 --txPowerDbm=27 --us915StartChannel=8 --matrixReferenceDbm=27 --dutyCycle=1 --seed=42 --run=1 --writeEvents=1 --enableForwarder=1 --synchronized=0 --drain=20",
+        "environment": {
+          "recorded_utc": "2026-10-19T00:27:26.642885+00:00",
+          "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+          "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+          "ns3_version": "3-dev",
+          "ns3_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "f576896f5c2387874f49be221c13ae371e4f8f86",
+            "stderr": ""
+          },
+          "ns3_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "ns-3.48-96-gf576896f5",
+            "stderr": ""
+          },
+          "lorawan_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "67bcaefdeb45d367010e09a80083b9a0527f766b",
+            "stderr": ""
+          },
+          "lorawan_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "v0.3.7-1-g67bcaef",
+            "stderr": ""
+          },
+          "compiler": {
+            "command": [
+              "g++",
+              "--version"
+            ],
+            "returncode": 0,
+            "stdout": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+            "stderr": ""
+          }
+        },
+        "status": "complete",
+        "returncode": 0,
+        "completed_utc": "2026-10-19T00:28:27.839225+00:00",
+        "runtime_seconds": 0.10880448700001466,
+        "stdout_log": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/logs/reproducibility_repeat.stdout.log",
+        "metrics_sha256": "eeead487b39f2bf7da3abb50630eea127f679ab5ba7808092e8411bc6c179133",
+        "artifact_sha256": {
+          "metrics.json": "eeead487b39f2bf7da3abb50630eea127f679ab5ba7808092e8411bc6c179133",
+          "configuration.json": "bdc9f82c9be10b5870121a7b3a99f9e8748f3d2a61a4dcff98218e94e6d9fc57",
+          "packets.csv": "2544b881937807354f8f8c416401e6811dc88ddec4b7783e0be69ae007f11dca",
+          "events.csv": "05c18988a878bead75203c1abc846a631bca64298dd482d83a36cfa3eed48cb5"
+        }
+      },
+      "metrics": {
+        "n_devices": 1,
+        "n_gateways": 1,
+        "generated": 3,
+        "tx_unique": 3,
+        "tx_attempts": 3,
+        "gw_unique": 3,
+        "server_unique": 3,
+        "not_transmitted": 0,
+        "pdr_gw_generated_pct": 100,
+        "pdr_server_generated_pct": 100,
+        "pdr_gw_tx_pct": 100.0,
+        "pdr_server_tx_pct": 100.0,
+        "gw_reception_events": 3,
+        "server_reception_events": 3,
+        "interference_events": 0,
+        "under_sensitivity_events": 0,
+        "no_receiver_events": 0,
+        "delay_events": 0,
+        "unknown_events": 0,
+        "suppressed_reply_events": 0,
+        "tracker_mac_sent": 3,
+        "tracker_mac_received": 3,
+        "mean_server_latency_s": 1.480755215,
+        "invariants_ok": true
+      }
+    },
+    {
+      "test": "independent_run",
+      "passed": true,
+      "packets_sha256": "2d2e8be60ac6b22f64274142c41a7701f59d2325503c525edffaa8190b11a750",
+      "first_generation_offsets_s": [
+        [
+          "0",
+          0.519032753
+        ]
+      ],
+      "output": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/independent_run",
+      "reused": false,
+      "manifest": {
+        "identity": {
+          "source_sha256": "6d4a9eebe205ef8a6ac7321e54eba968b2518d0307faf7404f2de6911937ad07",
+          "binary_sha256": "732141785747b5be93583042e2e2d61ecc6917fcdfd9d97b5a2fa31513e2aeb3",
+          "matrix_sha256": "0d61a9e5accb4a3e58ec3065b2731e6123d140725a46d2a0d4e64a60d930f7fa",
+          "gateways_sha256": "1f10e38e0d1ccbdc6542384def20f2bb91de01ae117f11999a4a9d22e1f19a91",
+          "options": {
+            "nDevices": 0,
+            "selection": "all",
+            "gatewayIds": "all",
+            "duration": 12,
+            "period": 4,
+            "payload": 51,
+            "sf": 11,
+            "radioProfile": "custom915",
+            "channelCount": 1,
+            "txPowerDbm": 27,
+            "us915StartChannel": 8,
+            "matrixReferenceDbm": 27,
+            "dutyCycle": 1,
+            "seed": 42,
+            "run": 2,
+            "writeEvents": 1,
+            "enableForwarder": 1,
+            "synchronized": 0,
+            "drain": 20
+          },
+          "expected_input_rejection": false
+        },
+        "started_utc": "2026-10-19T00:28:28.163971+00:00",
+        "cwd": "/home/pucesa/ns-3",
+        "command": [
+          "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default",
+          "--matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_matrix.csv",
+          "--gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv",
+          "--output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/independent_run",
+          "--nDevices=0",
+          "--selection=all",
+          "--gatewayIds=all",
+          "--duration=12",
+          "--period=4",
+          "--payload=51",
+          "--sf=11",
+          "--radioProfile=custom915",
+          "--channelCount=1",
+          "--txPowerDbm=27",
+          "--us915StartChannel=8",
+          "--matrixReferenceDbm=27",
+          "--dutyCycle=1",
+          "--seed=42",
+          "--run=2",
+          "--writeEvents=1",
+          "--enableForwarder=1",
+          "--synchronized=0",
+          "--drain=20"
+        ],
+        "command_display": "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default --matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_matrix.csv --gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv --output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/independent_run --nDevices=0 --selection=all --gatewayIds=all --duration=12 --period=4 --payload=51 --sf=11 --radioProfile=custom915 --channelCount=1 --txPowerDbm=27 --us915StartChannel=8 --matrixReferenceDbm=27 --dutyCycle=1 --seed=42 --run=2 --writeEvents=1 --enableForwarder=1 --synchronized=0 --drain=20",
+        "environment": {
+          "recorded_utc": "2026-10-19T00:27:26.642885+00:00",
+          "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+          "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+          "ns3_version": "3-dev",
+          "ns3_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "f576896f5c2387874f49be221c13ae371e4f8f86",
+            "stderr": ""
+          },
+          "ns3_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "ns-3.48-96-gf576896f5",
+            "stderr": ""
+          },
+          "lorawan_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "67bcaefdeb45d367010e09a80083b9a0527f766b",
+            "stderr": ""
+          },
+          "lorawan_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "v0.3.7-1-g67bcaef",
+            "stderr": ""
+          },
+          "compiler": {
+            "command": [
+              "g++",
+              "--version"
+            ],
+            "returncode": 0,
+            "stdout": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+            "stderr": ""
+          }
+        },
+        "status": "complete",
+        "returncode": 0,
+        "completed_utc": "2026-10-19T00:28:28.280666+00:00",
+        "runtime_seconds": 0.11665633999999159,
+        "stdout_log": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/logs/independent_run.stdout.log",
+        "metrics_sha256": "eeead487b39f2bf7da3abb50630eea127f679ab5ba7808092e8411bc6c179133",
+        "artifact_sha256": {
+          "metrics.json": "eeead487b39f2bf7da3abb50630eea127f679ab5ba7808092e8411bc6c179133",
+          "configuration.json": "bf5ff3a8010e24b4c3b53145682588d01daebe3d62ceb20885dc8532310ac30f",
+          "packets.csv": "2d2e8be60ac6b22f64274142c41a7701f59d2325503c525edffaa8190b11a750",
+          "events.csv": "5023097d6271d5e108a4ddfb7c907547f601f0a5c51e73a4c1c7229a538b3ec6"
+        }
+      },
+      "metrics": {
+        "n_devices": 1,
+        "n_gateways": 1,
+        "generated": 3,
+        "tx_unique": 3,
+        "tx_attempts": 3,
+        "gw_unique": 3,
+        "server_unique": 3,
+        "not_transmitted": 0,
+        "pdr_gw_generated_pct": 100,
+        "pdr_server_generated_pct": 100,
+        "pdr_gw_tx_pct": 100.0,
+        "pdr_server_tx_pct": 100.0,
+        "gw_reception_events": 3,
+        "server_reception_events": 3,
+        "interference_events": 0,
+        "under_sensitivity_events": 0,
+        "no_receiver_events": 0,
+        "delay_events": 0,
+        "unknown_events": 0,
+        "suppressed_reply_events": 0,
+        "tracker_mac_sent": 3,
+        "tracker_mac_received": 3,
+        "mean_server_latency_s": 1.480755215,
+        "invariants_ok": true
+      }
+    },
+    {
+      "test": "us915_sf9_strong",
+      "passed": true,
+      "configuration_verified": {
+        "program": "validacion_lorawan_v02",
+        "matrix": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_matrix.csv",
+        "gateways_csv": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv",
+        "matrix_rows": 1,
+        "n_devices": 1,
+        "n_gateways": 1,
+        "selection": "all",
+        "gateway_ids": "all",
+        "radio_profile": "US915_8ch",
+        "is_regional_deployment_validation": false,
+        "frequency_hz": 903900000,
+        "channel_count": 8,
+        "channel_spacing_hz": 200000,
+        "duty_cycle": 1,
+        "tx_power_dbm": 27,
+        "matrix_reference_dbm": 27,
+        "fixed_sf": 9,
+        "fixed_data_rate": 1,
+        "us915_start_channel": 8,
+        "bandwidth_hz": 125000,
+        "adr": false,
+        "confirmed_uplinks": false,
+        "transmissions_per_message": 1,
+        "receivers": 8,
+        "payload_bytes": 51,
+        "duration_s": 12,
+        "period_s": 4,
+        "drain_s": 20,
+        "seed": 42,
+        "run": 1,
+        "forwarder": true,
+        "synchronized": true,
+        "initial_offset_stream": 10,
+        "selection_stream": 1,
+        "propagation": "external_matrix_effective_reciprocal_loss",
+        "coordinate_projection": "local_equirectangular_meters",
+        "mic_modeled": false,
+        "field_node_power_confirmed": false,
+        "field_channel_mask_confirmed": false,
+        "uplink_only_channel": true,
+        "uplink_only_server_policy": true,
+        "gateway_phy_model": "SimpleGatewayLoraPhy (SX1301 abstraction; not UG67 SX1302 emulation)",
+        "profile_scope": "US915_8ch: preconfigured unconfirmed uplinks on one eight-channel 125kHz bank; no join, ADR, RX1 mapping or 500kHz uplinks validated",
+        "note": "Matrix evaluated at nominal 915MHz and replayed on all channels; node TX power and field channel mask require confirmation; matrix replay does not independently validate propagation"
+      },
+      "output": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/us915_sf9_strong",
+      "reused": false,
+      "manifest": {
+        "identity": {
+          "source_sha256": "6d4a9eebe205ef8a6ac7321e54eba968b2518d0307faf7404f2de6911937ad07",
+          "binary_sha256": "732141785747b5be93583042e2e2d61ecc6917fcdfd9d97b5a2fa31513e2aeb3",
+          "matrix_sha256": "0d61a9e5accb4a3e58ec3065b2731e6123d140725a46d2a0d4e64a60d930f7fa",
+          "gateways_sha256": "1f10e38e0d1ccbdc6542384def20f2bb91de01ae117f11999a4a9d22e1f19a91",
+          "options": {
+            "nDevices": 0,
+            "selection": "all",
+            "gatewayIds": "all",
+            "duration": 12,
+            "period": 4,
+            "payload": 51,
+            "sf": 9,
+            "radioProfile": "US915_8ch",
+            "channelCount": 8,
+            "txPowerDbm": 27,
+            "us915StartChannel": 8,
+            "matrixReferenceDbm": 27,
+            "dutyCycle": 1,
+            "seed": 42,
+            "run": 1,
+            "writeEvents": 1,
+            "enableForwarder": 1,
+            "synchronized": 1,
+            "drain": 20
+          },
+          "expected_input_rejection": false
+        },
+        "started_utc": "2026-10-19T00:28:28.623932+00:00",
+        "cwd": "/home/pucesa/ns-3",
+        "command": [
+          "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default",
+          "--matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_matrix.csv",
+          "--gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv",
+          "--output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/us915_sf9_strong",
+          "--nDevices=0",
+          "--selection=all",
+          "--gatewayIds=all",
+          "--duration=12",
+          "--period=4",
+          "--payload=51",
+          "--sf=9",
+          "--radioProfile=US915_8ch",
+          "--channelCount=8",
+          "--txPowerDbm=27",
+          "--us915StartChannel=8",
+          "--matrixReferenceDbm=27",
+          "--dutyCycle=1",
+          "--seed=42",
+          "--run=1",
+          "--writeEvents=1",
+          "--enableForwarder=1",
+          "--synchronized=1",
+          "--drain=20"
+        ],
+        "command_display": "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default --matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_matrix.csv --gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv --output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/us915_sf9_strong --nDevices=0 --selection=all --gatewayIds=all --duration=12 --period=4 --payload=51 --sf=9 --radioProfile=US915_8ch --channelCount=8 --txPowerDbm=27 --us915StartChannel=8 --matrixReferenceDbm=27 --dutyCycle=1 --seed=42 --run=1 --writeEvents=1 --enableForwarder=1 --synchronized=1 --drain=20",
+        "environment": {
+          "recorded_utc": "2026-10-19T00:27:26.642885+00:00",
+          "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+          "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+          "ns3_version": "3-dev",
+          "ns3_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "f576896f5c2387874f49be221c13ae371e4f8f86",
+            "stderr": ""
+          },
+          "ns3_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "ns-3.48-96-gf576896f5",
+            "stderr": ""
+          },
+          "lorawan_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "67bcaefdeb45d367010e09a80083b9a0527f766b",
+            "stderr": ""
+          },
+          "lorawan_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "v0.3.7-1-g67bcaef",
+            "stderr": ""
+          },
+          "compiler": {
+            "command": [
+              "g++",
+              "--version"
+            ],
+            "returncode": 0,
+            "stdout": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+            "stderr": ""
+          }
+        },
+        "status": "complete",
+        "returncode": 0,
+        "completed_utc": "2026-10-19T00:28:28.728043+00:00",
+        "runtime_seconds": 0.10407672700000603,
+        "stdout_log": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/logs/us915_sf9_strong.stdout.log",
+        "metrics_sha256": "e0e2980e2c178b987b31ef215d350ea6abba0f8d33908dadd878e0caad36099a",
+        "artifact_sha256": {
+          "metrics.json": "e0e2980e2c178b987b31ef215d350ea6abba0f8d33908dadd878e0caad36099a",
+          "configuration.json": "6ef4a4173e89b414b658b0850d8a76f6e74f90796b816198322fc5034e7e374b",
+          "packets.csv": "cb992ea3fa558b479b2cd583ab2191bceaf09702d28e79851adb57ceb0dd5f69",
+          "events.csv": "ed41206611623d27a2453440d06b7788936936bbffedfd4e3aa8c310424cf4af"
+        }
+      },
+      "metrics": {
+        "n_devices": 1,
+        "n_gateways": 1,
+        "generated": 3,
+        "tx_unique": 3,
+        "tx_attempts": 3,
+        "gw_unique": 3,
+        "server_unique": 3,
+        "not_transmitted": 0,
+        "pdr_gw_generated_pct": 100,
+        "pdr_server_generated_pct": 100,
+        "pdr_gw_tx_pct": 100.0,
+        "pdr_server_tx_pct": 100.0,
+        "gw_reception_events": 3,
+        "server_reception_events": 3,
+        "interference_events": 0,
+        "under_sensitivity_events": 0,
+        "no_receiver_events": 0,
+        "delay_events": 0,
+        "unknown_events": 0,
+        "suppressed_reply_events": 0,
+        "tracker_mac_sent": 3,
+        "tracker_mac_received": 3,
+        "mean_server_latency_s": 0.371763215,
+        "invariants_ok": true
+      }
+    },
+    {
+      "test": "us915_sf7_strong",
+      "passed": true,
+      "configuration_verified": {
+        "program": "validacion_lorawan_v02",
+        "matrix": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_matrix.csv",
+        "gateways_csv": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv",
+        "matrix_rows": 1,
+        "n_devices": 1,
+        "n_gateways": 1,
+        "selection": "all",
+        "gateway_ids": "all",
+        "radio_profile": "US915_8ch",
+        "is_regional_deployment_validation": false,
+        "frequency_hz": 903900000,
+        "channel_count": 8,
+        "channel_spacing_hz": 200000,
+        "duty_cycle": 1,
+        "tx_power_dbm": 27,
+        "matrix_reference_dbm": 27,
+        "fixed_sf": 7,
+        "fixed_data_rate": 3,
+        "us915_start_channel": 8,
+        "bandwidth_hz": 125000,
+        "adr": false,
+        "confirmed_uplinks": false,
+        "transmissions_per_message": 1,
+        "receivers": 8,
+        "payload_bytes": 51,
+        "duration_s": 12,
+        "period_s": 4,
+        "drain_s": 20,
+        "seed": 42,
+        "run": 1,
+        "forwarder": true,
+        "synchronized": true,
+        "initial_offset_stream": 10,
+        "selection_stream": 1,
+        "propagation": "external_matrix_effective_reciprocal_loss",
+        "coordinate_projection": "local_equirectangular_meters",
+        "mic_modeled": false,
+        "field_node_power_confirmed": false,
+        "field_channel_mask_confirmed": false,
+        "uplink_only_channel": true,
+        "uplink_only_server_policy": true,
+        "gateway_phy_model": "SimpleGatewayLoraPhy (SX1301 abstraction; not UG67 SX1302 emulation)",
+        "profile_scope": "US915_8ch: preconfigured unconfirmed uplinks on one eight-channel 125kHz bank; no join, ADR, RX1 mapping or 500kHz uplinks validated",
+        "note": "Matrix evaluated at nominal 915MHz and replayed on all channels; node TX power and field channel mask require confirmation; matrix replay does not independently validate propagation"
+      },
+      "output": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/us915_sf7_strong",
+      "reused": false,
+      "manifest": {
+        "identity": {
+          "source_sha256": "6d4a9eebe205ef8a6ac7321e54eba968b2518d0307faf7404f2de6911937ad07",
+          "binary_sha256": "732141785747b5be93583042e2e2d61ecc6917fcdfd9d97b5a2fa31513e2aeb3",
+          "matrix_sha256": "0d61a9e5accb4a3e58ec3065b2731e6123d140725a46d2a0d4e64a60d930f7fa",
+          "gateways_sha256": "1f10e38e0d1ccbdc6542384def20f2bb91de01ae117f11999a4a9d22e1f19a91",
+          "options": {
+            "nDevices": 0,
+            "selection": "all",
+            "gatewayIds": "all",
+            "duration": 12,
+            "period": 4,
+            "payload": 51,
+            "sf": 7,
+            "radioProfile": "US915_8ch",
+            "channelCount": 8,
+            "txPowerDbm": 27,
+            "us915StartChannel": 8,
+            "matrixReferenceDbm": 27,
+            "dutyCycle": 1,
+            "seed": 42,
+            "run": 1,
+            "writeEvents": 1,
+            "enableForwarder": 1,
+            "synchronized": 1,
+            "drain": 20
+          },
+          "expected_input_rejection": false
+        },
+        "started_utc": "2026-10-19T00:28:29.048680+00:00",
+        "cwd": "/home/pucesa/ns-3",
+        "command": [
+          "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default",
+          "--matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_matrix.csv",
+          "--gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv",
+          "--output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/us915_sf7_strong",
+          "--nDevices=0",
+          "--selection=all",
+          "--gatewayIds=all",
+          "--duration=12",
+          "--period=4",
+          "--payload=51",
+          "--sf=7",
+          "--radioProfile=US915_8ch",
+          "--channelCount=8",
+          "--txPowerDbm=27",
+          "--us915StartChannel=8",
+          "--matrixReferenceDbm=27",
+          "--dutyCycle=1",
+          "--seed=42",
+          "--run=1",
+          "--writeEvents=1",
+          "--enableForwarder=1",
+          "--synchronized=1",
+          "--drain=20"
+        ],
+        "command_display": "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default --matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_matrix.csv --gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv --output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/us915_sf7_strong --nDevices=0 --selection=all --gatewayIds=all --duration=12 --period=4 --payload=51 --sf=7 --radioProfile=US915_8ch --channelCount=8 --txPowerDbm=27 --us915StartChannel=8 --matrixReferenceDbm=27 --dutyCycle=1 --seed=42 --run=1 --writeEvents=1 --enableForwarder=1 --synchronized=1 --drain=20",
+        "environment": {
+          "recorded_utc": "2026-10-19T00:27:26.642885+00:00",
+          "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+          "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+          "ns3_version": "3-dev",
+          "ns3_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "f576896f5c2387874f49be221c13ae371e4f8f86",
+            "stderr": ""
+          },
+          "ns3_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "ns-3.48-96-gf576896f5",
+            "stderr": ""
+          },
+          "lorawan_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "67bcaefdeb45d367010e09a80083b9a0527f766b",
+            "stderr": ""
+          },
+          "lorawan_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "v0.3.7-1-g67bcaef",
+            "stderr": ""
+          },
+          "compiler": {
+            "command": [
+              "g++",
+              "--version"
+            ],
+            "returncode": 0,
+            "stdout": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+            "stderr": ""
+          }
+        },
+        "status": "complete",
+        "returncode": 0,
+        "completed_utc": "2026-10-19T00:28:29.175793+00:00",
+        "runtime_seconds": 0.12706411299998877,
+        "stdout_log": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/logs/us915_sf7_strong.stdout.log",
+        "metrics_sha256": "2c28d31b612b11558628e5ef8e41dbebaf0d6a22800edf4f798cce895738746e",
+        "artifact_sha256": {
+          "metrics.json": "2c28d31b612b11558628e5ef8e41dbebaf0d6a22800edf4f798cce895738746e",
+          "configuration.json": "e6b60ef1d8c3589ee9e5e3ade30bbe655e79cd92557f2857c1d3585212b7be5a",
+          "packets.csv": "d44b465160b37eabbb6e06a0d254e8a65f5fd73346473cde1ff323f195d553af",
+          "events.csv": "a34a97d082e4473c1058815aa23bb412e3c19422ec35a73afb29969d7a4eb23a"
+        }
+      },
+      "metrics": {
+        "n_devices": 1,
+        "n_gateways": 1,
+        "generated": 3,
+        "tx_unique": 3,
+        "tx_attempts": 3,
+        "gw_unique": 3,
+        "server_unique": 3,
+        "not_transmitted": 0,
+        "pdr_gw_generated_pct": 100,
+        "pdr_server_generated_pct": 100,
+        "pdr_gw_tx_pct": 100.0,
+        "pdr_server_tx_pct": 100.0,
+        "gw_reception_events": 3,
+        "server_reception_events": 3,
+        "interference_events": 0,
+        "under_sensitivity_events": 0,
+        "no_receiver_events": 0,
+        "delay_events": 0,
+        "unknown_events": 0,
+        "suppressed_reply_events": 0,
+        "tracker_mac_sent": 3,
+        "tracker_mac_received": 3,
+        "mean_server_latency_s": 0.114995215,
+        "invariants_ok": true
+      }
+    },
+    {
+      "test": "us915_sf11_reject",
+      "passed": true,
+      "configuration_verified": null,
+      "output": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/us915_sf11_reject",
+      "reused": false,
+      "manifest": {
+        "identity": {
+          "source_sha256": "6d4a9eebe205ef8a6ac7321e54eba968b2518d0307faf7404f2de6911937ad07",
+          "binary_sha256": "732141785747b5be93583042e2e2d61ecc6917fcdfd9d97b5a2fa31513e2aeb3",
+          "matrix_sha256": "0d61a9e5accb4a3e58ec3065b2731e6123d140725a46d2a0d4e64a60d930f7fa",
+          "gateways_sha256": "1f10e38e0d1ccbdc6542384def20f2bb91de01ae117f11999a4a9d22e1f19a91",
+          "options": {
+            "nDevices": 0,
+            "selection": "all",
+            "gatewayIds": "all",
+            "duration": 12,
+            "period": 4,
+            "payload": 51,
+            "sf": 11,
+            "radioProfile": "US915_8ch",
+            "channelCount": 8,
+            "txPowerDbm": 27,
+            "us915StartChannel": 8,
+            "matrixReferenceDbm": 27,
+            "dutyCycle": 1,
+            "seed": 42,
+            "run": 1,
+            "writeEvents": 1,
+            "enableForwarder": 1,
+            "synchronized": 1,
+            "drain": 20
+          },
+          "expected_input_rejection": true
+        },
+        "started_utc": "2026-10-19T00:28:29.460667+00:00",
+        "cwd": "/home/pucesa/ns-3",
+        "command": [
+          "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default",
+          "--matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_matrix.csv",
+          "--gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv",
+          "--output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/us915_sf11_reject",
+          "--nDevices=0",
+          "--selection=all",
+          "--gatewayIds=all",
+          "--duration=12",
+          "--period=4",
+          "--payload=51",
+          "--sf=11",
+          "--radioProfile=US915_8ch",
+          "--channelCount=8",
+          "--txPowerDbm=27",
+          "--us915StartChannel=8",
+          "--matrixReferenceDbm=27",
+          "--dutyCycle=1",
+          "--seed=42",
+          "--run=1",
+          "--writeEvents=1",
+          "--enableForwarder=1",
+          "--synchronized=1",
+          "--drain=20"
+        ],
+        "command_display": "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default --matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_matrix.csv --gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv --output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/us915_sf11_reject --nDevices=0 --selection=all --gatewayIds=all --duration=12 --period=4 --payload=51 --sf=11 --radioProfile=US915_8ch --channelCount=8 --txPowerDbm=27 --us915StartChannel=8 --matrixReferenceDbm=27 --dutyCycle=1 --seed=42 --run=1 --writeEvents=1 --enableForwarder=1 --synchronized=1 --drain=20",
+        "environment": {
+          "recorded_utc": "2026-10-19T00:27:26.642885+00:00",
+          "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+          "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+          "ns3_version": "3-dev",
+          "ns3_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "f576896f5c2387874f49be221c13ae371e4f8f86",
+            "stderr": ""
+          },
+          "ns3_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "ns-3.48-96-gf576896f5",
+            "stderr": ""
+          },
+          "lorawan_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "67bcaefdeb45d367010e09a80083b9a0527f766b",
+            "stderr": ""
+          },
+          "lorawan_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "v0.3.7-1-g67bcaef",
+            "stderr": ""
+          },
+          "compiler": {
+            "command": [
+              "g++",
+              "--version"
+            ],
+            "returncode": 0,
+            "stdout": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+            "stderr": ""
+          }
+        },
+        "status": "complete",
+        "returncode": 1,
+        "completed_utc": "2026-10-19T00:28:29.514624+00:00",
+        "runtime_seconds": 0.05392831599999681,
+        "stdout_log": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/logs/us915_sf11_reject.stdout.log"
+      }
+    },
+    {
+      "test": "us915_long_uplink_only",
+      "passed": true,
+      "output": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/us915_long_uplink_only",
+      "reused": false,
+      "manifest": {
+        "identity": {
+          "source_sha256": "6d4a9eebe205ef8a6ac7321e54eba968b2518d0307faf7404f2de6911937ad07",
+          "binary_sha256": "732141785747b5be93583042e2e2d61ecc6917fcdfd9d97b5a2fa31513e2aeb3",
+          "matrix_sha256": "0d61a9e5accb4a3e58ec3065b2731e6123d140725a46d2a0d4e64a60d930f7fa",
+          "gateways_sha256": "1f10e38e0d1ccbdc6542384def20f2bb91de01ae117f11999a4a9d22e1f19a91",
+          "options": {
+            "nDevices": 0,
+            "selection": "all",
+            "gatewayIds": "all",
+            "duration": 320,
+            "period": 4,
+            "payload": 51,
+            "sf": 9,
+            "radioProfile": "US915_8ch",
+            "channelCount": 8,
+            "txPowerDbm": 27,
+            "us915StartChannel": 8,
+            "matrixReferenceDbm": 27,
+            "dutyCycle": 1,
+            "seed": 42,
+            "run": 1,
+            "writeEvents": 1,
+            "enableForwarder": 1,
+            "synchronized": 1,
+            "drain": 20
+          },
+          "expected_input_rejection": false
+        },
+        "started_utc": "2026-10-19T00:28:29.670105+00:00",
+        "cwd": "/home/pucesa/ns-3",
+        "command": [
+          "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default",
+          "--matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_matrix.csv",
+          "--gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv",
+          "--output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/us915_long_uplink_only",
+          "--nDevices=0",
+          "--selection=all",
+          "--gatewayIds=all",
+          "--duration=320",
+          "--period=4",
+          "--payload=51",
+          "--sf=9",
+          "--radioProfile=US915_8ch",
+          "--channelCount=8",
+          "--txPowerDbm=27",
+          "--us915StartChannel=8",
+          "--matrixReferenceDbm=27",
+          "--dutyCycle=1",
+          "--seed=42",
+          "--run=1",
+          "--writeEvents=1",
+          "--enableForwarder=1",
+          "--synchronized=1",
+          "--drain=20"
+        ],
+        "command_display": "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default --matrix=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_matrix.csv --gatewaysCsv=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/fixtures/strong_gateways.csv --output=/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/us915_long_uplink_only --nDevices=0 --selection=all --gatewayIds=all --duration=320 --period=4 --payload=51 --sf=9 --radioProfile=US915_8ch --channelCount=8 --txPowerDbm=27 --us915StartChannel=8 --matrixReferenceDbm=27 --dutyCycle=1 --seed=42 --run=1 --writeEvents=1 --enableForwarder=1 --synchronized=1 --drain=20",
+        "environment": {
+          "recorded_utc": "2026-10-19T00:27:26.642885+00:00",
+          "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+          "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+          "ns3_version": "3-dev",
+          "ns3_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "f576896f5c2387874f49be221c13ae371e4f8f86",
+            "stderr": ""
+          },
+          "ns3_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "ns-3.48-96-gf576896f5",
+            "stderr": ""
+          },
+          "lorawan_commit": {
+            "command": [
+              "git",
+              "rev-parse",
+              "HEAD"
+            ],
+            "returncode": 0,
+            "stdout": "67bcaefdeb45d367010e09a80083b9a0527f766b",
+            "stderr": ""
+          },
+          "lorawan_describe": {
+            "command": [
+              "git",
+              "describe",
+              "--always",
+              "--tags"
+            ],
+            "returncode": 0,
+            "stdout": "v0.3.7-1-g67bcaef",
+            "stderr": ""
+          },
+          "compiler": {
+            "command": [
+              "g++",
+              "--version"
+            ],
+            "returncode": 0,
+            "stdout": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+            "stderr": ""
+          }
+        },
+        "status": "complete",
+        "returncode": 0,
+        "completed_utc": "2026-10-19T00:28:29.767158+00:00",
+        "runtime_seconds": 0.09702951900001722,
+        "stdout_log": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/smoke/6d4a9eebe205ef8a/732141785747b5be/logs/us915_long_uplink_only.stdout.log",
+        "metrics_sha256": "4a723d454c9cc4137ee64b04e4963cec5667b0c5045eba19a32c3955d8f78da5",
+        "artifact_sha256": {
+          "metrics.json": "4a723d454c9cc4137ee64b04e4963cec5667b0c5045eba19a32c3955d8f78da5",
+          "configuration.json": "d416deb6009ef538f019ff85d8f48703edbd2173a4b3ce64c3d1171b5d10eb58",
+          "packets.csv": "1e76c847ccb78944052a5a91af4ceb85e756f86be05d693a8d6452e91ba940c9",
+          "events.csv": "687cb8dbfcf4e0707294a85f6d11320761865cea925eb76a1ae7da871bf1b0a1"
+        }
+      },
+      "metrics": {
+        "n_devices": 1,
+        "n_gateways": 1,
+        "generated": 80,
+        "tx_unique": 80,
+        "tx_attempts": 80,
+        "gw_unique": 80,
+        "server_unique": 80,
+        "not_transmitted": 0,
+        "pdr_gw_generated_pct": 100,
+        "pdr_server_generated_pct": 100,
+        "pdr_gw_tx_pct": 100.0,
+        "pdr_server_tx_pct": 100.0,
+        "gw_reception_events": 80,
+        "server_reception_events": 80,
+        "interference_events": 0,
+        "under_sensitivity_events": 0,
+        "no_receiver_events": 0,
+        "delay_events": 0,
+        "unknown_events": 0,
+        "suppressed_reply_events": 16,
+        "tracker_mac_sent": 80,
+        "tracker_mac_received": 80,
+        "mean_server_latency_s": 0.371763215,
+        "invariants_ok": true
+      }
+    }
+  ]
+}

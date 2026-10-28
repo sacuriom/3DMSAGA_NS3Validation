@@ -1,0 +1,46 @@
+{
+  "utc": "2026-10-18T12:58:33.401644+00:00",
+  "all_passed": true,
+  "suites": [
+    {
+      "suite": "lorawan",
+      "command": [
+        "/home/pucesa/ns-3/build/utils/ns3-dev-test-runner-default",
+        "--suite=lorawan",
+        "--verbose"
+      ],
+      "returncode": 0,
+      "log": "logs/module_lorawan.log"
+    },
+    {
+      "suite": "network-server",
+      "command": [
+        "/home/pucesa/ns-3/build/utils/ns3-dev-test-runner-default",
+        "--suite=network-server",
+        "--verbose"
+      ],
+      "returncode": 0,
+      "log": "logs/module_network-server.log"
+    },
+    {
+      "suite": "network-scheduler",
+      "command": [
+        "/home/pucesa/ns-3/build/utils/ns3-dev-test-runner-default",
+        "--suite=network-scheduler",
+        "--verbose"
+      ],
+      "returncode": 0,
+      "log": "logs/module_network-scheduler.log"
+    },
+    {
+      "suite": "network-status",
+      "command": [
+        "/home/pucesa/ns-3/build/utils/ns3-dev-test-runner-default",
+        "--suite=network-status",
+        "--verbose"
+      ],
+      "returncode": 0,
+      "log": "logs/module_network-status.log"
+    }
+  ]
+}

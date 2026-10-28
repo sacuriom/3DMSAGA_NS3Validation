@@ -1,0 +1,53 @@
+{
+  "created_utc": "2026-10-19T00:43:44.773717+00:00",
+  "identity": {
+    "source_sha256": {
+      "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\analizar_resiliencia_estatica.py": "47b65365a720e50935852a4ecdb6eab6bc84a971d88227577444b9dda0ea1df8",
+      "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\inputs\\baselines\\Matrix_RSSI_Greedy_SCP.csv": "cd21fd4ccf94087528abf25f1e401965ba418196459c29b5c92f5a5412ed6ba8",
+      "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\inputs\\baselines\\Manifest_Greedy_SCP.json": "3a1b811e9a8f1473e9f3b3cdde60f2355d142c2a4b582a7547a476b2671af775",
+      "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\inputs\\baselines\\Matrix_RSSI_K-Medoids_3D.csv": "05f2bc194a13299747b054e1a7e1496cbb8eb97965e49aad8b15314f75e4d3e8",
+      "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\inputs\\baselines\\Manifest_K-Medoids_3D.json": "17cf80bcc7cd73b74abe20e38684a5945927fb46499ddb35242866c122f12a16",
+      "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\inputs\\baselines\\Matrix_RSSI_Standard_SAGA.csv": "cd21fd4ccf94087528abf25f1e401965ba418196459c29b5c92f5a5412ed6ba8",
+      "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\inputs\\baselines\\Manifest_Standard_SAGA.json": "90cdfde104aed36d232e06b4eba96260b299dc96dae2c75d98e561d152847cbb",
+      "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\inputs\\Matrix_RSSI_3DMSAGA_reconstruida.csv": "46c0257da4fe5b2b3d19fabdce8f5e2507c1420bfd1bedc358dfddd1145cebd2",
+      "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\inputs\\Matrix_RSSI_3DMSAGA_reconstruida_manifest.json": "45237bbca28ad1b79c87994dd10afa3b10506c81ac8f82cb7f601cb9b022bda0"
+    },
+    "output_sha256": {
+      "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\Cierre_tesis\\datos\\F10_resiliencia_estatica_resumen.csv": "cf82944276b77cac2c32c9374cd10f2aff660c141ee4331d170fde2d5fd4bb84",
+      "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\Cierre_tesis\\datos\\F10_fallo_individual_gateway.csv": "afabd09ff5af4d0410e2f4dd8d79cec23a007a2e0dadd3d792cddf8baeb6c92e",
+      "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\Cierre_tesis\\datos\\F10_k_cobertura_nodos_algoritmos.csv": "8e01790630a1320aba1abc0d426a285b54796d4342d6dc5b9d3dbb6815ad0e2b",
+      "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\Cierre_tesis\\F10_interpretacion_resiliencia_estatica.md": "5bef07291b34698ea051f75620ec66c6bb7b3c9b3251d4303b47b8b7b819ca25"
+    },
+    "thresholds_dbm": [
+      -136,
+      -135,
+      -130
+    ],
+    "nodes": 2153
+  },
+  "invariants": {
+    "all_verified_RF_source_hashes_match": true,
+    "shared_node_id_and_coordinates": true,
+    "greedy_saga_matrix_byte_identical": true,
+    "proposed_archived_k_minus136_matches": true,
+    "k_partition_covers_all_nodes": true,
+    "individual_loss_equals_exclusive_dependents": true,
+    "sum_exclusive_losses_equals_k1": true,
+    "all_passed": true
+  },
+  "rows": {
+    "summary": 12,
+    "individual_gateway_failures": 123,
+    "node_algorithm_threshold_k": 25836
+  },
+  "equations": {
+    "covered": "count(K>=1)",
+    "K_after_gateway_j_removal": "K-link_j",
+    "exclusive_nodes_lost_j": "count(K==1 and link_j)",
+    "loss_pp": "100*exclusive_nodes_lost_j/2153",
+    "mean_post_failure_coverage": "unweighted descriptive arithmetic mean over each algorithm's individual gateway removals"
+  },
+  "scope": "Static deterministic RF coverage of archived layouts only; no ns-3 execution, dynamic PDR under failure, probability-of-failure model or empirical independence claim.",
+  "stdlib_only": true,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]"
+}

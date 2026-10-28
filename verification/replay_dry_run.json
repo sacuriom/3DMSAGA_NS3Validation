@@ -1,0 +1,31 @@
+{
+  "ArchivedRun": "experiments/ns3_archive/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_001/run_manifest.json",
+  "SourceSHA256": "6d4a9eebe205ef8a6ac7321e54eba968b2518d0307faf7404f2de6911937ad07",
+  "InstallSource": "C:\\Users\\sacur\\OneDrive\\Documentos\\ChatGPT\\LoraWanMDPI\\verificacion_entregas_27\\ns3_no_ejecutado\\scratch\\validacion_lorawan_v02.cc",
+  "Command": [
+    "C:\\Users\\sacur\\OneDrive\\Documentos\\ChatGPT\\LoraWanMDPI\\verificacion_entregas_27\\ns3_no_ejecutado\\build\\scratch\\ns3-dev-validacion_lorawan_v02-default",
+    "--matrix=C:\\Users\\sacur\\OneDrive\\Documentos\\ChatGPT\\LoraWanMDPI\\publicacion_github_2026-10-27\\3DMSAGA_NS3Validation\\experiments\\ns3_archive\\inputs\\Matrix_RSSI_3DMSAGA_reconstruida.csv",
+    "--gatewaysCsv=C:\\Users\\sacur\\OneDrive\\Documentos\\ChatGPT\\LoraWanMDPI\\publicacion_github_2026-10-27\\3DMSAGA_NS3Validation\\experiments\\ns3_archive\\gateways.csv",
+    "--output=C:\\Users\\sacur\\OneDrive\\Documentos\\ChatGPT\\LoraWanMDPI\\publicacion_github_2026-10-27\\3DMSAGA_NS3Validation\\outputs\\run_000",
+    "--nDevices=0",
+    "--selection=all",
+    "--gatewayIds=all",
+    "--duration=86400",
+    "--period=3600.0",
+    "--payload=51",
+    "--sf=7",
+    "--radioProfile=US915_8ch",
+    "--channelCount=8",
+    "--txPowerDbm=27",
+    "--us915StartChannel=8",
+    "--matrixReferenceDbm=27",
+    "--dutyCycle=1",
+    "--seed=42",
+    "--run=1",
+    "--writeEvents=1",
+    "--enableForwarder=1",
+    "--synchronized=0",
+    "--drain=300"
+  ],
+  "Execute": false
+}

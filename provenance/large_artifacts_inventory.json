@@ -1,0 +1,1404 @@
+{
+  "Files": [
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_001/events.csv",
+      "Bytes": 40657861,
+      "CRC32": "caa08017",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "20e618e709c02b5f47e49ee5ab3414bb3749b6b61d0d07f0e2ec7223f564542f",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_events_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_001/packets.csv",
+      "Bytes": 3524855,
+      "CRC32": "16c66464",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "25803419e81d225b8faeaa327d1decd0656e2674adf7100749458781075004dd",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_002/packets.csv",
+      "Bytes": 3524835,
+      "CRC32": "d85d98ca",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "5751ba9ec3a4297a019d7b793204f24afc7d25063f3bf0f68d430ca6e90cdfee",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_003/packets.csv",
+      "Bytes": 3525265,
+      "CRC32": "d0b73884",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "7ef6818462e5ba094165f348fe6130ae21eee658d9d0274a9dd797f653316f07",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_004/packets.csv",
+      "Bytes": 3523439,
+      "CRC32": "8b7ba985",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "74a7f6a9c2dc70085130c52aa7b02193a5455134c42ee56a9de51b4a1badb974",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_005/packets.csv",
+      "Bytes": 3523493,
+      "CRC32": "1b809ae9",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "c6b109147b0071f51a6902426bad10b1dc38fe168802cba464aad4b37b583f75",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_006/packets.csv",
+      "Bytes": 3526828,
+      "CRC32": "7efe9a43",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "9d2e506eab16a55e68786ebbf9c01d43b4ecb64052c09bef5fa550288673ae38",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_007/packets.csv",
+      "Bytes": 3525426,
+      "CRC32": "1dc45943",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "eda08b2e75bd3624ba1310414e8920f7be015357530a69218b8e334314ed1e11",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_008/packets.csv",
+      "Bytes": 3525092,
+      "CRC32": "8e93326b",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "d94a06ffe9e27e1005ae00e04cae00903ccd6f83c8c420c72fa16523583c8795",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_009/packets.csv",
+      "Bytes": 3524893,
+      "CRC32": "44e372d6",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "e69c3b6c1bb343da40963aa124c416901cfa9e42bb323899e3f46a2f1cebf4b3",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_010/packets.csv",
+      "Bytes": 3524343,
+      "CRC32": "3308f0d8",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "dd6cd7871fa1bba988d6a4b57348b99651070de4111b7fa0f6271325aceaa1df",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_011/packets.csv",
+      "Bytes": 3524934,
+      "CRC32": "3d976e34",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "df9b651764333cc01456824e2790d0a9d0d73bef57c0fa55910fb311a5b49d33",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_012/packets.csv",
+      "Bytes": 3524971,
+      "CRC32": "a8e7fc66",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "040938336490fd8b8566122483b3b533c33d73c7a9c18f19c35c007b83cff8f8",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_013/packets.csv",
+      "Bytes": 3525014,
+      "CRC32": "0f534d85",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "374a26dca8d504c2bbb0963712ce84b78769cdb7ef6ea8f36c65f0cb4504d227",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_014/packets.csv",
+      "Bytes": 3524097,
+      "CRC32": "0e6daa18",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "63da94ee57c2ea0f27969cee98a40e0e746419b4babf3deaa29d48d9d86c5a3e",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_015/packets.csv",
+      "Bytes": 3523573,
+      "CRC32": "5b8b8888",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "c99d1e1c2b85d050527019915a8b00a084920228994c25ece05880d3d2624dd6",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_016/packets.csv",
+      "Bytes": 3524903,
+      "CRC32": "edc28525",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "f1aecbcbf4455d7017b19bfab7854ffb434555b686a68a422d38bc475360ad17",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_017/packets.csv",
+      "Bytes": 3524714,
+      "CRC32": "a398d094",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "53fa6e1d7bcff972349cc1ddce6d5ed73f108046de267cac33e557f1ca63969b",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_018/packets.csv",
+      "Bytes": 3525312,
+      "CRC32": "89d47f77",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "27bd405c8289b0eacb48520b64fbf989d4abb7fffbd7378de0cb29afade4e823",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_019/packets.csv",
+      "Bytes": 3525245,
+      "CRC32": "765c835a",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "3f073095ce694c72c0066becc4c2faa498294ce2e073abd5d14e04b129d06d95",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_020/packets.csv",
+      "Bytes": 3525630,
+      "CRC32": "acf6217f",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "7a8d82cf21b6fdac9ba3cbc16409888faa09369fcb53055f01fdb68d8a455bd6",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_021/packets.csv",
+      "Bytes": 3525345,
+      "CRC32": "53901f72",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "e17ed30a2c0d547ba62ce094fe145d932158f8df5f59218fe66481d67561a37c",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_022/packets.csv",
+      "Bytes": 3524048,
+      "CRC32": "f4fe357c",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "7667b60f5166d196f65b259ed9a278a73b5a48d3ee895d6d0e6f93e064ad9d5e",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_023/packets.csv",
+      "Bytes": 3522731,
+      "CRC32": "7621c780",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "37b2ee121536bdae90b23bff4be7e00aae1581970827e2d3eba4d4e1571accef",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_024/packets.csv",
+      "Bytes": 3524617,
+      "CRC32": "28fd8c72",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "79883d4c77ba5d17659296d0d87912e03e47a34ca2c925bf69e3a6983270bcaf",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_025/packets.csv",
+      "Bytes": 3524142,
+      "CRC32": "ca29c8d6",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "7ad298707ed476197c908af2f3ca9f9d81a8c86759323a1e59b92df8e27923f3",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_026/packets.csv",
+      "Bytes": 3524879,
+      "CRC32": "4affda52",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "259cf51f762e542ddda23eed3d347e8fefbb0290797d39c61b3594c9d965f433",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_027/packets.csv",
+      "Bytes": 3524222,
+      "CRC32": "da57189a",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "2a243226af8cb0ed2488dabcae35a19a77846d981aaacd5c5c1c00c8d93bfa05",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_028/packets.csv",
+      "Bytes": 3524248,
+      "CRC32": "a555440d",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "836024da5b0d037c25d9785b39ff32fa0c259fd6a72022dad34e8d9c093b9724",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_029/packets.csv",
+      "Bytes": 3523398,
+      "CRC32": "40228a9f",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "fcaf45bcdfca35a6f3a2245c91576d9a739bc8b15bfd471040541efc678d1801",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_030/packets.csv",
+      "Bytes": 3525323,
+      "CRC32": "39d11066",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "726c45fbae80608b391c6c8e3572ddda9ebc8d0aed4a4c37613cf85172903196",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb_exploracion/period_300s/run_001/events.csv",
+      "Bytes": 506099349,
+      "CRC32": "a5e4920b",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "180f89dfc57960943c2a48a93bc250a52f05f776fe3b1bdbb468339360bde7d6",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_events_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb_exploracion/period_300s/run_001/packets.csv",
+      "Bytes": 42837367,
+      "CRC32": "33419f3c",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "b5d06fed85cd2d798f06b3f372880d49d05719b93a22c1517dc8335daf708949",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb_exploracion/period_900s/run_001/events.csv",
+      "Bytes": 165858683,
+      "CRC32": "735b1b5f",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "955766b245ad559225e2443904d565fe48ead565f0f3188e13924d82e4c99681",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_events_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb_exploracion/period_900s/run_001/packets.csv",
+      "Bytes": 14154771,
+      "CRC32": "ea1f5852",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "a329088f0e188cf1e5a4294d5373010495cc3f9a0a96b62cb6106b5a737138b9",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_001/events.csv",
+      "Bytes": 64969299,
+      "CRC32": "4d282d75",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "41374296f785578ad2a7bfd7e4d134655b4839b67dc452c8210cb6c1aec92ee6",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_events_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_001/packets.csv",
+      "Bytes": 3668204,
+      "CRC32": "f0389535",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "91e8eae8680bb8ceafd70edd2e65d432c11f997d1c5e3fcef40943c5ce411a04",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_002/packets.csv",
+      "Bytes": 3667912,
+      "CRC32": "066343ce",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "fec34a6d405dd63971dd186a49edaa103c2ff528bd2c9afeed83886016bba219",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_003/packets.csv",
+      "Bytes": 3668827,
+      "CRC32": "60bb2429",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "c8e5b5f530d263577d11bfabc57921878e8179817b4c9e3b04845ae59b900ce1",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_004/packets.csv",
+      "Bytes": 3666796,
+      "CRC32": "2f53e608",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "23267281b0c991ca20042c031992eb460bc86b13591d6522da381a64a598527c",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_005/packets.csv",
+      "Bytes": 3667383,
+      "CRC32": "11fe2c86",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "4a7f97e580104ead1fe099e0946ff654b07d9cf7ecf9d976f84a4d12b3e3345c",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_006/packets.csv",
+      "Bytes": 3669746,
+      "CRC32": "78889638",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "3c6e89f1f5ab1a31b93908e9a4a1bce7b3d0c130a7cc1eb35ec695b86016c9e5",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_007/packets.csv",
+      "Bytes": 3668343,
+      "CRC32": "bb51f0a9",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "4e84667cae892e9cee59e2fd291283461a588627b35c7df2d153b234b6954df8",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_008/packets.csv",
+      "Bytes": 3668392,
+      "CRC32": "02b70d98",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "f95d2cc3816360a87b03eb155acd1685745107618b27544858d2be69e04f5fbe",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_009/packets.csv",
+      "Bytes": 3667619,
+      "CRC32": "0f737e18",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "4afc254526fb6b88eccc2419b1aab19a8f6027a677d94200dd2baa79b57db6d6",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_010/packets.csv",
+      "Bytes": 3667518,
+      "CRC32": "18ba514d",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "15f190c428f51d58652186ee8f91535c00c75367ee75cc80222c682a83a7c33b",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_011/packets.csv",
+      "Bytes": 3668456,
+      "CRC32": "ab4aa523",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "03f78eee1e6697eec4c6f1b44181497db4df3abe7e197fe0c0d621e8dcc0b945",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_012/packets.csv",
+      "Bytes": 3668217,
+      "CRC32": "381943fe",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "e08a9cf3d0f46dc334d74f5e77eb77d6c73b0fe2ee3e6f938e2782c7775e698d",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_013/packets.csv",
+      "Bytes": 3668554,
+      "CRC32": "8b08c319",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "78b8bb511bdf80628ba0d228ffc487acc6ef057bc2c5ea191663360cda620ab5",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_014/packets.csv",
+      "Bytes": 3667063,
+      "CRC32": "db9007d0",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "e18ddebfe2b35c1ac30d5dab979887858deefe21d1b3492646cd787ec21da678",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_015/packets.csv",
+      "Bytes": 3667237,
+      "CRC32": "dd493a86",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "7b729aeb67c5299387a1717f5d8892bc4148e53b4f21ba6b6694bfc958f865e2",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_016/packets.csv",
+      "Bytes": 3668235,
+      "CRC32": "6198866d",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "325826ec8d8e62764a792382248afe25fbcaca6be4e28a0b3a1c9dc43f3e6a1d",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_017/packets.csv",
+      "Bytes": 3668316,
+      "CRC32": "14a1d502",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "6a0b4fae135fce76b0b7c7ba7c23f88c274ef928bb672eb99ff88f32c2318119",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_018/packets.csv",
+      "Bytes": 3668732,
+      "CRC32": "851ee5ec",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "2e00cface1daf55c01df288b0528317909bfb0cae324b9cd8f5b3127b55c545b",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_019/packets.csv",
+      "Bytes": 3668223,
+      "CRC32": "24e997e4",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "50fdeca89bab52a9140771a0c38e293ab786bf0632bf50c57a0f93a4afa6a631",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_020/packets.csv",
+      "Bytes": 3669111,
+      "CRC32": "f851478d",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "7b6c9ce058fd75155dd3d8fcb0cd319a39f469a669f92c0308d718ce4e3b913c",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_021/packets.csv",
+      "Bytes": 3669290,
+      "CRC32": "5e2ccad7",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "d701e7e83f49d8f3e2aff7824415c20d14923c66990889234f1612e3a003d561",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_022/packets.csv",
+      "Bytes": 3667426,
+      "CRC32": "96311e50",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "d5ab707008593db72856ce366b6eb9d2d8eb65705ce032a388df912f06e390ff",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_023/packets.csv",
+      "Bytes": 3666458,
+      "CRC32": "b9809ffd",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "935fc8b9e82e371bed50278a8229005d104fd8c15871e75a072ace090cc35186",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_024/packets.csv",
+      "Bytes": 3668055,
+      "CRC32": "bb512a0e",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "54d5b2537d384d6aea03e501a156731a0f65fcf967e365e07b077abed424d50d",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_025/packets.csv",
+      "Bytes": 3666949,
+      "CRC32": "1a4f583f",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "e9cfbc97b4a912e8d492b9101e57a824d947163fba1bfeb5f720f48ba8ec8f72",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_026/packets.csv",
+      "Bytes": 3668102,
+      "CRC32": "61e99f2f",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "0560a12ae028ac84fa80fec1f0e4c01eec2a1adfd6dab06926fcbddd9fc674d7",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_027/packets.csv",
+      "Bytes": 3667859,
+      "CRC32": "0f564025",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "b9c316fbae04e6208cd64de56447b2b8417facff1167a2565b5ffd0cfeae4367",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_028/packets.csv",
+      "Bytes": 3667690,
+      "CRC32": "4c442103",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "8631698a9350a02f852334509cd19d0f1140c779e21388963b9f6bbffa9b072e",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_029/packets.csv",
+      "Bytes": 3666079,
+      "CRC32": "b434752c",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "1aabf21f61a7cf697c04b318dd9de36dbe3e0dc28b3052c7e6b58aed25a8784f",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_030/packets.csv",
+      "Bytes": 3668952,
+      "CRC32": "52c1bbd8",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "c74a1cd4261a44ad7556a2dd2a134b43bbd24c552c4198c6875fdbed85c7bf20",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion/period_300s/run_001/events.csv",
+      "Bytes": 777068166,
+      "CRC32": "15631535",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "2176430e3d05f92cd89c080607b98291d6d8d93b76a5e723187e3bba94c1fed5",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_events_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion/period_300s/run_001/packets.csv",
+      "Bytes": 44426186,
+      "CRC32": "45a2ab9f",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "acd0a06c2ab21d29605fe96d0c06f65c4419829152a2473967de0e610f89c66e",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion/period_900s/run_001/events.csv",
+      "Bytes": 262273038,
+      "CRC32": "e735aa5f",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "0bd99bb430951c2084e8cb8897304dcd014f2c18a41252ea6939fd536cf358ea",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_events_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion/period_900s/run_001/packets.csv",
+      "Bytes": 14714276,
+      "CRC32": "d2e8f5d4",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "420e1c7173c52e2067e9fc8712a2c27883f0da0ddf93a3ea3ec36e922d0ce374",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_001/events.csv",
+      "Bytes": 44008212,
+      "CRC32": "e7dbc111",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "96e927d5e7a8824ed1437822f102ab3767dac715ae8af55fedde845383ba5ed3",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_events_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_001/packets.csv",
+      "Bytes": 3575513,
+      "CRC32": "05c46f86",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "d8169bb174dad264c753483406a7e5f2b6fd4323db44ae551f5cbf6ddd59c72c",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_002/packets.csv",
+      "Bytes": 3575017,
+      "CRC32": "1d14d9bc",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "4e30ed96b8e857050d35263d7dba257bdb6677f34720e2a5405077380eaa6dac",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_003/packets.csv",
+      "Bytes": 3576433,
+      "CRC32": "87380450",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "f9c43199803d9275012ef50e568ef8ecd4baaa3dd75691ac9e7ac14b32b68c49",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_004/packets.csv",
+      "Bytes": 3574482,
+      "CRC32": "c1fc6072",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "7bd6a05b3e3593cee3ebff21150589ec2272baecd988b6a5c48ed25042276b8c",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_005/packets.csv",
+      "Bytes": 3574052,
+      "CRC32": "43c367d2",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "810fd2f0912402a73c40110e9b0ad1ef53abac7624e536838e6c378057445767",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_006/packets.csv",
+      "Bytes": 3577372,
+      "CRC32": "ba0f0bb5",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "a320f02c630fb2b4d2b15c1f871afeb5ea1b2d0e18358655c635210a5e1f1f41",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_007/packets.csv",
+      "Bytes": 3575926,
+      "CRC32": "d16b27eb",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "04f2125962cb965549419b77a4722af3f5a6c024814507c792daa145c4d8a875",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_008/packets.csv",
+      "Bytes": 3575815,
+      "CRC32": "5720b2f5",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "5f35ad5747f1a13d272c1091fa19517bc1d7f204518e28b2e0ef86654dd19a91",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_009/packets.csv",
+      "Bytes": 3574677,
+      "CRC32": "a6df185b",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "98f4eecd288d29ce6dd6a204fb2eecd520cf9cedb62b5e12a7c9b6f7ef4c3512",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_010/packets.csv",
+      "Bytes": 3574607,
+      "CRC32": "0ae8b617",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "04b0c3d7a634732f5af4243686fec0a0d20ef805e6f790dfcaf9d11981a05901",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_011/packets.csv",
+      "Bytes": 3575045,
+      "CRC32": "7ca52851",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "4df93fdf9c2b66f37f64ec944dcf1ec660292a0ecdf1c3260ff01fafd3ad8156",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_012/packets.csv",
+      "Bytes": 3574794,
+      "CRC32": "e2b6b19a",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "cb770e8d77f3f1c757c9381d6ba31de56c98e9bfb703742610c353760f2e06cc",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_013/packets.csv",
+      "Bytes": 3574651,
+      "CRC32": "aa38ab1b",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "1afc9e1e3ce02117213db9d94e0ef0f33d39c38340d6389b62618728c729eb55",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_014/packets.csv",
+      "Bytes": 3574929,
+      "CRC32": "7666a70c",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "31bb4fe4611a41a0a2ee51c22c32c98d9f6d9e5244ce7581ad444085357bef77",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_015/packets.csv",
+      "Bytes": 3573830,
+      "CRC32": "e412938d",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "8c2e15febfc9b95a1f1c535111bc305c6a250c963b6d768804c070b36ef8a8ae",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_016/packets.csv",
+      "Bytes": 3575457,
+      "CRC32": "d0a23aa0",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "d3d5495a41b4b28af88dce9cf00fa5007c813c6780fc4a7d651dd6c87ebac071",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_017/packets.csv",
+      "Bytes": 3574868,
+      "CRC32": "f0e9d137",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "cc1d491ec665e7752ec86908a2de6564d847ca6d2fe74dc8c9b2994135239f97",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_018/packets.csv",
+      "Bytes": 3575880,
+      "CRC32": "b27547f8",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "124a824749c7046afc567d9bdf2c3c48bb4933bc303548c76dcc9b0c78bf9034",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_019/packets.csv",
+      "Bytes": 3575198,
+      "CRC32": "49b9d1fb",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "a402c1b579e390098052506985d4dd55b327cbfacb7f75507989f002354f0f13",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_020/packets.csv",
+      "Bytes": 3575970,
+      "CRC32": "4d547f2a",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "f2fa5383cca50a89e20076452a62e07d1249bfacad20b5d955629fe06c787963",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_021/packets.csv",
+      "Bytes": 3576476,
+      "CRC32": "a98316c1",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "ea4646081104fd08a8308e2758334ba77961ba917f4b8e5b3b7fe201660dc2a0",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_022/packets.csv",
+      "Bytes": 3574261,
+      "CRC32": "735edd65",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "ce4df9f6c45f6b4944cb626080a324e36b5035f94571cfa1480903b40011c3cd",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_023/packets.csv",
+      "Bytes": 3572317,
+      "CRC32": "eaa3668d",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "1feb67cd2696bf1649b81235f845b2b04b70095fd2774ea7fd4a101c76c2c4fd",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_024/packets.csv",
+      "Bytes": 3575535,
+      "CRC32": "b8cb61c8",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "52ec5ead298c77b5bc6652074c4d0ae82714eca28511892d498c4831780dc363",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_025/packets.csv",
+      "Bytes": 3574571,
+      "CRC32": "28725687",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "56c14b3632667fd5242accd174d1553a9e20f00ca549c3d31ad8b54e38c19206",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_026/packets.csv",
+      "Bytes": 3575250,
+      "CRC32": "f8a1312d",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "d1e1a0f53ef3c89fb962a24d88da6643bb6f0d4a19775c823e433f663ddf2248",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_027/packets.csv",
+      "Bytes": 3574402,
+      "CRC32": "bbc3f13b",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "8f3129056466c6db88d2a30d862be04a469883819a97c5b600a0eb8e68c12a6b",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_028/packets.csv",
+      "Bytes": 3574969,
+      "CRC32": "a22cffd8",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "b37bfd1371b3712a1e4b3feb6394735c63059057ed56abc2ac7ee7df95aab91f",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_029/packets.csv",
+      "Bytes": 3573248,
+      "CRC32": "de2cf863",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "1e3151b1986f1917bd76a7c4af6b0a5e5f35410bd00e1b24c70ec00efaf7f023",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb/period_3600s/run_030/packets.csv",
+      "Bytes": 3575963,
+      "CRC32": "8132bf8d",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "e20e97567734fc6cadfb66f37bde4183c387aca833cba5f3cb88f060982434a5",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb_exploracion/period_300s/run_001/events.csv",
+      "Bytes": 528280359,
+      "CRC32": "a614c7a3",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "f85495ed80fe587bc095143b5a4f74659cdb78db879f76fbfbb5b9ad097ae2ba",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_events_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb_exploracion/period_300s/run_001/packets.csv",
+      "Bytes": 43081783,
+      "CRC32": "23859213",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "fbfc8e011d87a8e697dba75c61a341ed77ba0ca390838f6d8e8f577c2ec1ad61",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb_exploracion/period_900s/run_001/events.csv",
+      "Bytes": 177661017,
+      "CRC32": "8b47833d",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "d4ebaaf659168c7c843c87100ec53427f0479e01fb63297f23450aa13027e76d",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_events_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb_exploracion/period_900s/run_001/packets.csv",
+      "Bytes": 14322617,
+      "CRC32": "7707f290",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "0a488e712e5d5e19839dc49f6cdff3f6c96444327ed901ced5529fdc2dcd255e",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_001/events.csv",
+      "Bytes": 64515719,
+      "CRC32": "e2673886",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "c4e382dd9621e8426120510191d05ff16bfdffb17ad6c128825bc2ba6dc14740",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_events_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_001/packets.csv",
+      "Bytes": 3672483,
+      "CRC32": "f091931b",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "8c668cef1345b921d6fc5e60a968dee0d128b45092775de36cfdbcd749c0c42d",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_002/packets.csv",
+      "Bytes": 3672461,
+      "CRC32": "5ab27d67",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "0df0251a1e5eaa5cb7ddc505039f76f9b031e251351819a45a83d917bb670a4f",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_003/packets.csv",
+      "Bytes": 3673553,
+      "CRC32": "7b40fe85",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "878ebf446ffcd9059faa2e9e3a495f1be5df016b8d046a37e36ee13422ecd909",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_004/packets.csv",
+      "Bytes": 3671470,
+      "CRC32": "ecb0762c",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "a3e659f0001093a63766b45d684f52f7c6978ebacda6d15098225087165f2e89",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_005/packets.csv",
+      "Bytes": 3671229,
+      "CRC32": "e679892d",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "942152c1852cf67868c3a4448520756f4206ac756e3f912776349b1b5fd5d325",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_006/packets.csv",
+      "Bytes": 3673872,
+      "CRC32": "ca7985f8",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "6be59438af5cc4d1c6d0bc6904961b54715302c83316d01b0a7d449cb5616da9",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_007/packets.csv",
+      "Bytes": 3672275,
+      "CRC32": "e239c2bf",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "54b89d1d9c88ba0b80358d60e2dbee8f7478393f9123ff1499474d39df78d496",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_008/packets.csv",
+      "Bytes": 3672760,
+      "CRC32": "e23b8949",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "264f98f4607b5fd50d1ac1daa70d2f30d128754324080e0c2f69da7332d6478d",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_009/packets.csv",
+      "Bytes": 3672181,
+      "CRC32": "2cc9b90d",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "70b774327a67365098fe4881ceac1aac63934c8945f1d5d504666a962f62268d",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_010/packets.csv",
+      "Bytes": 3671680,
+      "CRC32": "1a2e82d7",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "b6ef3857efa07edaab038059af4c7040e81e4cd387aa53fa6769a30f8ac77d8c",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_011/packets.csv",
+      "Bytes": 3672484,
+      "CRC32": "22dc78ad",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "0632d5faa51a63cb8435fae4445d04101233f01cacfdbd74b728784203b46b3b",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_012/packets.csv",
+      "Bytes": 3671805,
+      "CRC32": "c0b4c424",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "42c742eccbac67d971c2f8eb6ae4c37872316e6362ea545e67ea2db6c20c0dd6",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_013/packets.csv",
+      "Bytes": 3671509,
+      "CRC32": "e289ebd3",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "7e6fc95407bf91e8b8448701f84adc583b530ca744f3ec0c91419d6a3c4b68da",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_014/packets.csv",
+      "Bytes": 3671879,
+      "CRC32": "5be05cbf",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "cdb5ab3a0b791a99539d47dcfdaf632ca75a40117f1a36bedce6ce3ffae3d5cb",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_015/packets.csv",
+      "Bytes": 3670988,
+      "CRC32": "a6ea129d",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "de926692b6a8ebaeb6964b40527b6e524ff7ec08bba87087a77189413dbb212a",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_016/packets.csv",
+      "Bytes": 3672644,
+      "CRC32": "4ffa22cd",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "861549fddd8757909454d6f813eda71a13e6ae2c1b502fa427847327b557855e",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_017/packets.csv",
+      "Bytes": 3672377,
+      "CRC32": "a62fc498",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "783843fb58b8a5f186d4b1adc53b9f80c2d580987a18f598cdd5608239ab041a",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_018/packets.csv",
+      "Bytes": 3673166,
+      "CRC32": "c27edb25",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "880cad6c84b800673d7d62018accbb79ab1b1fcf310d783ddefbcc5f0e86af75",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_019/packets.csv",
+      "Bytes": 3672252,
+      "CRC32": "36e25433",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "7110b0b58bfc70d026b7ff8b5c03b5b9b29eeeb117a1b7218dc1fe8f9175f892",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_020/packets.csv",
+      "Bytes": 3672727,
+      "CRC32": "c5fb9ee6",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "65fd977664fd6f68542e5321a7c724713a2d8f0be88a33c39772706348089e5d",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_021/packets.csv",
+      "Bytes": 3673286,
+      "CRC32": "f1dedf81",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "16ef1f59cf173605327b333a91c44b73022f64b55bd8007eef746d8fbdc1512e",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_022/packets.csv",
+      "Bytes": 3671590,
+      "CRC32": "300ec257",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "4e9f720620454801942b70093c3cdcfb3b15f5151999be411d76a729ef5388ca",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_023/packets.csv",
+      "Bytes": 3670238,
+      "CRC32": "546cce27",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "daf213d83dbaf1bcccf15c1479adf1bc218783888b0117ecf55b492a3641f4f5",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_024/packets.csv",
+      "Bytes": 3672293,
+      "CRC32": "05f95656",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "fb17c2a5484aaa59d5d2b2556359321ac67901cca1c3329ce39425c8e16d5998",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_025/packets.csv",
+      "Bytes": 3671409,
+      "CRC32": "27b27baf",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "f92d5172489d3a049dfafd730fa14a421ce8dd1d6ee82b584d9f187c5e07580e",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_026/packets.csv",
+      "Bytes": 3671755,
+      "CRC32": "1f9a2403",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "3ce8ba0e1835c4f30e7674db98c143537c2d41b7b43628edc6a4fcd638c8bd26",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_027/packets.csv",
+      "Bytes": 3671815,
+      "CRC32": "df8d0083",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "49ca6e0c2d3b2c44f3ec717b42f76936ea866331132be1031847b5e347eb7719",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_028/packets.csv",
+      "Bytes": 3671901,
+      "CRC32": "0f8b1644",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "595a2ae273f7c19c1675e40b44c3c9f76d4eafecfab1e4124e7ed5aa6b686c98",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_029/packets.csv",
+      "Bytes": 3670437,
+      "CRC32": "6140ae77",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "8b112f662e371fa63daca9e9e3565ae07b76fe4b94049ce704c8f33a2ba52c19",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb/period_3600s/run_030/packets.csv",
+      "Bytes": 3673442,
+      "CRC32": "771bd24e",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "007e1f7bfb56441178fe6b1f3e10a38e188329e9687a3f81d2d01d99cda71b40",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion/period_300s/run_001/events.csv",
+      "Bytes": 688969834,
+      "CRC32": "b023eb0a",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "682c6e582b48b8f87e85fe5a93b4ba959a654707b51c5d0f325c3d44f87854c2",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_events_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion/period_300s/run_001/packets.csv",
+      "Bytes": 43976431,
+      "CRC32": "b0a5af8a",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "6c3000b33d754b8b8b6d89f379ba0b9b22ba8f4704c10c22e8e0c528bb3866e9",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion/period_900s/run_001/events.csv",
+      "Bytes": 252212709,
+      "CRC32": "6cb4e400",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "3d8b6a260755a111a4a6c26d69757d6e780c47b6a12d157e645d1daf87366125",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_events_128corridas.zip"
+    },
+    {
+      "Archive": "OCTUBRE.zip",
+      "Member": "OCTUBRE/Validacion_ns3_v02_2026-10-18/produccion/US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion/period_900s/run_001/packets.csv",
+      "Bytes": 14682038,
+      "CRC32": "a0f5a593",
+      "Status": "Incluido en artefacto local verificado; publicacion remota pendiente",
+      "SHA256": "d5bab57310c6e2842b19af6220881f87736424d0f26da482d248e0befb711629",
+      "VerifiedAgainstArchivedHash": true,
+      "LocalAsset": "ns3_packets_128corridas.zip"
+    }
+  ]
+}

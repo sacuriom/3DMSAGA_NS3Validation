@@ -1,0 +1,18 @@
+{
+  "Assets": [
+    {
+      "Asset": "ns3_packets_128corridas.zip",
+      "Bytes": 116772211,
+      "SHA256": "3cadddee7c4db491e28f15cdc19393d3ead477730a5a71dab38d04fbb7d97e2b",
+      "Files": 128,
+      "Status": "Preparado localmente; no subido a GitHub"
+    },
+    {
+      "Asset": "ns3_events_128corridas.zip",
+      "Bytes": 628001985,
+      "SHA256": "c27a6f1ebb4d2405916349f0dcc4a62a34a916be8efae62fbd77476676d9228e",
+      "Files": 12,
+      "Status": "Preparado localmente; no subido a GitHub"
+    }
+  ]
+}

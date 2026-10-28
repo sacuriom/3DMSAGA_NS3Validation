@@ -1,0 +1,75 @@
+{
+  "created_utc": "2026-10-19T00:27:26.633485+00:00",
+  "source": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/validacion_lorawan_v02.cc",
+  "source_sha256": "6d4a9eebe205ef8a6ac7321e54eba968b2518d0307faf7404f2de6911937ad07",
+  "scratch_source": "/home/pucesa/ns-3/scratch/validacion_lorawan_v02.cc",
+  "binary": "/home/pucesa/ns-3/build/scratch/ns3-dev-validacion_lorawan_v02-default",
+  "binary_sha256": "732141785747b5be93583042e2e2d61ecc6917fcdfd9d97b5a2fa31513e2aeb3",
+  "command": [
+    "/usr/bin/python3",
+    "/home/pucesa/ns-3/ns3",
+    "build",
+    "validacion_lorawan_v02"
+  ],
+  "command_display": "/usr/bin/python3 /home/pucesa/ns-3/ns3 build validacion_lorawan_v02",
+  "build_environment_path": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+  "runtime_seconds": 8.35129748700001,
+  "build_log": "/mnt/d/DOCTORADOUPS/TESIS/OCTUBRE/Validacion_ns3_v02_2026-10-18/logs/build_20261019T002718286590Z.log",
+  "environment": {
+    "recorded_utc": "2026-10-19T00:27:26.642885+00:00",
+    "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "ns3_version": "3-dev",
+    "ns3_commit": {
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "f576896f5c2387874f49be221c13ae371e4f8f86",
+      "stderr": ""
+    },
+    "ns3_describe": {
+      "command": [
+        "git",
+        "describe",
+        "--always",
+        "--tags"
+      ],
+      "returncode": 0,
+      "stdout": "ns-3.48-96-gf576896f5",
+      "stderr": ""
+    },
+    "lorawan_commit": {
+      "command": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "returncode": 0,
+      "stdout": "67bcaefdeb45d367010e09a80083b9a0527f766b",
+      "stderr": ""
+    },
+    "lorawan_describe": {
+      "command": [
+        "git",
+        "describe",
+        "--always",
+        "--tags"
+      ],
+      "returncode": 0,
+      "stdout": "v0.3.7-1-g67bcaef",
+      "stderr": ""
+    },
+    "compiler": {
+      "command": [
+        "g++",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\nCopyright (C) 2023 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+      "stderr": ""
+    }
+  }
+}

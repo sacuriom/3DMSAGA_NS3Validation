@@ -1,0 +1,7 @@
+ID,Resultado,Evidencia,Limite
+N01,2153 puntos y diez gateways en ns-3,experiments/ns3_archive/inputs,Cohorte estática; no población completa de Ambato
+N02,128 corridas: 120 principales y ocho exploratorias,experiments/ns3_archive/produccion,Sólo corridas aceptadas por identidad/estado
+N03,PDR principal nativo SF9=97.9447282861%; SF7=89.6895159209%,data/simulation/F04_intervalos95.csv,30 réplicas por condición; TX27 dBm
+N04,99.07% cobertura y 78.22% K>=2 en propuesta de diez sitios,data/simulation/F10_resiliencia_estatica_resumen.csv,Umbral -136 dBm; presupuestos distintos en baselines
+N05,"Reconstrucción de 2133 RSSI no censurados, diferencia <0.005 dB",data/simulation/F02_pares_RF_sin_censura.csv,Fidelidad numérica; no exactitud de campo
+N06,Registros originales paquetes/eventos preparados,provenance/release_assets_prepared.json,128 CSV paquetes y 12 CSV eventos; publicación remota pendiente

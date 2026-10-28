@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Cite la version y el commit correspondientes a los resultados utilizados."
+type: software
+title: "3D-M-SAGA: validacion computacional en ns-3"
+authors:
+  - family-names: "Acurio Maldonado"
+    given-names: "Santiago Alejandro"
+repository-code: "https://github.com/sacuriom/3DMSAGA_NS3Validation"
+version: "0.1.0-preparacion"

@@ -1,0 +1,16 @@
+{
+  "Files": [
+    {
+      "File": "src/matlab_archived/MDPI_Suite_MesoCellular_PUCESA.m",
+      "SHA256": "f0e64b17e49aed1dd2f605d19455e377d6d3b911a739bce2c6ebc8d61aa7f296",
+      "Role": "Variante recibida; no se afirma identidad con generador historico ausente"
+    },
+    {
+      "File": "src/matlab_archived/MDPI_Suite_MesoCellular_MultiAnchorGW1yGW2.m",
+      "SHA256": "ef7b2476e53a8fd3dd5ab642d38b4b7d7c1a8bbcd07897d9ba13ef3a78b745b9",
+      "Role": "Variante recibida; no se afirma identidad con generador historico ausente"
+    }
+  ],
+  "MissingNamedSource": "MDPI_Suite_MesoCellular_6.m",
+  "Scope": "No encontrado por nombre en OCTUBRE.zip; no se sustituye por otra variante como si fueran identicas"
+}

@@ -1,0 +1,2544 @@
+{
+  "created_utc": "2026-10-19T00:43:05.263374+00:00",
+  "audit_passed": true,
+  "matrix_family": "validated_longley_rice",
+  "matrix_path": "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\inputs\\Matrix_PathLoss_3D_validada.csv",
+  "matrix_manifest_path": "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\inputs\\manifest_matriz_derivada.json",
+  "source_identity": {
+    "source_sha256": "6d4a9eebe205ef8a6ac7321e54eba968b2518d0307faf7404f2de6911937ad07",
+    "binary_sha256": "732141785747b5be93583042e2e2d61ecc6917fcdfd9d97b5a2fa31513e2aeb3",
+    "matrix_sha256": "9d570ef3ddff2632f744938208c9a5ba4def6ef9d52032c3a37989b93e72c3e3",
+    "gateways_sha256": "959c5627a4eda752340abb708f94bdab09644348e8e93fc65070cf951dda3285"
+  },
+  "binary_verification_scope": "SHA256 pinned to build_manifest and all 64 run identities; WSL binary not reopened",
+  "audited_runs": 64,
+  "packet_recalculation_cases": [
+    {
+      "directory": "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_001",
+      "sf": 7,
+      "period_s": 3600,
+      "run": 1,
+      "packet_rows": 51672,
+      "passed": true,
+      "recomputed": {
+        "generated": 51672,
+        "tx_unique": 51672,
+        "tx_attempts": 51672,
+        "gw_unique": 51645,
+        "server_unique": 51645,
+        "not_transmitted": 0,
+        "gw_reception_events": 506376,
+        "server_reception_events": 506376,
+        "interference_events": 4440,
+        "under_sensitivity_events": 5904,
+        "no_receiver_events": 0,
+        "delay_events": 0,
+        "unknown_events": 0,
+        "tracker_mac_sent": 51672,
+        "tracker_mac_received": 51645
+      },
+      "recomputed_pdr": {
+        "pdr_gw_generated_pct": 99.94774732930794,
+        "pdr_server_generated_pct": 99.94774732930794,
+        "pdr_gw_tx_pct": 99.94774732930794,
+        "pdr_server_tx_pct": 99.94774732930794
+      },
+      "recomputed_mean_server_latency_s": 0.11499730574330581,
+      "evidence": "packets.csv plus selected_devices.csv; tag identity=(device_index,message_sequence)",
+      "suppressed_reply_events_from_hashed_metrics_only": 0
+    },
+    {
+      "directory": "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion\\period_900s\\run_001",
+      "sf": 7,
+      "period_s": 900,
+      "run": 1,
+      "packet_rows": 206688,
+      "passed": true,
+      "recomputed": {
+        "generated": 206688,
+        "tx_unique": 206688,
+        "tx_attempts": 206688,
+        "gw_unique": 206143,
+        "server_unique": 206143,
+        "not_transmitted": 0,
+        "gw_reception_events": 1972193,
+        "server_reception_events": 1972193,
+        "interference_events": 71071,
+        "under_sensitivity_events": 23616,
+        "no_receiver_events": 0,
+        "delay_events": 0,
+        "unknown_events": 0,
+        "tracker_mac_sent": 206688,
+        "tracker_mac_received": 206143
+      },
+      "recomputed_pdr": {
+        "pdr_gw_generated_pct": 99.73631754141508,
+        "pdr_server_generated_pct": 99.73631754141508,
+        "pdr_gw_tx_pct": 99.73631754141508,
+        "pdr_server_tx_pct": 99.73631754141508
+      },
+      "recomputed_mean_server_latency_s": 0.11499732088961095,
+      "evidence": "packets.csv plus selected_devices.csv; tag identity=(device_index,message_sequence)",
+      "suppressed_reply_events_from_hashed_metrics_only": 657530
+    },
+    {
+      "directory": "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion\\period_300s\\run_001",
+      "sf": 7,
+      "period_s": 300,
+      "run": 1,
+      "packet_rows": 620064,
+      "passed": true,
+      "recomputed": {
+        "generated": 620064,
+        "tx_unique": 620064,
+        "tx_attempts": 620064,
+        "gw_unique": 615053,
+        "server_unique": 615053,
+        "not_transmitted": 0,
+        "gw_reception_events": 5527465,
+        "server_reception_events": 5527465,
+        "interference_events": 602327,
+        "under_sensitivity_events": 70848,
+        "no_receiver_events": 0,
+        "delay_events": 0,
+        "unknown_events": 0,
+        "tracker_mac_sent": 620064,
+        "tracker_mac_received": 615053
+      },
+      "recomputed_pdr": {
+        "pdr_gw_generated_pct": 99.19185761469784,
+        "pdr_server_generated_pct": 99.19185761469784,
+        "pdr_gw_tx_pct": 99.19185761469784,
+        "pdr_server_tx_pct": 99.19185761469784
+      },
+      "recomputed_mean_server_latency_s": 0.11499736407186371,
+      "evidence": "packets.csv plus selected_devices.csv; tag identity=(device_index,message_sequence)",
+      "suppressed_reply_events_from_hashed_metrics_only": 4298662
+    },
+    {
+      "directory": "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_001",
+      "sf": 9,
+      "period_s": 3600,
+      "run": 1,
+      "packet_rows": 51672,
+      "passed": true,
+      "recomputed": {
+        "generated": 51672,
+        "tx_unique": 51672,
+        "tx_attempts": 51672,
+        "gw_unique": 51563,
+        "server_unique": 51563,
+        "not_transmitted": 0,
+        "gw_reception_events": 500607,
+        "server_reception_events": 500607,
+        "interference_events": 15273,
+        "under_sensitivity_events": 840,
+        "no_receiver_events": 0,
+        "delay_events": 0,
+        "unknown_events": 0,
+        "tracker_mac_sent": 51672,
+        "tracker_mac_received": 51563
+      },
+      "recomputed_pdr": {
+        "pdr_gw_generated_pct": 99.78905403313206,
+        "pdr_server_generated_pct": 99.78905403313206,
+        "pdr_gw_tx_pct": 99.78905403313206,
+        "pdr_server_tx_pct": 99.78905403313206
+      },
+      "recomputed_mean_server_latency_s": 0.3717653172265065,
+      "evidence": "packets.csv plus selected_devices.csv; tag identity=(device_index,message_sequence)",
+      "suppressed_reply_events_from_hashed_metrics_only": 0
+    },
+    {
+      "directory": "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion\\period_900s\\run_001",
+      "sf": 9,
+      "period_s": 900,
+      "run": 1,
+      "packet_rows": 206688,
+      "passed": true,
+      "recomputed": {
+        "generated": 206688,
+        "tx_unique": 206688,
+        "tx_attempts": 206688,
+        "gw_unique": 204781,
+        "server_unique": 204781,
+        "not_transmitted": 0,
+        "gw_reception_events": 1841780,
+        "server_reception_events": 1841780,
+        "interference_events": 221740,
+        "under_sensitivity_events": 3360,
+        "no_receiver_events": 0,
+        "delay_events": 0,
+        "unknown_events": 0,
+        "tracker_mac_sent": 206688,
+        "tracker_mac_received": 204781
+      },
+      "recomputed_pdr": {
+        "pdr_gw_generated_pct": 99.07735330546524,
+        "pdr_server_generated_pct": 99.07735330546524,
+        "pdr_gw_tx_pct": 99.07735330546524,
+        "pdr_server_tx_pct": 99.07735330546524
+      },
+      "recomputed_mean_server_latency_s": 0.37176535486239326,
+      "evidence": "packets.csv plus selected_devices.csv; tag identity=(device_index,message_sequence)",
+      "suppressed_reply_events_from_hashed_metrics_only": 613783
+    },
+    {
+      "directory": "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion\\period_300s\\run_001",
+      "sf": 9,
+      "period_s": 300,
+      "run": 1,
+      "packet_rows": 620064,
+      "passed": true,
+      "recomputed": {
+        "generated": 620064,
+        "tx_unique": 620064,
+        "tx_attempts": 620064,
+        "gw_unique": 597500,
+        "server_unique": 597500,
+        "not_transmitted": 0,
+        "gw_reception_events": 4411297,
+        "server_reception_events": 4411297,
+        "interference_events": 1745279,
+        "under_sensitivity_events": 10080,
+        "no_receiver_events": 33984,
+        "delay_events": 0,
+        "unknown_events": 0,
+        "tracker_mac_sent": 620064,
+        "tracker_mac_received": 597500
+      },
+      "recomputed_pdr": {
+        "pdr_gw_generated_pct": 96.36102079785313,
+        "pdr_server_generated_pct": 96.36102079785313,
+        "pdr_gw_tx_pct": 96.36102079785313,
+        "pdr_server_tx_pct": 96.36102079785313
+      },
+      "recomputed_mean_server_latency_s": 0.3717654597284827,
+      "evidence": "packets.csv plus selected_devices.csv; tag identity=(device_index,message_sequence)",
+      "suppressed_reply_events_from_hashed_metrics_only": 3429027
+    }
+  ],
+  "assertions": [
+    {
+      "check": "frozen_source_inputs_and_exact_three_cell_clamp",
+      "passed": true,
+      "changes": [
+        {
+          "node_id": "133",
+          "gateway_column": "GW_2_RSSI",
+          "original_rssi_dbm": 27.412,
+          "used_rssi_dbm": 27.0
+        },
+        {
+          "node_id": "456",
+          "gateway_column": "GW_5_RSSI",
+          "original_rssi_dbm": 27.411,
+          "used_rssi_dbm": 27.0
+        },
+        {
+          "node_id": "532",
+          "gateway_column": "GW_7_RSSI",
+          "original_rssi_dbm": 27.411,
+          "used_rssi_dbm": 27.0
+        }
+      ]
+    },
+    {
+      "check": "completed_campaign_identity_hashes_configuration_and_counts",
+      "sf": 7,
+      "kind": "exploracion",
+      "runs": 2,
+      "passed": true
+    },
+    {
+      "check": "completed_campaign_identity_hashes_configuration_and_counts",
+      "sf": 7,
+      "kind": "principal",
+      "runs": 30,
+      "passed": true
+    },
+    {
+      "check": "completed_campaign_identity_hashes_configuration_and_counts",
+      "sf": 9,
+      "kind": "exploracion",
+      "runs": 2,
+      "passed": true
+    },
+    {
+      "check": "completed_campaign_identity_hashes_configuration_and_counts",
+      "sf": 9,
+      "kind": "principal",
+      "runs": 30,
+      "passed": true
+    },
+    {
+      "check": "six_packet_recalculations_and_30_paired_replications",
+      "passed": true
+    }
+  ],
+  "summaries": [
+    {
+      "sf": 7,
+      "period_s": 3600,
+      "scope": "principal",
+      "statistics": {
+        "generated": {
+          "n": 30,
+          "mean": 51672.0,
+          "sample_sd": 0.0,
+          "ci95_half_width": 0.0,
+          "ci95": [
+            51672.0,
+            51672.0
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "tx_unique": {
+          "n": 30,
+          "mean": 51672.0,
+          "sample_sd": 0.0,
+          "ci95_half_width": 0.0,
+          "ci95": [
+            51672.0,
+            51672.0
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "tx_attempts": {
+          "n": 30,
+          "mean": 51672.0,
+          "sample_sd": 0.0,
+          "ci95_half_width": 0.0,
+          "ci95": [
+            51672.0,
+            51672.0
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "gw_unique": {
+          "n": 30,
+          "mean": 51636.73333333333,
+          "sample_sd": 9.146068811934649,
+          "ci95_half_width": 3.4151982215882617,
+          "ci95": [
+            51633.31813511174,
+            51640.14853155492
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "server_unique": {
+          "n": 30,
+          "mean": 51636.73333333333,
+          "sample_sd": 9.146068811934649,
+          "ci95_half_width": 3.4151982215882617,
+          "ci95": [
+            51633.31813511174,
+            51640.14853155492
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "not_transmitted": {
+          "n": 30,
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "ci95_half_width": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "gw_reception_events": {
+          "n": 30,
+          "mean": 506173.93333333335,
+          "sample_sd": 402.20863802975083,
+          "ci95_half_width": 150.18717369742623,
+          "ci95": [
+            506023.74615963595,
+            506324.12050703075
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "server_reception_events": {
+          "n": 30,
+          "mean": 506173.93333333335,
+          "sample_sd": 402.20863802975083,
+          "ci95_half_width": 150.18717369742623,
+          "ci95": [
+            506023.74615963595,
+            506324.12050703075
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "interference_events": {
+          "n": 30,
+          "mean": 4642.066666666667,
+          "sample_sd": 402.20863802975083,
+          "ci95_half_width": 150.18717369742623,
+          "ci95": [
+            4491.87949296924,
+            4792.253840364093
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "under_sensitivity_events": {
+          "n": 30,
+          "mean": 5904.0,
+          "sample_sd": 0.0,
+          "ci95_half_width": 0.0,
+          "ci95": [
+            5904.0,
+            5904.0
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "no_receiver_events": {
+          "n": 30,
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "ci95_half_width": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "delay_events": {
+          "n": 30,
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "ci95_half_width": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "unknown_events": {
+          "n": 30,
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "ci95_half_width": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "tracker_mac_sent": {
+          "n": 30,
+          "mean": 51672.0,
+          "sample_sd": 0.0,
+          "ci95_half_width": 0.0,
+          "ci95": [
+            51672.0,
+            51672.0
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "tracker_mac_received": {
+          "n": 30,
+          "mean": 51636.73333333333,
+          "sample_sd": 9.146068811934649,
+          "ci95_half_width": 3.4151982215882617,
+          "ci95": [
+            51633.31813511174,
+            51640.14853155492
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "pdr_gw_generated_pct": {
+          "n": 30,
+          "mean": 99.93174898074,
+          "sample_sd": 0.017700241549242924,
+          "ci95_half_width": 0.0066093788165880055,
+          "ci95": [
+            99.9251396019234,
+            99.93835835955659
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "pdr_server_generated_pct": {
+          "n": 30,
+          "mean": 99.93174898074,
+          "sample_sd": 0.017700241549242924,
+          "ci95_half_width": 0.0066093788165880055,
+          "ci95": [
+            99.9251396019234,
+            99.93835835955659
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "pdr_gw_tx_pct": {
+          "n": 30,
+          "mean": 99.93174896666666,
+          "sample_sd": 0.01770017574135105,
+          "ci95_half_width": 0.006609354243517333,
+          "ci95": [
+            99.92513961242314,
+            99.93835832091018
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "pdr_server_tx_pct": {
+          "n": 30,
+          "mean": 99.93174896666666,
+          "sample_sd": 0.01770017574135105,
+          "ci95_half_width": 0.006609354243517333,
+          "ci95": [
+            99.92513961242314,
+            99.93835832091018
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "suppressed_reply_events": {
+          "n": 30,
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "ci95_half_width": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "mean_server_latency_s": {
+          "n": 30,
+          "mean": 0.11499731107456666,
+          "sample_sd": 9.637802473886684e-09,
+          "ci95_half_width": 3.5988145886116848e-09,
+          "ci95": [
+            0.11499730747575207,
+            0.11499731467338126
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "runtime_seconds": {
+          "n": 30,
+          "mean": 26.07890102353333,
+          "sample_sd": 7.086127991622492,
+          "ci95_half_width": 2.646003677925188,
+          "ci95": [
+            23.432897345608144,
+            28.724904701458517
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        }
+      }
+    },
+    {
+      "sf": 7,
+      "period_s": 900,
+      "scope": "exploratory",
+      "statistics": {
+        "generated": {
+          "n": 1,
+          "mean": 206688.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "tx_unique": {
+          "n": 1,
+          "mean": 206688.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "tx_attempts": {
+          "n": 1,
+          "mean": 206688.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "gw_unique": {
+          "n": 1,
+          "mean": 206143.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "server_unique": {
+          "n": 1,
+          "mean": 206143.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "not_transmitted": {
+          "n": 1,
+          "mean": 0.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "gw_reception_events": {
+          "n": 1,
+          "mean": 1972193.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "server_reception_events": {
+          "n": 1,
+          "mean": 1972193.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "interference_events": {
+          "n": 1,
+          "mean": 71071.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "under_sensitivity_events": {
+          "n": 1,
+          "mean": 23616.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "no_receiver_events": {
+          "n": 1,
+          "mean": 0.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "delay_events": {
+          "n": 1,
+          "mean": 0.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "unknown_events": {
+          "n": 1,
+          "mean": 0.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "tracker_mac_sent": {
+          "n": 1,
+          "mean": 206688.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "tracker_mac_received": {
+          "n": 1,
+          "mean": 206143.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "pdr_gw_generated_pct": {
+          "n": 1,
+          "mean": 99.7363175414,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "pdr_server_generated_pct": {
+          "n": 1,
+          "mean": 99.7363175414,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "pdr_gw_tx_pct": {
+          "n": 1,
+          "mean": 99.736318,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "pdr_server_tx_pct": {
+          "n": 1,
+          "mean": 99.736318,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "suppressed_reply_events": {
+          "n": 1,
+          "mean": 657530.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "mean_server_latency_s": {
+          "n": 1,
+          "mean": 0.114997320696,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "runtime_seconds": {
+          "n": 1,
+          "mean": 204.57543482800003,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        }
+      }
+    },
+    {
+      "sf": 7,
+      "period_s": 300,
+      "scope": "exploratory",
+      "statistics": {
+        "generated": {
+          "n": 1,
+          "mean": 620064.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "tx_unique": {
+          "n": 1,
+          "mean": 620064.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "tx_attempts": {
+          "n": 1,
+          "mean": 620064.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "gw_unique": {
+          "n": 1,
+          "mean": 615053.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "server_unique": {
+          "n": 1,
+          "mean": 615053.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "not_transmitted": {
+          "n": 1,
+          "mean": 0.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "gw_reception_events": {
+          "n": 1,
+          "mean": 5527465.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "server_reception_events": {
+          "n": 1,
+          "mean": 5527465.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "interference_events": {
+          "n": 1,
+          "mean": 602327.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "under_sensitivity_events": {
+          "n": 1,
+          "mean": 70848.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "no_receiver_events": {
+          "n": 1,
+          "mean": 0.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "delay_events": {
+          "n": 1,
+          "mean": 0.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "unknown_events": {
+          "n": 1,
+          "mean": 0.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "tracker_mac_sent": {
+          "n": 1,
+          "mean": 620064.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "tracker_mac_received": {
+          "n": 1,
+          "mean": 615053.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "pdr_gw_generated_pct": {
+          "n": 1,
+          "mean": 99.1918576147,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "pdr_server_generated_pct": {
+          "n": 1,
+          "mean": 99.1918576147,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "pdr_gw_tx_pct": {
+          "n": 1,
+          "mean": 99.191858,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "pdr_server_tx_pct": {
+          "n": 1,
+          "mean": 99.191858,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "suppressed_reply_events": {
+          "n": 1,
+          "mean": 4298662.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "mean_server_latency_s": {
+          "n": 1,
+          "mean": 0.114997364258,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "runtime_seconds": {
+          "n": 1,
+          "mean": 483.106377682,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        }
+      }
+    },
+    {
+      "sf": 9,
+      "period_s": 3600,
+      "scope": "principal",
+      "statistics": {
+        "generated": {
+          "n": 30,
+          "mean": 51672.0,
+          "sample_sd": 0.0,
+          "ci95_half_width": 0.0,
+          "ci95": [
+            51672.0,
+            51672.0
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "tx_unique": {
+          "n": 30,
+          "mean": 51672.0,
+          "sample_sd": 0.0,
+          "ci95_half_width": 0.0,
+          "ci95": [
+            51672.0,
+            51672.0
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "tx_attempts": {
+          "n": 30,
+          "mean": 51672.0,
+          "sample_sd": 0.0,
+          "ci95_half_width": 0.0,
+          "ci95": [
+            51672.0,
+            51672.0
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "gw_unique": {
+          "n": 30,
+          "mean": 51553.666666666664,
+          "sample_sd": 24.923791892463928,
+          "ci95_half_width": 9.306696843927806,
+          "ci95": [
+            51544.35996982273,
+            51562.973363510595
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "server_unique": {
+          "n": 30,
+          "mean": 51553.666666666664,
+          "sample_sd": 24.923791892463928,
+          "ci95_half_width": 9.306696843927806,
+          "ci95": [
+            51544.35996982273,
+            51562.973363510595
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "not_transmitted": {
+          "n": 30,
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "ci95_half_width": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "gw_reception_events": {
+          "n": 30,
+          "mean": 500865.8333333333,
+          "sample_sd": 911.4447070574213,
+          "ci95_half_width": 340.3390469309298,
+          "ci95": [
+            500525.49428640236,
+            501206.17238026427
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "server_reception_events": {
+          "n": 30,
+          "mean": 500865.8333333333,
+          "sample_sd": 911.4447070574213,
+          "ci95_half_width": 340.3390469309298,
+          "ci95": [
+            500525.49428640236,
+            501206.17238026427
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "interference_events": {
+          "n": 30,
+          "mean": 15014.166666666666,
+          "sample_sd": 911.4447070574213,
+          "ci95_half_width": 340.3390469309298,
+          "ci95": [
+            14673.827619735735,
+            15354.505713597597
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "under_sensitivity_events": {
+          "n": 30,
+          "mean": 840.0,
+          "sample_sd": 0.0,
+          "ci95_half_width": 0.0,
+          "ci95": [
+            840.0,
+            840.0
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "no_receiver_events": {
+          "n": 30,
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "ci95_half_width": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "delay_events": {
+          "n": 30,
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "ci95_half_width": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "unknown_events": {
+          "n": 30,
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "ci95_half_width": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "tracker_mac_sent": {
+          "n": 30,
+          "mean": 51672.0,
+          "sample_sd": 0.0,
+          "ci95_half_width": 0.0,
+          "ci95": [
+            51672.0,
+            51672.0
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "tracker_mac_received": {
+          "n": 30,
+          "mean": 51553.666666666664,
+          "sample_sd": 24.923791892463928,
+          "ci95_half_width": 9.306696843927806,
+          "ci95": [
+            51544.35996982273,
+            51562.973363510595
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "pdr_gw_generated_pct": {
+          "n": 30,
+          "mean": 99.77099138150334,
+          "sample_sd": 0.04823461815307725,
+          "ci95_half_width": 0.018011102422542693,
+          "ci95": [
+            99.75298027908079,
+            99.78900248392588
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "pdr_server_generated_pct": {
+          "n": 30,
+          "mean": 99.77099138150334,
+          "sample_sd": 0.04823461815307725,
+          "ci95_half_width": 0.018011102422542693,
+          "ci95": [
+            99.75298027908079,
+            99.78900248392588
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "pdr_gw_tx_pct": {
+          "n": 30,
+          "mean": 99.7709914,
+          "sample_sd": 0.048234557332641106,
+          "ci95_half_width": 0.018011079711818596,
+          "ci95": [
+            99.75298032028819,
+            99.78900247971181
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "pdr_server_tx_pct": {
+          "n": 30,
+          "mean": 99.7709914,
+          "sample_sd": 0.048234557332641106,
+          "ci95_half_width": 0.018011079711818596,
+          "ci95": [
+            99.75298032028819,
+            99.78900247971181
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "suppressed_reply_events": {
+          "n": 30,
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "ci95_half_width": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "mean_server_latency_s": {
+          "n": 30,
+          "mean": 0.3717653219143333,
+          "sample_sd": 9.252608823460562e-09,
+          "ci95_half_width": 3.4549809157023165e-09,
+          "ci95": [
+            0.3717653184593524,
+            0.3717653253693142
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        },
+        "runtime_seconds": {
+          "n": 30,
+          "mean": 25.79651600253333,
+          "sample_sd": 5.702273710907185,
+          "ci95_half_width": 2.129263997127126,
+          "ci95": [
+            23.667252005406205,
+            27.925779999660456
+          ],
+          "method": "two-sided Student t, df29, t=2.045229642132703"
+        }
+      }
+    },
+    {
+      "sf": 9,
+      "period_s": 900,
+      "scope": "exploratory",
+      "statistics": {
+        "generated": {
+          "n": 1,
+          "mean": 206688.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "tx_unique": {
+          "n": 1,
+          "mean": 206688.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "tx_attempts": {
+          "n": 1,
+          "mean": 206688.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "gw_unique": {
+          "n": 1,
+          "mean": 204781.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "server_unique": {
+          "n": 1,
+          "mean": 204781.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "not_transmitted": {
+          "n": 1,
+          "mean": 0.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "gw_reception_events": {
+          "n": 1,
+          "mean": 1841780.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "server_reception_events": {
+          "n": 1,
+          "mean": 1841780.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "interference_events": {
+          "n": 1,
+          "mean": 221740.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "under_sensitivity_events": {
+          "n": 1,
+          "mean": 3360.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "no_receiver_events": {
+          "n": 1,
+          "mean": 0.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "delay_events": {
+          "n": 1,
+          "mean": 0.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "unknown_events": {
+          "n": 1,
+          "mean": 0.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "tracker_mac_sent": {
+          "n": 1,
+          "mean": 206688.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "tracker_mac_received": {
+          "n": 1,
+          "mean": 204781.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "pdr_gw_generated_pct": {
+          "n": 1,
+          "mean": 99.0773533055,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "pdr_server_generated_pct": {
+          "n": 1,
+          "mean": 99.0773533055,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "pdr_gw_tx_pct": {
+          "n": 1,
+          "mean": 99.077353,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "pdr_server_tx_pct": {
+          "n": 1,
+          "mean": 99.077353,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "suppressed_reply_events": {
+          "n": 1,
+          "mean": 613783.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "mean_server_latency_s": {
+          "n": 1,
+          "mean": 0.371765354614,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "runtime_seconds": {
+          "n": 1,
+          "mean": 204.67747988399998,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        }
+      }
+    },
+    {
+      "sf": 9,
+      "period_s": 300,
+      "scope": "exploratory",
+      "statistics": {
+        "generated": {
+          "n": 1,
+          "mean": 620064.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "tx_unique": {
+          "n": 1,
+          "mean": 620064.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "tx_attempts": {
+          "n": 1,
+          "mean": 620064.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "gw_unique": {
+          "n": 1,
+          "mean": 597500.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "server_unique": {
+          "n": 1,
+          "mean": 597500.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "not_transmitted": {
+          "n": 1,
+          "mean": 0.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "gw_reception_events": {
+          "n": 1,
+          "mean": 4411297.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "server_reception_events": {
+          "n": 1,
+          "mean": 4411297.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "interference_events": {
+          "n": 1,
+          "mean": 1745279.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "under_sensitivity_events": {
+          "n": 1,
+          "mean": 10080.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "no_receiver_events": {
+          "n": 1,
+          "mean": 33984.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "delay_events": {
+          "n": 1,
+          "mean": 0.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "unknown_events": {
+          "n": 1,
+          "mean": 0.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "tracker_mac_sent": {
+          "n": 1,
+          "mean": 620064.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "tracker_mac_received": {
+          "n": 1,
+          "mean": 597500.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "pdr_gw_generated_pct": {
+          "n": 1,
+          "mean": 96.3610207979,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "pdr_server_generated_pct": {
+          "n": 1,
+          "mean": 96.3610207979,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "pdr_gw_tx_pct": {
+          "n": 1,
+          "mean": 96.361021,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "pdr_server_tx_pct": {
+          "n": 1,
+          "mean": 96.361021,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "suppressed_reply_events": {
+          "n": 1,
+          "mean": 3429027.0,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "mean_server_latency_s": {
+          "n": 1,
+          "mean": 0.371765459962,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        },
+        "runtime_seconds": {
+          "n": 1,
+          "mean": 438.55207787300003,
+          "sample_sd": null,
+          "ci95": null,
+          "method": "single exploratory replication; no interval"
+        }
+      }
+    }
+  ],
+  "paired_sf7_minus_sf9": {
+    "period_s": 3600,
+    "direction": "SF7 minus SF9",
+    "unit_for_pdr": "percentage points",
+    "statistics": {
+      "pdr_gw_generated_pct": {
+        "n": 30,
+        "mean": 0.16075759923666577,
+        "sample_sd": 0.04386100894421785,
+        "ci95_half_width": 0.016377969904172854,
+        "ci95": [
+          0.14437962933249293,
+          0.1771355691408386
+        ],
+        "method": "two-sided Student t, df29, t=2.045229642132703"
+      },
+      "pdr_server_generated_pct": {
+        "n": 30,
+        "mean": 0.16075759923666577,
+        "sample_sd": 0.04386100894421785,
+        "ci95_half_width": 0.016377969904172854,
+        "ci95": [
+          0.14437962933249293,
+          0.1771355691408386
+        ],
+        "method": "two-sided Student t, df29, t=2.045229642132703"
+      },
+      "pdr_gw_tx_pct": {
+        "n": 30,
+        "mean": 0.16075756666666857,
+        "sample_sd": 0.04386096475791955,
+        "ci95_half_width": 0.016377953404737907,
+        "ci95": [
+          0.14437961326193066,
+          0.17713552007140648
+        ],
+        "method": "two-sided Student t, df29, t=2.045229642132703"
+      },
+      "pdr_server_tx_pct": {
+        "n": 30,
+        "mean": 0.16075756666666857,
+        "sample_sd": 0.04386096475791955,
+        "ci95_half_width": 0.016377953404737907,
+        "ci95": [
+          0.14437961326193066,
+          0.17713552007140648
+        ],
+        "method": "two-sided Student t, df29, t=2.045229642132703"
+      }
+    },
+    "per_run": [
+      {
+        "run": 1,
+        "pdr_gw_generated_pct": 0.15869329619999917,
+        "pdr_server_generated_pct": 0.15869329619999917,
+        "pdr_gw_tx_pct": 0.15869300000001374,
+        "pdr_server_tx_pct": 0.15869300000001374
+      },
+      {
+        "run": 2,
+        "pdr_gw_generated_pct": 0.06773494349999964,
+        "pdr_server_generated_pct": 0.06773494349999964,
+        "pdr_gw_tx_pct": 0.06773499999999899,
+        "pdr_server_tx_pct": 0.06773499999999899
+      },
+      {
+        "run": 3,
+        "pdr_gw_generated_pct": 0.15869329619999917,
+        "pdr_server_generated_pct": 0.15869329619999917,
+        "pdr_gw_tx_pct": 0.15869400000001121,
+        "pdr_server_tx_pct": 0.15869400000001121
+      },
+      {
+        "run": 4,
+        "pdr_gw_generated_pct": 0.16836971669999912,
+        "pdr_server_generated_pct": 0.16836971669999912,
+        "pdr_gw_tx_pct": 0.16836899999999844,
+        "pdr_server_tx_pct": 0.16836899999999844
+      },
+      {
+        "run": 5,
+        "pdr_gw_generated_pct": 0.2283635237999988,
+        "pdr_server_generated_pct": 0.2283635237999988,
+        "pdr_gw_tx_pct": 0.22836399999999912,
+        "pdr_server_tx_pct": 0.22836399999999912
+      },
+      {
+        "run": 6,
+        "pdr_gw_generated_pct": 0.20320483049999893,
+        "pdr_server_generated_pct": 0.20320483049999893,
+        "pdr_gw_tx_pct": 0.2032039999999995,
+        "pdr_server_tx_pct": 0.2032039999999995
+      },
+      {
+        "run": 7,
+        "pdr_gw_generated_pct": 0.19352840999999898,
+        "pdr_server_generated_pct": 0.19352840999999898,
+        "pdr_gw_tx_pct": 0.1935280000000006,
+        "pdr_server_tx_pct": 0.1935280000000006
+      },
+      {
+        "run": 8,
+        "pdr_gw_generated_pct": 0.0948289208999995,
+        "pdr_server_generated_pct": 0.0948289208999995,
+        "pdr_gw_tx_pct": 0.09482900000000427,
+        "pdr_server_tx_pct": 0.09482900000000427
+      },
+      {
+        "run": 9,
+        "pdr_gw_generated_pct": 0.16836971669999912,
+        "pdr_server_generated_pct": 0.16836971669999912,
+        "pdr_gw_tx_pct": 0.16836900000001265,
+        "pdr_server_tx_pct": 0.16836900000001265
+      },
+      {
+        "run": 10,
+        "pdr_gw_generated_pct": 0.20320483049999893,
+        "pdr_server_generated_pct": 0.20320483049999893,
+        "pdr_gw_tx_pct": 0.20320500000001118,
+        "pdr_server_tx_pct": 0.20320500000001118
+      },
+      {
+        "run": 11,
+        "pdr_gw_generated_pct": 0.14708159159999923,
+        "pdr_server_generated_pct": 0.14708159159999923,
+        "pdr_gw_tx_pct": 0.1470819999999975,
+        "pdr_server_tx_pct": 0.1470819999999975
+      },
+      {
+        "run": 12,
+        "pdr_gw_generated_pct": 0.17611085309999908,
+        "pdr_server_generated_pct": 0.17611085309999908,
+        "pdr_gw_tx_pct": 0.1761110000000059,
+        "pdr_server_tx_pct": 0.1761110000000059
+      },
+      {
+        "run": 13,
+        "pdr_gw_generated_pct": 0.27868091029999675,
+        "pdr_server_generated_pct": 0.27868091029999675,
+        "pdr_gw_tx_pct": 0.27868100000000595,
+        "pdr_server_tx_pct": 0.27868100000000595
+      },
+      {
+        "run": 14,
+        "pdr_gw_generated_pct": 0.12966403469999932,
+        "pdr_server_generated_pct": 0.12966403469999932,
+        "pdr_gw_tx_pct": 0.12966400000000533,
+        "pdr_server_tx_pct": 0.12966400000000533
+      },
+      {
+        "run": 15,
+        "pdr_gw_generated_pct": 0.189657841799999,
+        "pdr_server_generated_pct": 0.189657841799999,
+        "pdr_gw_tx_pct": 0.18965800000000854,
+        "pdr_server_tx_pct": 0.18965800000000854
+      },
+      {
+        "run": 16,
+        "pdr_gw_generated_pct": 0.1335346028999993,
+        "pdr_server_generated_pct": 0.1335346028999993,
+        "pdr_gw_tx_pct": 0.13353500000000906,
+        "pdr_server_tx_pct": 0.13353500000000906
+      },
+      {
+        "run": 17,
+        "pdr_gw_generated_pct": 0.16062858029999916,
+        "pdr_server_generated_pct": 0.16062858029999916,
+        "pdr_gw_tx_pct": 0.16062800000000266,
+        "pdr_server_tx_pct": 0.16062800000000266
+      },
+      {
+        "run": 18,
+        "pdr_gw_generated_pct": 0.12966403469999932,
+        "pdr_server_generated_pct": 0.12966403469999932,
+        "pdr_gw_tx_pct": 0.12966399999999112,
+        "pdr_server_tx_pct": 0.12966399999999112
+      },
+      {
+        "run": 19,
+        "pdr_gw_generated_pct": 0.14321102339999925,
+        "pdr_server_generated_pct": 0.14321102339999925,
+        "pdr_gw_tx_pct": 0.14321100000000797,
+        "pdr_server_tx_pct": 0.14321100000000797
+      },
+      {
+        "run": 20,
+        "pdr_gw_generated_pct": 0.21481653509999887,
+        "pdr_server_generated_pct": 0.21481653509999887,
+        "pdr_gw_tx_pct": 0.214815999999999,
+        "pdr_server_tx_pct": 0.214815999999999
+      },
+      {
+        "run": 21,
+        "pdr_gw_generated_pct": 0.18578727359999903,
+        "pdr_server_generated_pct": 0.18578727359999903,
+        "pdr_gw_tx_pct": 0.18578800000000228,
+        "pdr_server_tx_pct": 0.18578800000000228
+      },
+      {
+        "run": 22,
+        "pdr_gw_generated_pct": 0.11224647779999941,
+        "pdr_server_generated_pct": 0.11224647779999941,
+        "pdr_gw_tx_pct": 0.11224699999999643,
+        "pdr_server_tx_pct": 0.11224699999999643
+      },
+      {
+        "run": 23,
+        "pdr_gw_generated_pct": 0.09095835269999952,
+        "pdr_server_generated_pct": 0.09095835269999952,
+        "pdr_gw_tx_pct": 0.09095800000000054,
+        "pdr_server_tx_pct": 0.09095800000000054
+      },
+      {
+        "run": 24,
+        "pdr_gw_generated_pct": 0.14321102339999925,
+        "pdr_server_generated_pct": 0.14321102339999925,
+        "pdr_gw_tx_pct": 0.14321099999999376,
+        "pdr_server_tx_pct": 0.14321099999999376
+      },
+      {
+        "run": 25,
+        "pdr_gw_generated_pct": 0.14901687569999922,
+        "pdr_server_generated_pct": 0.14901687569999922,
+        "pdr_gw_tx_pct": 0.14901700000000062,
+        "pdr_server_tx_pct": 0.14901700000000062
+      },
+      {
+        "run": 26,
+        "pdr_gw_generated_pct": 0.1722402848999991,
+        "pdr_server_generated_pct": 0.1722402848999991,
+        "pdr_gw_tx_pct": 0.17223999999998796,
+        "pdr_server_tx_pct": 0.17223999999998796
+      },
+      {
+        "run": 27,
+        "pdr_gw_generated_pct": 0.18772255769999902,
+        "pdr_server_generated_pct": 0.18772255769999902,
+        "pdr_gw_tx_pct": 0.1877229999999912,
+        "pdr_server_tx_pct": 0.1877229999999912
+      },
+      {
+        "run": 28,
+        "pdr_gw_generated_pct": 0.1741755689999991,
+        "pdr_server_generated_pct": 0.1741755689999991,
+        "pdr_gw_tx_pct": 0.1741750000000053,
+        "pdr_server_tx_pct": 0.1741750000000053
+      },
+      {
+        "run": 29,
+        "pdr_gw_generated_pct": 0.10644062549999944,
+        "pdr_server_generated_pct": 0.10644062549999944,
+        "pdr_gw_tx_pct": 0.10644100000000378,
+        "pdr_server_tx_pct": 0.10644100000000378
+      },
+      {
+        "run": 30,
+        "pdr_gw_generated_pct": 0.1528874438999992,
+        "pdr_server_generated_pct": 0.1528874438999992,
+        "pdr_gw_tx_pct": 0.15288699999999267,
+        "pdr_server_tx_pct": 0.15288699999999267
+      }
+    ]
+  },
+  "verified_artifact_files": {
+    "validacion_lorawan_v02.cc": {
+      "sha256": "6d4a9eebe205ef8a6ac7321e54eba968b2518d0307faf7404f2de6911937ad07",
+      "bytes": 40351
+    },
+    "gateways.csv": {
+      "sha256": "959c5627a4eda752340abb708f94bdab09644348e8e93fc65070cf951dda3285",
+      "bytes": 290
+    },
+    "referencia_original\\Matrix_PathLoss_3D.csv": {
+      "sha256": "e408dfc1b217b363ab3337cc06a8fd206d84226f757423ccf025463ac6bf4caf",
+      "bytes": 237556
+    },
+    "inputs\\Matrix_PathLoss_3D_validada.csv": {
+      "sha256": "9d570ef3ddff2632f744938208c9a5ba4def6ef9d52032c3a37989b93e72c3e3",
+      "bytes": 235402
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion\\period_300s\\run_001\\metrics.json": {
+      "sha256": "8aa84d750bfdd42c5fdfbbb1e021dd715dea1a90ee198459297620cc2cf31b73",
+      "bytes": 650
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion\\period_300s\\run_001\\configuration.json": {
+      "sha256": "2ea76d8a223cc5194a2ae155c3e82c49f2d8fddab51245966b854d67cfa1931a",
+      "bytes": 1610
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion\\period_300s\\run_001\\packets.csv": {
+      "sha256": "acd0a06c2ab21d29605fe96d0c06f65c4419829152a2473967de0e610f89c66e",
+      "bytes": 44426186
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion\\period_300s\\run_001\\events.csv": {
+      "sha256": "2176430e3d05f92cd89c080607b98291d6d8d93b76a5e723187e3bba94c1fed5",
+      "bytes": 777068166
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion\\period_900s\\run_001\\metrics.json": {
+      "sha256": "3498ebb679c67d882c42654de979e6f30bd48bd7abe0f3fa2c3dd142bd65da1c",
+      "bytes": 648
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion\\period_900s\\run_001\\configuration.json": {
+      "sha256": "b78536f23904607ffcece103595e3f27f62bacd897b02a740da0c31f8f9c7db9",
+      "bytes": 1610
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion\\period_900s\\run_001\\packets.csv": {
+      "sha256": "420e1c7173c52e2067e9fc8712a2c27883f0da0ddf93a3ea3ec36e922d0ce374",
+      "bytes": 14714276
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion\\period_900s\\run_001\\events.csv": {
+      "sha256": "0bd99bb430951c2084e8cb8897304dcd014f2c18a41252ea6939fd536cf358ea",
+      "bytes": 262273038
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_001\\metrics.json": {
+      "sha256": "768b3d5c4fb96d8e4f1703d4723315c58536ddd8f56177b8bdcaf4deb4739361",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_001\\configuration.json": {
+      "sha256": "723dbc5a5f593ed10183813710f5124b53a1300b72f116b341a92e0995bd13d1",
+      "bytes": 1611
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_001\\packets.csv": {
+      "sha256": "91e8eae8680bb8ceafd70edd2e65d432c11f997d1c5e3fcef40943c5ce411a04",
+      "bytes": 3668204
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_001\\events.csv": {
+      "sha256": "41374296f785578ad2a7bfd7e4d134655b4839b67dc452c8210cb6c1aec92ee6",
+      "bytes": 64969299
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_002\\metrics.json": {
+      "sha256": "58fdf8836ccf5903c6d46b6265d5660af18dadb1c42af5ea579b37929bf25600",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_002\\configuration.json": {
+      "sha256": "10655ee3da267f074d9c2308ff73e3cc3ba0ff1477ae08aa1be7848046cf75e4",
+      "bytes": 1611
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_002\\packets.csv": {
+      "sha256": "fec34a6d405dd63971dd186a49edaa103c2ff528bd2c9afeed83886016bba219",
+      "bytes": 3667912
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_003\\metrics.json": {
+      "sha256": "1d7ea51506b58d39ae60a24fcf12ab3d3a1b5cddaee865ba507d3662e43d7170",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_003\\configuration.json": {
+      "sha256": "c3489b0bf80b77f16b26fdf21f542ff0f77509c6fe7f88f152a695e5dda8bb2c",
+      "bytes": 1611
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_003\\packets.csv": {
+      "sha256": "c8e5b5f530d263577d11bfabc57921878e8179817b4c9e3b04845ae59b900ce1",
+      "bytes": 3668827
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_004\\metrics.json": {
+      "sha256": "f64502e9e9cc7304454ce25eaee0a29f5adfce00a6e1d5ec264cefe8e09d97f9",
+      "bytes": 631
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_004\\configuration.json": {
+      "sha256": "2686b0506932538fd8a6957f4d2b5521dc4d8e5494d07e5dca4189b56946d7e7",
+      "bytes": 1611
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_004\\packets.csv": {
+      "sha256": "23267281b0c991ca20042c031992eb460bc86b13591d6522da381a64a598527c",
+      "bytes": 3666796
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_005\\metrics.json": {
+      "sha256": "4c1ccb1a0c400468795b0e68aa3156fd6dfdf55c0201be5561cbd065377387c7",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_005\\configuration.json": {
+      "sha256": "f7ea53658c5c426a5e5d89e0656548a4add4c84a8c423453b1d985ddf852d558",
+      "bytes": 1611
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_005\\packets.csv": {
+      "sha256": "4a7f97e580104ead1fe099e0946ff654b07d9cf7ecf9d976f84a4d12b3e3345c",
+      "bytes": 3667383
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_006\\metrics.json": {
+      "sha256": "786cad3e4be690c7d686ca889c55d0cfa262079bc8340ce455cd0189cc29ace1",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_006\\configuration.json": {
+      "sha256": "7491b3585b92deea344f11769a3584e9f1c056fce47996f0751c8301e3e5959d",
+      "bytes": 1611
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_006\\packets.csv": {
+      "sha256": "3c6e89f1f5ab1a31b93908e9a4a1bce7b3d0c130a7cc1eb35ec695b86016c9e5",
+      "bytes": 3669746
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_007\\metrics.json": {
+      "sha256": "2779195adb78c13a16d5fc937e33012c7b2fba709a6639246d9f915637ffe2e9",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_007\\configuration.json": {
+      "sha256": "ea7a733d145920a6265be9caac200bc62c32f730043342344d26b55d5f40a407",
+      "bytes": 1611
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_007\\packets.csv": {
+      "sha256": "4e84667cae892e9cee59e2fd291283461a588627b35c7df2d153b234b6954df8",
+      "bytes": 3668343
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_008\\metrics.json": {
+      "sha256": "7694625fcbef2d4df4324c3730e0910871e84f7d00e35543177096dd171bb3c2",
+      "bytes": 631
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_008\\configuration.json": {
+      "sha256": "42413489357ffdfd30b8ce6a187998ddd89e3c093b5463bf900139495bff25ef",
+      "bytes": 1611
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_008\\packets.csv": {
+      "sha256": "f95d2cc3816360a87b03eb155acd1685745107618b27544858d2be69e04f5fbe",
+      "bytes": 3668392
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_009\\metrics.json": {
+      "sha256": "3af7f12cb5d69b16d6925d5c4994ff33f4ecb90ab4013f7b1362cffd1fe58e58",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_009\\configuration.json": {
+      "sha256": "821ffea6e580a139491eb016b9dd3a1ff6e5bc98fe7edb7ab9d51594e367ef85",
+      "bytes": 1611
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_009\\packets.csv": {
+      "sha256": "4afc254526fb6b88eccc2419b1aab19a8f6027a677d94200dd2baa79b57db6d6",
+      "bytes": 3667619
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_010\\metrics.json": {
+      "sha256": "8653188513a5b1b9a1b8297e6eaf02c01f630af4142759d4378dcd6b6eafe6d6",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_010\\configuration.json": {
+      "sha256": "e843dced08c33176dcea776e6bef1e3de84f69ce30978de911792fc57c1b8240",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_010\\packets.csv": {
+      "sha256": "15f190c428f51d58652186ee8f91535c00c75367ee75cc80222c682a83a7c33b",
+      "bytes": 3667518
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_011\\metrics.json": {
+      "sha256": "b44acd5e52e24413db449aef803a5805656f9ad3b6dfc4b0fbb9047c1286d5e5",
+      "bytes": 630
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_011\\configuration.json": {
+      "sha256": "1d3f9843f05109d832bc1a8862e6da5b8d753829d70b28b16544eb09e9fe77e5",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_011\\packets.csv": {
+      "sha256": "03f78eee1e6697eec4c6f1b44181497db4df3abe7e197fe0c0d621e8dcc0b945",
+      "bytes": 3668456
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_012\\metrics.json": {
+      "sha256": "089f1860b77fd7fcfee8e0fec7119b2f31f2d2a4bc3785abc28aca8c39e0b313",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_012\\configuration.json": {
+      "sha256": "c6663e33aa780f54bd51634980d711263ee7cac3e569c3d3c234fb3558d2b040",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_012\\packets.csv": {
+      "sha256": "e08a9cf3d0f46dc334d74f5e77eb77d6c73b0fe2ee3e6f938e2782c7775e698d",
+      "bytes": 3668217
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_013\\metrics.json": {
+      "sha256": "6c0468ca76b8f205c42ac7ff64d5a1fa181851bf71fe6d3052edeb42d87049d9",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_013\\configuration.json": {
+      "sha256": "55c1f7956d0ef3e5d65846d684dbb1803f4c706cd73b084ff575c41716b102f7",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_013\\packets.csv": {
+      "sha256": "78b8bb511bdf80628ba0d228ffc487acc6ef057bc2c5ea191663360cda620ab5",
+      "bytes": 3668554
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_014\\metrics.json": {
+      "sha256": "a1a516dfe68beec4a5e0e5e6cb47cdd177b9af16850565ca6212df94cc4713a1",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_014\\configuration.json": {
+      "sha256": "cf3442127c247f903f7b06dbb8b777e07510ea5c61c56f8e81426b104f6032af",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_014\\packets.csv": {
+      "sha256": "e18ddebfe2b35c1ac30d5dab979887858deefe21d1b3492646cd787ec21da678",
+      "bytes": 3667063
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_015\\metrics.json": {
+      "sha256": "edb50db54240cd3c2253552b501cd05b6bcd83b560c3a9673909a034dcd04f9e",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_015\\configuration.json": {
+      "sha256": "86cf48e42845222e2b91a3730898117e5cc6cf6f471338941db1a370fcd01e76",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_015\\packets.csv": {
+      "sha256": "7b729aeb67c5299387a1717f5d8892bc4148e53b4f21ba6b6694bfc958f865e2",
+      "bytes": 3667237
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_016\\metrics.json": {
+      "sha256": "0d7f87f17ddbdb993280f3f19767bbfa5f0aa56586f942f7afa784f770a36589",
+      "bytes": 631
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_016\\configuration.json": {
+      "sha256": "3b9ede384bfbc1174432eaf16523b312be0cf6dc014178cc8079c9ab23b65474",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_016\\packets.csv": {
+      "sha256": "325826ec8d8e62764a792382248afe25fbcaca6be4e28a0b3a1c9dc43f3e6a1d",
+      "bytes": 3668235
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_017\\metrics.json": {
+      "sha256": "ee37de8b1a6202f5ea3a3ae91ef4c71a3e849f9247435c3e2f3a55d0ae64cc3d",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_017\\configuration.json": {
+      "sha256": "e801c9ba847295cd2be7e0bf3acb464988682fd9525c3f4726f08a6aba5b913e",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_017\\packets.csv": {
+      "sha256": "6a0b4fae135fce76b0b7c7ba7c23f88c274ef928bb672eb99ff88f32c2318119",
+      "bytes": 3668316
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_018\\metrics.json": {
+      "sha256": "1ade6c1f3c2f857f6131c8aed9e5e9c0efdc9f487ffe5ee3bf71724f1444adcb",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_018\\configuration.json": {
+      "sha256": "2179e606001df4fe074b5eb1e786654a7b1ba3ff6ec6fec5c8f9e81fc77ad003",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_018\\packets.csv": {
+      "sha256": "2e00cface1daf55c01df288b0528317909bfb0cae324b9cd8f5b3127b55c545b",
+      "bytes": 3668732
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_019\\metrics.json": {
+      "sha256": "cf84159aba2bce514d390c5e5391132472beb188b9463b38780c861d09eac3d4",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_019\\configuration.json": {
+      "sha256": "e4288aca1fee2a5079caf42eaf321c9194e1bf46811da20fbcea618891d76dca",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_019\\packets.csv": {
+      "sha256": "50fdeca89bab52a9140771a0c38e293ab786bf0632bf50c57a0f93a4afa6a631",
+      "bytes": 3668223
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_020\\metrics.json": {
+      "sha256": "85fd156be9ac0b714e6eb951e7478bbf4e38a7f938a44791a4666710e1e59622",
+      "bytes": 630
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_020\\configuration.json": {
+      "sha256": "52eac83284432feb0716ed70de615682108e8bdd21ad9061902471a2bd63f585",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_020\\packets.csv": {
+      "sha256": "7b6c9ce058fd75155dd3d8fcb0cd319a39f469a669f92c0308d718ce4e3b913c",
+      "bytes": 3669111
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_021\\metrics.json": {
+      "sha256": "ccb05a692651393f91f40aadaf0f15c6ae00507fa332bda0b39e753e690b3ec2",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_021\\configuration.json": {
+      "sha256": "11fa02578f6a573761ca54284ac2854947582e381fc3e653ffda8e699ab191cd",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_021\\packets.csv": {
+      "sha256": "d701e7e83f49d8f3e2aff7824415c20d14923c66990889234f1612e3a003d561",
+      "bytes": 3669290
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_022\\metrics.json": {
+      "sha256": "cb42ace8adea10df040741fd9bb1e6ae2106a7b266e1cf1f6fc098dda00c9844",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_022\\configuration.json": {
+      "sha256": "66449363e4869c6d6b8ced000a70a5b5879c0beae5ea9f95f4988f3a562d6dea",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_022\\packets.csv": {
+      "sha256": "d5ab707008593db72856ce366b6eb9d2d8eb65705ce032a388df912f06e390ff",
+      "bytes": 3667426
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_023\\metrics.json": {
+      "sha256": "d093600645cd4e5da43faea3baab8acb3ec116ee18a1e69b8d3b400603330c3d",
+      "bytes": 630
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_023\\configuration.json": {
+      "sha256": "22a09bef9f2dffe29d06e7dca7b117fc61a9643f0cebff3ccc75c27ba7edb2c8",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_023\\packets.csv": {
+      "sha256": "935fc8b9e82e371bed50278a8229005d104fd8c15871e75a072ace090cc35186",
+      "bytes": 3666458
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_024\\metrics.json": {
+      "sha256": "af83d3893801b9efbc3ffc1ea5987d5ab498f44c92e0f796a6a49f1f2fc00ec6",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_024\\configuration.json": {
+      "sha256": "f7abb835cd0117e1ebc0c29252a2115e49d720787ef312734ce0809a0f5027f1",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_024\\packets.csv": {
+      "sha256": "54d5b2537d384d6aea03e501a156731a0f65fcf967e365e07b077abed424d50d",
+      "bytes": 3668055
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_025\\metrics.json": {
+      "sha256": "bdebe3ee50ed5c3074b0ba81ae22c0001f66fdfc55791e4b9e1830991f2f755c",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_025\\configuration.json": {
+      "sha256": "36ac1180549661bd3565057425bfc90e6b16079473315e09fec2b489eb50409e",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_025\\packets.csv": {
+      "sha256": "e9cfbc97b4a912e8d492b9101e57a824d947163fba1bfeb5f720f48ba8ec8f72",
+      "bytes": 3666949
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_026\\metrics.json": {
+      "sha256": "f4112be83f25e1cb15a4a8ef43e800c8ec5ece6e59d20ddedf36b7e3a00116e9",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_026\\configuration.json": {
+      "sha256": "46d7c4ceb3f57475ac3106239fa4882eb0067d93e629d10c92dd8e7b92c14c60",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_026\\packets.csv": {
+      "sha256": "0560a12ae028ac84fa80fec1f0e4c01eec2a1adfd6dab06926fcbddd9fc674d7",
+      "bytes": 3668102
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_027\\metrics.json": {
+      "sha256": "a77105ed941f91ada675a9e76a3194d940d1a594259a11b41f0d5249465fd60e",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_027\\configuration.json": {
+      "sha256": "597ebb28721a514183a23f5c79f2f9fe3994a8a86708b6c51d8a6dcd663169fd",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_027\\packets.csv": {
+      "sha256": "b9c316fbae04e6208cd64de56447b2b8417facff1167a2565b5ffd0cfeae4367",
+      "bytes": 3667859
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_028\\metrics.json": {
+      "sha256": "e6e8a84d59d56d743743025c53b0f5e0715df5899b27d8cdb397635f0769c610",
+      "bytes": 630
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_028\\configuration.json": {
+      "sha256": "b54046241e4feafd84e9df95878483c29ddb9a8c35172a4c1aa1023a6b5d0e87",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_028\\packets.csv": {
+      "sha256": "8631698a9350a02f852334509cd19d0f1140c779e21388963b9f6bbffa9b072e",
+      "bytes": 3667690
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_029\\metrics.json": {
+      "sha256": "71b54311ff601829c3be8eef0906552e00390c4a28f7680da239d545300d383e",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_029\\configuration.json": {
+      "sha256": "8e4ef12f8cb00917552923881a9d2c44aab18643e3d2c68ab2c774b6d9ab7aab",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_029\\packets.csv": {
+      "sha256": "1aabf21f61a7cf697c04b318dd9de36dbe3e0dc28b3052c7e6b58aed25a8784f",
+      "bytes": 3666079
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_030\\metrics.json": {
+      "sha256": "fda91b02965ec82196859a433c416607857e63d643d069b4bde512c86e4a8cef",
+      "bytes": 630
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_030\\configuration.json": {
+      "sha256": "833d7ee4b7dd844c7af4e902229e13cd69a1f9a64a0a20309e4225c2329e2a19",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_030\\packets.csv": {
+      "sha256": "c74a1cd4261a44ad7556a2dd2a134b43bbd24c552c4198c6875fdbed85c7bf20",
+      "bytes": 3668952
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion\\period_300s\\run_001\\metrics.json": {
+      "sha256": "09ac6ce149f6a923985ef70603c96e4cedb6712da7ab2eba9444efff36800f97",
+      "bytes": 655
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion\\period_300s\\run_001\\configuration.json": {
+      "sha256": "21480de1a3ff43c5dc6797b6e55de7df43ad06dc7be09c80ef4c1da8f78a0d31",
+      "bytes": 1610
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion\\period_300s\\run_001\\packets.csv": {
+      "sha256": "6c3000b33d754b8b8b6d89f379ba0b9b22ba8f4704c10c22e8e0c528bb3866e9",
+      "bytes": 43976431
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion\\period_300s\\run_001\\events.csv": {
+      "sha256": "682c6e582b48b8f87e85fe5a93b4ba959a654707b51c5d0f325c3d44f87854c2",
+      "bytes": 688969834
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion\\period_900s\\run_001\\metrics.json": {
+      "sha256": "76c9eeef62549247679cc8c95f9537e803cc9c38a0a9a30241c915326911b0e8",
+      "bytes": 648
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion\\period_900s\\run_001\\configuration.json": {
+      "sha256": "14f1a77f80c81eec95e36b8c6988519a42d56a43d0a8b663eb4a86a197c9c214",
+      "bytes": 1610
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion\\period_900s\\run_001\\packets.csv": {
+      "sha256": "d5bab57310c6e2842b19af6220881f87736424d0f26da482d248e0befb711629",
+      "bytes": 14682038
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb_exploracion\\period_900s\\run_001\\events.csv": {
+      "sha256": "3d8b6a260755a111a4a6c26d69757d6e780c47b6a12d157e645d1daf87366125",
+      "bytes": 252212709
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_001\\metrics.json": {
+      "sha256": "b3ca576d9f067174f6a9b7ddf5ddc99febcfe4a4a5e629ecb36cfc2cc1d4c10f",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_001\\configuration.json": {
+      "sha256": "da96a7d4b16b11581debae45fd0c35bd5641e310620ab27324da712e5eaf8aa4",
+      "bytes": 1611
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_001\\packets.csv": {
+      "sha256": "8c668cef1345b921d6fc5e60a968dee0d128b45092775de36cfdbcd749c0c42d",
+      "bytes": 3672483
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_001\\events.csv": {
+      "sha256": "c4e382dd9621e8426120510191d05ff16bfdffb17ad6c128825bc2ba6dc14740",
+      "bytes": 64515719
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_002\\metrics.json": {
+      "sha256": "88822edd266131cc93b59f22b7dd26dd72b4435b85d04321ce29ac629f466f0c",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_002\\configuration.json": {
+      "sha256": "de2fde16d7f582edd3366dde11e9dfa450b90ae33b9187c80ef58344c8371483",
+      "bytes": 1611
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_002\\packets.csv": {
+      "sha256": "0df0251a1e5eaa5cb7ddc505039f76f9b031e251351819a45a83d917bb670a4f",
+      "bytes": 3672461
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_003\\metrics.json": {
+      "sha256": "0820defcf3c478967f3853ec63c5831082e180263a000ac649709654dad2d8cc",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_003\\configuration.json": {
+      "sha256": "873f786b3253eae9aceacdd2e8c7b7e4d09f1f2097d67965bfc2a6f3f638dcaf",
+      "bytes": 1611
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_003\\packets.csv": {
+      "sha256": "878ebf446ffcd9059faa2e9e3a495f1be5df016b8d046a37e36ee13422ecd909",
+      "bytes": 3673553
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_004\\metrics.json": {
+      "sha256": "769200b2924a45d51589c0b7e9802ba0c9f6a5e469d3d20746b14e740dcd5fe3",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_004\\configuration.json": {
+      "sha256": "753351d17f628365c989f057bbb341e208d217c26d51a843a5f256db8354e395",
+      "bytes": 1611
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_004\\packets.csv": {
+      "sha256": "a3e659f0001093a63766b45d684f52f7c6978ebacda6d15098225087165f2e89",
+      "bytes": 3671470
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_005\\metrics.json": {
+      "sha256": "288e0568af8a870ed373252a295aeb487c47ae9654154dbe601b6de34f45ca87",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_005\\configuration.json": {
+      "sha256": "fdfe820b847992b8515c1467615b780dc64eb40e620fb09a1d5b94431e2dc721",
+      "bytes": 1611
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_005\\packets.csv": {
+      "sha256": "942152c1852cf67868c3a4448520756f4206ac756e3f912776349b1b5fd5d325",
+      "bytes": 3671229
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_006\\metrics.json": {
+      "sha256": "f709518196b2affda95de7e85410163364d58a64be4c614a6f45a1b645e89d30",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_006\\configuration.json": {
+      "sha256": "ab28a5e0040dde3bb0985fd297e1a8f6dfe56b33788fa774341db5aca4b65abb",
+      "bytes": 1611
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_006\\packets.csv": {
+      "sha256": "6be59438af5cc4d1c6d0bc6904961b54715302c83316d01b0a7d449cb5616da9",
+      "bytes": 3673872
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_007\\metrics.json": {
+      "sha256": "c203c5d3842fc613a262f64b113e8645385435174725597c890b65499c2027be",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_007\\configuration.json": {
+      "sha256": "8f793ef128db3f57798c30c3c93bf6ae207b895a27cdc54995f6c4429b573925",
+      "bytes": 1611
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_007\\packets.csv": {
+      "sha256": "54b89d1d9c88ba0b80358d60e2dbee8f7478393f9123ff1499474d39df78d496",
+      "bytes": 3672275
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_008\\metrics.json": {
+      "sha256": "26b776406e7599edc624c6979fcdd72f39bcedc962007d06202e5d54e66e1ebd",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_008\\configuration.json": {
+      "sha256": "7af28b03472119cca798f57e56a3c039f20def4dec7dfdfd89d82989a4497a6e",
+      "bytes": 1611
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_008\\packets.csv": {
+      "sha256": "264f98f4607b5fd50d1ac1daa70d2f30d128754324080e0c2f69da7332d6478d",
+      "bytes": 3672760
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_009\\metrics.json": {
+      "sha256": "8789b9e33a1e9886a8360acd36d732ba5c9f695345bb22b6a3db18fc30967912",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_009\\configuration.json": {
+      "sha256": "664999c6c6d0bc18d12b1a091453b561763c0302671ab35f9efad96768ced520",
+      "bytes": 1611
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_009\\packets.csv": {
+      "sha256": "70b774327a67365098fe4881ceac1aac63934c8945f1d5d504666a962f62268d",
+      "bytes": 3672181
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_010\\metrics.json": {
+      "sha256": "a7c50c859366bc9f99ebe2c8dec4fc192d2e086de1b33a8c362ee96da8a63ffd",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_010\\configuration.json": {
+      "sha256": "5309b1cf580510cdb9e5fef12413e32127b0eca732813c6d01ab3e61303338fa",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_010\\packets.csv": {
+      "sha256": "b6ef3857efa07edaab038059af4c7040e81e4cd387aa53fa6769a30f8ac77d8c",
+      "bytes": 3671680
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_011\\metrics.json": {
+      "sha256": "73eb5151296132ba50b5fcbd6e62beb0a066e350f6041d6a641976b3e95693f2",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_011\\configuration.json": {
+      "sha256": "b80a6cf45069ac594e42be35e6525201acef5dc75c7d84cd3583c33f9983d9a3",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_011\\packets.csv": {
+      "sha256": "0632d5faa51a63cb8435fae4445d04101233f01cacfdbd74b728784203b46b3b",
+      "bytes": 3672484
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_012\\metrics.json": {
+      "sha256": "fcee79388787a7733c3e193df587c060e1f32608b1f1f820e279685830f667d9",
+      "bytes": 630
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_012\\configuration.json": {
+      "sha256": "df9bb70e7e95c332947721f4f8dc70017b2b28113e625feb1865169437368fe4",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_012\\packets.csv": {
+      "sha256": "42c742eccbac67d971c2f8eb6ae4c37872316e6362ea545e67ea2db6c20c0dd6",
+      "bytes": 3671805
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_013\\metrics.json": {
+      "sha256": "86791c79288f846e992309dbf716ad6e8c9c0880cc8cc0317a8865d5e3249b8b",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_013\\configuration.json": {
+      "sha256": "12114be6c66840048b67d8cd48fec08f85bb6709bd5bfd3a3452032b9c3e90b1",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_013\\packets.csv": {
+      "sha256": "7e6fc95407bf91e8b8448701f84adc583b530ca744f3ec0c91419d6a3c4b68da",
+      "bytes": 3671509
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_014\\metrics.json": {
+      "sha256": "04d89b3499845b0422fc1f0ed9c938b4ab02a5cb42ad382bec1991161774530a",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_014\\configuration.json": {
+      "sha256": "ddac1b743a24c635b4641963d1441ceb1805f0360c035ed2910f40a0afe429a0",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_014\\packets.csv": {
+      "sha256": "cdb5ab3a0b791a99539d47dcfdaf632ca75a40117f1a36bedce6ce3ffae3d5cb",
+      "bytes": 3671879
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_015\\metrics.json": {
+      "sha256": "50f63a0f7cc7dc160bccdfc123f527ae2606962f8633fd92b5f57be1fb76bc3c",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_015\\configuration.json": {
+      "sha256": "ce232115dddf3d4143f00d1d2a7ce20ffd6fdf134e08b8880f974ba42e0fb9ca",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_015\\packets.csv": {
+      "sha256": "de926692b6a8ebaeb6964b40527b6e524ff7ec08bba87087a77189413dbb212a",
+      "bytes": 3670988
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_016\\metrics.json": {
+      "sha256": "19a3cbe5ec8ab99c62c7cb31d06633875e22c63b7cb383b2530389fd80936888",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_016\\configuration.json": {
+      "sha256": "f710a54dcb273b2f7c5fd38d8c15164e9d7f643670feb5e3016d61af289795ca",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_016\\packets.csv": {
+      "sha256": "861549fddd8757909454d6f813eda71a13e6ae2c1b502fa427847327b557855e",
+      "bytes": 3672644
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_017\\metrics.json": {
+      "sha256": "a8db5596aee5b47a56ee6945b41b1149b2601bd564046f16ae0d5e8740473c2b",
+      "bytes": 631
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_017\\configuration.json": {
+      "sha256": "baf782a2a83c4a7f5b16244ff2522594c9c4f312b9abe28cd3260b7457079c91",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_017\\packets.csv": {
+      "sha256": "783843fb58b8a5f186d4b1adc53b9f80c2d580987a18f598cdd5608239ab041a",
+      "bytes": 3672377
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_018\\metrics.json": {
+      "sha256": "61c3a7949830abaf07b43c536bd7f26cc90b828737109cc56b8dabf2f6cd7aef",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_018\\configuration.json": {
+      "sha256": "b8b7a071a4b47903cf5524343555950d54975425d60319eab41f7a4d1e1900ec",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_018\\packets.csv": {
+      "sha256": "880cad6c84b800673d7d62018accbb79ab1b1fcf310d783ddefbcc5f0e86af75",
+      "bytes": 3673166
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_019\\metrics.json": {
+      "sha256": "0cfbbb531d76e2d2f10823a334d0163f9e21d38a64f1a8dab24a3d7aa5bbf318",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_019\\configuration.json": {
+      "sha256": "316236652de17cbb2936e73bbf6ab36d6accf7371971be426da27291e11c7e1d",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_019\\packets.csv": {
+      "sha256": "7110b0b58bfc70d026b7ff8b5c03b5b9b29eeeb117a1b7218dc1fe8f9175f892",
+      "bytes": 3672252
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_020\\metrics.json": {
+      "sha256": "4d7418fd27b19d21df93cfd0c341f2381e357348056360696673ab2eb3d3acfa",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_020\\configuration.json": {
+      "sha256": "b6c6b3e4b23d5182792e940d0ab91736b83abd532268de02a62af7456695f4b1",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_020\\packets.csv": {
+      "sha256": "65fd977664fd6f68542e5321a7c724713a2d8f0be88a33c39772706348089e5d",
+      "bytes": 3672727
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_021\\metrics.json": {
+      "sha256": "4cb2abe204048510775087e68ce89d19437dae7e69bab1651573e5b728b7405d",
+      "bytes": 631
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_021\\configuration.json": {
+      "sha256": "4fe23bb3ce0aaebab72498c8e8bc04cae24e19da60ce7aaf515a176e30223d78",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_021\\packets.csv": {
+      "sha256": "16ef1f59cf173605327b333a91c44b73022f64b55bd8007eef746d8fbdc1512e",
+      "bytes": 3673286
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_022\\metrics.json": {
+      "sha256": "11b2f105f227c194a0f556bf6edf6bf51388cb5d4fef3c6d890b326c3050dc54",
+      "bytes": 630
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_022\\configuration.json": {
+      "sha256": "1c62114283e8319128224e69a4bb3af43fc781b1a6642c256e0f23d5ef23bb31",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_022\\packets.csv": {
+      "sha256": "4e9f720620454801942b70093c3cdcfb3b15f5151999be411d76a729ef5388ca",
+      "bytes": 3671590
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_023\\metrics.json": {
+      "sha256": "ae069783e0c40a67d4454ecc82cc8bdd93451c73bd0ac98f0bfba8252eb40f3a",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_023\\configuration.json": {
+      "sha256": "748f1ef6b7773c0ea67c9b291b15f9e4e0bb5c01a709770889f7e8218356e3b9",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_023\\packets.csv": {
+      "sha256": "daf213d83dbaf1bcccf15c1479adf1bc218783888b0117ecf55b492a3641f4f5",
+      "bytes": 3670238
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_024\\metrics.json": {
+      "sha256": "a253797287e27456ab8e916d226b92238aaa52c0364cba0284dc8ea8f69b3f29",
+      "bytes": 631
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_024\\configuration.json": {
+      "sha256": "489d5ead27bc1a6c6131b238e2bca1c2951978419aa23123c3024c2987d2bfa6",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_024\\packets.csv": {
+      "sha256": "fb17c2a5484aaa59d5d2b2556359321ac67901cca1c3329ce39425c8e16d5998",
+      "bytes": 3672293
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_025\\metrics.json": {
+      "sha256": "7aac0969a5dc31b1cbcf299b4ee74f9904056aace150a3bf363d01c96f437f8f",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_025\\configuration.json": {
+      "sha256": "3f4f26209895c97fe0e6c97a0085f274cdf8df1199b7db6d49c8fd5cb4ecbceb",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_025\\packets.csv": {
+      "sha256": "f92d5172489d3a049dfafd730fa14a421ce8dd1d6ee82b584d9f187c5e07580e",
+      "bytes": 3671409
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_026\\metrics.json": {
+      "sha256": "383051da193340f4851f9b86f6c7a4e135b6300c9c7a55c92c531028106da3c8",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_026\\configuration.json": {
+      "sha256": "b255a124907a697234d3dc050b5b2d7ae31f022ba909b3b441811620eb5bb4ef",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_026\\packets.csv": {
+      "sha256": "3ce8ba0e1835c4f30e7674db98c143537c2d41b7b43628edc6a4fcd638c8bd26",
+      "bytes": 3671755
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_027\\metrics.json": {
+      "sha256": "1e3203f0abcbc39e940e5abd72816a10c6a29ef7a9daee2f5df063e6585b4774",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_027\\configuration.json": {
+      "sha256": "821bd4205084bf86652eda5d385be59d140dbe75b973c7ea5ac1c9c06854286e",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_027\\packets.csv": {
+      "sha256": "49ca6e0c2d3b2c44f3ec717b42f76936ea866331132be1031847b5e347eb7719",
+      "bytes": 3671815
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_028\\metrics.json": {
+      "sha256": "08a24019288327816795a20a2756eb90277854875262d320af99e855758f04fe",
+      "bytes": 630
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_028\\configuration.json": {
+      "sha256": "8c4875ba113603328d492e2a7e9b0e084f76a6a7a0ab7feda77fa09108a2f3b7",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_028\\packets.csv": {
+      "sha256": "595a2ae273f7c19c1675e40b44c3c9f76d4eafecfab1e4124e7ed5aa6b686c98",
+      "bytes": 3671901
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_029\\metrics.json": {
+      "sha256": "a797a5f90d34b22eabc93b18dceb408f115d8e65485b197733776484a845b0d7",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_029\\configuration.json": {
+      "sha256": "22ed4e3569e8bb01d3a081d3bfe23ec1ccbf60e0b37bd6d55437811d1b7ad3ad",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_029\\packets.csv": {
+      "sha256": "8b112f662e371fa63daca9e9e3565ae07b76fe4b94049ce704c8f33a2ba52c19",
+      "bytes": 3670437
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_030\\metrics.json": {
+      "sha256": "9ebe63473d902f71e471af719814c520cf233fd036dea3ba065e6759a3ba31c8",
+      "bytes": 632
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_030\\configuration.json": {
+      "sha256": "328969e3324a229bc9be998f6aca1c830bce3a08a56dc1d2b08d0abf679f9873",
+      "bytes": 1612
+    },
+    "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code6d4a9eeb\\period_3600s\\run_030\\packets.csv": {
+      "sha256": "007e1f7bfb56441178fe6b1f3e10a38e188329e9687a3f81d2d01d99cda71b40",
+      "bytes": 3673442
+    }
+  },
+  "ignored_campaign_directories": [
+    {
+      "directory": "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb",
+      "reason": "outside frozen experiment identity"
+    },
+    {
+      "directory": "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb_exploracion",
+      "reason": "no completion.json"
+    },
+    {
+      "directory": "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code0fb46e93",
+      "reason": "outside frozen experiment identity"
+    },
+    {
+      "directory": "produccion\\US915_8ch_ch8_start8_payload51_sf7_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code0fb46e93_exploracion",
+      "reason": "no completion.json"
+    },
+    {
+      "directory": "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42",
+      "reason": "no completion.json"
+    },
+    {
+      "directory": "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb",
+      "reason": "outside frozen experiment identity"
+    },
+    {
+      "directory": "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input46c0257d_code6d4a9eeb_exploracion",
+      "reason": "no completion.json"
+    },
+    {
+      "directory": "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code0fb46e93",
+      "reason": "outside frozen experiment identity"
+    },
+    {
+      "directory": "produccion\\US915_8ch_ch8_start8_payload51_sf9_n2153_tx27_duty1_duration86400_seed42_input9d570ef3_code0fb46e93_exploracion",
+      "reason": "no completion.json"
+    }
+  ],
+  "numeric_tolerance": {
+    "pdr_absolute_percentage_points": 1e-06,
+    "CSV_time_seconds": 1e-06
+  },
+  "limitations": [
+    "Independent verification of exported traces and provenance, not an independent simulation.",
+    "suppressed_reply_events is verified as a bounded count in hashed metrics, not recounted from packets.csv because that column is not exported.",
+    "Only period3600 has 30 replications; period900/300 are single-run explorations without confidence intervals.",
+    "Intervals quantify variation across simulation runs and initial phases; packets/hours are not treated as independent replicates."
+  ]
+}

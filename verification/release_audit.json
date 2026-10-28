@@ -1,0 +1,120 @@
+{
+  "Status": "PASS",
+  "Runs": 128,
+  "Scope": "Recalculo de metricas archivadas; no nueva simulacion ni validacion fisica",
+  "Results": [
+    {
+      "Model": "DigitalTwin",
+      "SF": 7,
+      "Period_s": 300,
+      "Runs": 1,
+      "MeanPDR_pct": 88.31104531145172,
+      "CI95_lower": null,
+      "CI95_upper": null
+    },
+    {
+      "Model": "DigitalTwin",
+      "SF": 7,
+      "Period_s": 900,
+      "Runs": 1,
+      "MeanPDR_pct": 89.35109924136863,
+      "CI95_lower": null,
+      "CI95_upper": null
+    },
+    {
+      "Model": "DigitalTwin",
+      "SF": 7,
+      "Period_s": 3600,
+      "Runs": 30,
+      "MeanPDR_pct": 89.6895159209372,
+      "CI95_lower": 89.67530106977483,
+      "CI95_upper": 89.70373077209956
+    },
+    {
+      "Model": "DigitalTwin",
+      "SF": 9,
+      "Period_s": 300,
+      "Runs": 1,
+      "MeanPDR_pct": 91.80310419569592,
+      "CI95_lower": null,
+      "CI95_upper": null
+    },
+    {
+      "Model": "DigitalTwin",
+      "SF": 9,
+      "Period_s": 900,
+      "Runs": 1,
+      "MeanPDR_pct": 96.31521907416008,
+      "CI95_lower": null,
+      "CI95_upper": null
+    },
+    {
+      "Model": "DigitalTwin",
+      "SF": 9,
+      "Period_s": 3600,
+      "Runs": 30,
+      "MeanPDR_pct": 97.94472828611241,
+      "CI95_lower": 97.91689642859907,
+      "CI95_upper": 97.97256014362574
+    },
+    {
+      "Model": "LongleyRice",
+      "SF": 7,
+      "Period_s": 300,
+      "Runs": 1,
+      "MeanPDR_pct": 99.19185761469784,
+      "CI95_lower": null,
+      "CI95_upper": null
+    },
+    {
+      "Model": "LongleyRice",
+      "SF": 7,
+      "Period_s": 900,
+      "Runs": 1,
+      "MeanPDR_pct": 99.73631754141508,
+      "CI95_lower": null,
+      "CI95_upper": null
+    },
+    {
+      "Model": "LongleyRice",
+      "SF": 7,
+      "Period_s": 3600,
+      "Runs": 30,
+      "MeanPDR_pct": 99.93174898075037,
+      "CI95_lower": 99.92513960193479,
+      "CI95_upper": 99.93835835956595
+    },
+    {
+      "Model": "LongleyRice",
+      "SF": 9,
+      "Period_s": 300,
+      "Runs": 1,
+      "MeanPDR_pct": 96.36102079785313,
+      "CI95_lower": null,
+      "CI95_upper": null
+    },
+    {
+      "Model": "LongleyRice",
+      "SF": 9,
+      "Period_s": 900,
+      "Runs": 1,
+      "MeanPDR_pct": 99.07735330546524,
+      "CI95_lower": null,
+      "CI95_upper": null
+    },
+    {
+      "Model": "LongleyRice",
+      "SF": 9,
+      "Period_s": 3600,
+      "Runs": 30,
+      "MeanPDR_pct": 99.77099138153481,
+      "CI95_lower": 99.75298027911198,
+      "CI95_upper": 99.78900248395765
+    }
+  ],
+  "Runtime": {
+    "Python": "3.12.14",
+    "Platform": "Windows",
+    "Date": "2026-10-27"
+  }
+}
