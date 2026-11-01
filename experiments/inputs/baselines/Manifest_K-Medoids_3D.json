@@ -1,0 +1,290 @@
+{
+  "created_utc": "2026-10-19T00:41:23.130730+00:00",
+  "algorithm": "K-Medoids 3D",
+  "identity": {
+    "sources_sha256": {
+      "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\exportar_matrices_baselines.py": "e575fe73c49a4ba0672897ae0339c0084ef96de0170357ad297e72097f9a3bc3",
+      "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\exportar_matriz_gemelo.py": "23fd0070e1ad9038dc283191c31a5f08c6481aef7098b1f46f109e9db5c4c006",
+      "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\MDPI_Suite_MesoCellular_6.m": "f653c048402a895652b4d09aa04cafe9219e64a3aa52936cde467aaf96657214",
+      "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\Results_Meso_Ambato_ECU_SF11_20260228_115243\\DigitalTwin_K-Medoids_3D.csv": "8a499d7dfa2f9af3241754685e5c6b557226f8b603d02de2a6f8c0b814e1811a",
+      "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\Results_Meso_Ambato_ECU_SF11_20260228_115243\\Academic_Deployment_Report.html": "4dcc231c8a603daabf4619beeb2a2bd15189d779fafbc40969b42b76952d89d0",
+      "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\Results_Meso_Ambato_ECU_SF11_20260228_115243\\DigitalTwin_Proposed_3D-M-SAGA.csv": "51fe929f56d532ab7a2dd4ea0b744cd5e63fc3cb9264948699081a7d3b0a5dc8"
+    },
+    "output_sha256": {
+      "Matrix_RSSI_K-Medoids_3D.csv": "05f2bc194a13299747b054e1a7e1496cbb8eb97965e49aad8b15314f75e4d3e8",
+      "Gateways_K-Medoids_3D.csv": "4986cf0b8e0a89a3f5781a68fc9f0b393b963c1a302c88c4f17f1bbc04a9ea73",
+      "Nodos_RSSI_K-Medoids_3D.csv": "5272161a042870695f9522803f1aaa642621b1e7b60784b1ba8d8e76525ad01a"
+    },
+    "parameters": {
+      "city": "Ambato, ECU",
+      "city_latitude_deg": -1.2417,
+      "city_longitude_deg": -78.6197,
+      "earth_radius_m": 6371000.0,
+      "frequency_mhz": 915.0,
+      "tx_power_dbm": 27.0,
+      "gain_db": 5.0,
+      "penetration_loss_db": 0.0,
+      "gateway_height_m": 6.0,
+      "archived_sf": 11,
+      "archived_sensitivity_dbm": -136.0,
+      "distance_floor_m": 1.0,
+      "topography_transition_m": 15.0,
+      "topography_cap_db": 35.0,
+      "clutter": {
+        "Dense Urban": {
+          "n": 3.8,
+          "loss_db": 18.0
+        },
+        "Residential": {
+          "n": 3.2,
+          "loss_db": 0.0
+        },
+        "Park/Periphery": {
+          "n": 3.5,
+          "loss_db": 12.0
+        }
+      }
+    },
+    "gateway_node_ids": [
+      74,
+      314,
+      623,
+      893,
+      921,
+      1072,
+      1124,
+      1384,
+      1620,
+      1907,
+      1947,
+      2071,
+      2075
+    ]
+  },
+  "validation": {
+    "nodes": 2153,
+    "gateways": 13,
+    "connected": 2116,
+    "censored_outage": 37,
+    "connected_max_abs_error_db": 0.004999032482473353,
+    "connected_rmse_db": 0.0028605123363898708,
+    "status_mismatches": 0,
+    "serving_mismatches_connected": 0,
+    "rounded_rssi_mismatches": 0,
+    "unique_self_peaks_and_report_site_associations": true,
+    "all_acceptance_checks_passed": true,
+    "k_coverage_pct": {
+      "-136": {
+        "K0": 1.7185322805387833,
+        "K1": 28.56479331165815,
+        "K2": 27.35717603344171,
+        "Kge3": 42.35949837436135
+      },
+      "-135": {
+        "K0": 2.5545750116117047,
+        "K1": 31.212261960055738,
+        "K2": 24.245239201114725,
+        "Kge3": 41.98792382721784
+      },
+      "-130": {
+        "K0": 7.524384579656293,
+        "K1": 41.38411518810962,
+        "K2": 11.007895959126799,
+        "Kge3": 40.08360427310729
+      }
+    }
+  },
+  "gateway_associations": [
+    {
+      "local_gateway_id": 1,
+      "node_id": 74,
+      "latitude": -1.2592705,
+      "longitude": -78.6168996,
+      "ground_altitude_m": 2664.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": -17.68,
+      "self_peak_expected_raw_dbm": -17.67842188132897,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "9 de Octubre & Antonio Pineda"
+    },
+    {
+      "local_gateway_id": 2,
+      "node_id": 314,
+      "latitude": -1.2474224,
+      "longitude": -78.6312003,
+      "ground_altitude_m": 2629.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": -17.68,
+      "self_peak_expected_raw_dbm": -17.67842188132897,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "Avenida Atahualpa & Cacha"
+    },
+    {
+      "local_gateway_id": 3,
+      "node_id": 623,
+      "latitude": -1.2330026,
+      "longitude": -78.6235939,
+      "ground_altitude_m": 2541.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": -17.68,
+      "self_peak_expected_raw_dbm": -17.67842188132897,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "Avenida Pasteur & Avenida Unidad Nacional"
+    },
+    {
+      "local_gateway_id": 4,
+      "node_id": 893,
+      "latitude": -1.2570627,
+      "longitude": -78.6361296,
+      "ground_altitude_m": 2669.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": 0.32,
+      "self_peak_expected_raw_dbm": 0.3215781186710309,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "Barcelona & Sevilla"
+    },
+    {
+      "local_gateway_id": 5,
+      "node_id": 921,
+      "latitude": -1.2439467,
+      "longitude": -78.6068667,
+      "ground_altitude_m": 2506.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": 0.32,
+      "self_peak_expected_raw_dbm": 0.3215781186710309,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "Bayamón & Bogotá"
+    },
+    {
+      "local_gateway_id": 6,
+      "node_id": 1072,
+      "latitude": -1.2594742,
+      "longitude": -78.6261875,
+      "ground_altitude_m": 2694.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": -17.68,
+      "self_peak_expected_raw_dbm": -17.67842188132897,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "Camilo Ponce & Placido Camamaño"
+    },
+    {
+      "local_gateway_id": 7,
+      "node_id": 1124,
+      "latitude": -1.2296519,
+      "longitude": -78.603537,
+      "ground_altitude_m": 2554.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": -17.68,
+      "self_peak_expected_raw_dbm": -17.67842188132897,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "Cartagena & Potosí"
+    },
+    {
+      "local_gateway_id": 8,
+      "node_id": 1384,
+      "latitude": -1.2251518,
+      "longitude": -78.6150588,
+      "ground_altitude_m": 2589.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": 0.32,
+      "self_peak_expected_raw_dbm": 0.3215781186710309,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "El Ciprés & Pasaje Sin Nombre"
+    },
+    {
+      "local_gateway_id": 9,
+      "node_id": 1620,
+      "latitude": -1.2510904,
+      "longitude": -78.6218868,
+      "ground_altitude_m": 2648.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": -17.68,
+      "self_peak_expected_raw_dbm": -17.67842188132897,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "Imbabura & Riobamba"
+    },
+    {
+      "local_gateway_id": 10,
+      "node_id": 1907,
+      "latitude": -1.2374139,
+      "longitude": -78.6362688,
+      "ground_altitude_m": 2630.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": 0.32,
+      "self_peak_expected_raw_dbm": 0.3215781186710309,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "Los Pimientos & Unnamed Road"
+    },
+    {
+      "local_gateway_id": 11,
+      "node_id": 1947,
+      "latitude": -1.2404701,
+      "longitude": -78.626467,
+      "ground_altitude_m": 2579.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": -17.68,
+      "self_peak_expected_raw_dbm": -17.67842188132897,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "Mariano Eguez & Primera Imprenta"
+    },
+    {
+      "local_gateway_id": 12,
+      "node_id": 2071,
+      "latitude": -1.2361746,
+      "longitude": -78.6144922,
+      "ground_altitude_m": 2537.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": -17.68,
+      "self_peak_expected_raw_dbm": -17.67842188132897,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "Puerto Rico & Uruguay"
+    },
+    {
+      "local_gateway_id": 13,
+      "node_id": 2075,
+      "latitude": -1.243401,
+      "longitude": -78.6197363,
+      "ground_altitude_m": 2596.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": -17.68,
+      "self_peak_expected_raw_dbm": -17.67842188132897,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "Puntas & Sincholagua"
+    }
+  ],
+  "rf_formula": "Same pinned Precompute_RF_ITU implementation and parameters as exportar_matriz_gemelo.py; gain included; distance>=1m; height only in topography loss.",
+  "site_inference": "One unique serving-group RSSI peak matching its own floor-distance/clutter/gain RSSI, unique coordinate association, and exact archived report intersection/altitude; then full-link best RSSI, status and serving ID verification.",
+  "censoring": "OUTAGE=-150 is an archived censoring sentinel. Raw RF values are recomputed from metadata, never filled from that sentinel.",
+  "scope": "Reconstruction at saved SF11 deployment sites; no reoptimization, ns-3 execution or field validation.",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26300-SP0"
+  }
+}

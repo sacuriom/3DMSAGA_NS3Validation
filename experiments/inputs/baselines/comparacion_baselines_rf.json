@@ -1,0 +1,285 @@
+{
+  "scope": "Static native RF reconstruction only; no dynamic baseline comparisons were executed.",
+  "proposed_exporter_preserved_sha256": "23fd0070e1ad9038dc283191c31a5f08c6481aef7098b1f46f109e9db5c4c006",
+  "greedy_and_standard_saga_same_deployment": true,
+  "greedy_and_standard_saga_matrix_byte_identical": true,
+  "algorithms": {
+    "Greedy_SCP": {
+      "identity": {
+        "sources_sha256": {
+          "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\exportar_matrices_baselines.py": "e575fe73c49a4ba0672897ae0339c0084ef96de0170357ad297e72097f9a3bc3",
+          "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\exportar_matriz_gemelo.py": "23fd0070e1ad9038dc283191c31a5f08c6481aef7098b1f46f109e9db5c4c006",
+          "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\MDPI_Suite_MesoCellular_6.m": "f653c048402a895652b4d09aa04cafe9219e64a3aa52936cde467aaf96657214",
+          "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\Results_Meso_Ambato_ECU_SF11_20260228_115243\\DigitalTwin_Greedy_SCP.csv": "9bdac809effb23bebacdc46b2d3b02f844cfa379849e3313744057f95c422cde",
+          "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\Results_Meso_Ambato_ECU_SF11_20260228_115243\\Academic_Deployment_Report.html": "4dcc231c8a603daabf4619beeb2a2bd15189d779fafbc40969b42b76952d89d0",
+          "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\Results_Meso_Ambato_ECU_SF11_20260228_115243\\DigitalTwin_Proposed_3D-M-SAGA.csv": "51fe929f56d532ab7a2dd4ea0b744cd5e63fc3cb9264948699081a7d3b0a5dc8"
+        },
+        "output_sha256": {
+          "Matrix_RSSI_Greedy_SCP.csv": "cd21fd4ccf94087528abf25f1e401965ba418196459c29b5c92f5a5412ed6ba8",
+          "Gateways_Greedy_SCP.csv": "e72a458aeb403687cf0bae4fe27a8185548649ac23ab98c0428fdfe80866ffdf",
+          "Nodos_RSSI_Greedy_SCP.csv": "e3e14dbf923d72a3880386962a3076a40fa6f547b20105a06e0785868a1b87bd"
+        },
+        "parameters": {
+          "city": "Ambato, ECU",
+          "city_latitude_deg": -1.2417,
+          "city_longitude_deg": -78.6197,
+          "earth_radius_m": 6371000.0,
+          "frequency_mhz": 915.0,
+          "tx_power_dbm": 27.0,
+          "gain_db": 5.0,
+          "penetration_loss_db": 0.0,
+          "gateway_height_m": 6.0,
+          "archived_sf": 11,
+          "archived_sensitivity_dbm": -136.0,
+          "distance_floor_m": 1.0,
+          "topography_transition_m": 15.0,
+          "topography_cap_db": 35.0,
+          "clutter": {
+            "Dense Urban": {
+              "n": 3.8,
+              "loss_db": 18.0
+            },
+            "Residential": {
+              "n": 3.2,
+              "loss_db": 0.0
+            },
+            "Park/Periphery": {
+              "n": 3.5,
+              "loss_db": 12.0
+            }
+          }
+        },
+        "gateway_node_ids": [
+          9,
+          133,
+          171,
+          175,
+          624,
+          696,
+          857,
+          1444,
+          1636
+        ]
+      },
+      "validation": {
+        "nodes": 2153,
+        "gateways": 9,
+        "connected": 2113,
+        "censored_outage": 40,
+        "connected_max_abs_error_db": 0.004999185071611123,
+        "connected_rmse_db": 0.0028585210778231044,
+        "status_mismatches": 0,
+        "serving_mismatches_connected": 0,
+        "rounded_rssi_mismatches": 0,
+        "unique_self_peaks_and_report_site_associations": true,
+        "all_acceptance_checks_passed": true,
+        "k_coverage_pct": {
+          "-136": {
+            "K0": 1.8578727357176035,
+            "K1": 30.236878773803994,
+            "K2": 23.1769623780771,
+            "Kge3": 44.7282861124013
+          },
+          "-135": {
+            "K0": 2.5545750116117047,
+            "K1": 32.41987923827217,
+            "K2": 21.69066418950302,
+            "Kge3": 43.3348815606131
+          },
+          "-130": {
+            "K0": 13.794705062703205,
+            "K1": 35.85694379934974,
+            "K2": 11.05434277751974,
+            "Kge3": 39.29400836042731
+          }
+        }
+      }
+    },
+    "K-Medoids_3D": {
+      "identity": {
+        "sources_sha256": {
+          "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\exportar_matrices_baselines.py": "e575fe73c49a4ba0672897ae0339c0084ef96de0170357ad297e72097f9a3bc3",
+          "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\exportar_matriz_gemelo.py": "23fd0070e1ad9038dc283191c31a5f08c6481aef7098b1f46f109e9db5c4c006",
+          "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\MDPI_Suite_MesoCellular_6.m": "f653c048402a895652b4d09aa04cafe9219e64a3aa52936cde467aaf96657214",
+          "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\Results_Meso_Ambato_ECU_SF11_20260228_115243\\DigitalTwin_K-Medoids_3D.csv": "8a499d7dfa2f9af3241754685e5c6b557226f8b603d02de2a6f8c0b814e1811a",
+          "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\Results_Meso_Ambato_ECU_SF11_20260228_115243\\Academic_Deployment_Report.html": "4dcc231c8a603daabf4619beeb2a2bd15189d779fafbc40969b42b76952d89d0",
+          "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\Results_Meso_Ambato_ECU_SF11_20260228_115243\\DigitalTwin_Proposed_3D-M-SAGA.csv": "51fe929f56d532ab7a2dd4ea0b744cd5e63fc3cb9264948699081a7d3b0a5dc8"
+        },
+        "output_sha256": {
+          "Matrix_RSSI_K-Medoids_3D.csv": "05f2bc194a13299747b054e1a7e1496cbb8eb97965e49aad8b15314f75e4d3e8",
+          "Gateways_K-Medoids_3D.csv": "4986cf0b8e0a89a3f5781a68fc9f0b393b963c1a302c88c4f17f1bbc04a9ea73",
+          "Nodos_RSSI_K-Medoids_3D.csv": "5272161a042870695f9522803f1aaa642621b1e7b60784b1ba8d8e76525ad01a"
+        },
+        "parameters": {
+          "city": "Ambato, ECU",
+          "city_latitude_deg": -1.2417,
+          "city_longitude_deg": -78.6197,
+          "earth_radius_m": 6371000.0,
+          "frequency_mhz": 915.0,
+          "tx_power_dbm": 27.0,
+          "gain_db": 5.0,
+          "penetration_loss_db": 0.0,
+          "gateway_height_m": 6.0,
+          "archived_sf": 11,
+          "archived_sensitivity_dbm": -136.0,
+          "distance_floor_m": 1.0,
+          "topography_transition_m": 15.0,
+          "topography_cap_db": 35.0,
+          "clutter": {
+            "Dense Urban": {
+              "n": 3.8,
+              "loss_db": 18.0
+            },
+            "Residential": {
+              "n": 3.2,
+              "loss_db": 0.0
+            },
+            "Park/Periphery": {
+              "n": 3.5,
+              "loss_db": 12.0
+            }
+          }
+        },
+        "gateway_node_ids": [
+          74,
+          314,
+          623,
+          893,
+          921,
+          1072,
+          1124,
+          1384,
+          1620,
+          1907,
+          1947,
+          2071,
+          2075
+        ]
+      },
+      "validation": {
+        "nodes": 2153,
+        "gateways": 13,
+        "connected": 2116,
+        "censored_outage": 37,
+        "connected_max_abs_error_db": 0.004999032482473353,
+        "connected_rmse_db": 0.0028605123363898708,
+        "status_mismatches": 0,
+        "serving_mismatches_connected": 0,
+        "rounded_rssi_mismatches": 0,
+        "unique_self_peaks_and_report_site_associations": true,
+        "all_acceptance_checks_passed": true,
+        "k_coverage_pct": {
+          "-136": {
+            "K0": 1.7185322805387833,
+            "K1": 28.56479331165815,
+            "K2": 27.35717603344171,
+            "Kge3": 42.35949837436135
+          },
+          "-135": {
+            "K0": 2.5545750116117047,
+            "K1": 31.212261960055738,
+            "K2": 24.245239201114725,
+            "Kge3": 41.98792382721784
+          },
+          "-130": {
+            "K0": 7.524384579656293,
+            "K1": 41.38411518810962,
+            "K2": 11.007895959126799,
+            "Kge3": 40.08360427310729
+          }
+        }
+      }
+    },
+    "Standard_SAGA": {
+      "identity": {
+        "sources_sha256": {
+          "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\exportar_matrices_baselines.py": "e575fe73c49a4ba0672897ae0339c0084ef96de0170357ad297e72097f9a3bc3",
+          "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\exportar_matriz_gemelo.py": "23fd0070e1ad9038dc283191c31a5f08c6481aef7098b1f46f109e9db5c4c006",
+          "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\MDPI_Suite_MesoCellular_6.m": "f653c048402a895652b4d09aa04cafe9219e64a3aa52936cde467aaf96657214",
+          "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\Results_Meso_Ambato_ECU_SF11_20260228_115243\\DigitalTwin_Standard_SAGA.csv": "9bdac809effb23bebacdc46b2d3b02f844cfa379849e3313744057f95c422cde",
+          "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\Results_Meso_Ambato_ECU_SF11_20260228_115243\\Academic_Deployment_Report.html": "4dcc231c8a603daabf4619beeb2a2bd15189d779fafbc40969b42b76952d89d0",
+          "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\Results_Meso_Ambato_ECU_SF11_20260228_115243\\DigitalTwin_Proposed_3D-M-SAGA.csv": "51fe929f56d532ab7a2dd4ea0b744cd5e63fc3cb9264948699081a7d3b0a5dc8"
+        },
+        "output_sha256": {
+          "Matrix_RSSI_Standard_SAGA.csv": "cd21fd4ccf94087528abf25f1e401965ba418196459c29b5c92f5a5412ed6ba8",
+          "Gateways_Standard_SAGA.csv": "e72a458aeb403687cf0bae4fe27a8185548649ac23ab98c0428fdfe80866ffdf",
+          "Nodos_RSSI_Standard_SAGA.csv": "e3e14dbf923d72a3880386962a3076a40fa6f547b20105a06e0785868a1b87bd"
+        },
+        "parameters": {
+          "city": "Ambato, ECU",
+          "city_latitude_deg": -1.2417,
+          "city_longitude_deg": -78.6197,
+          "earth_radius_m": 6371000.0,
+          "frequency_mhz": 915.0,
+          "tx_power_dbm": 27.0,
+          "gain_db": 5.0,
+          "penetration_loss_db": 0.0,
+          "gateway_height_m": 6.0,
+          "archived_sf": 11,
+          "archived_sensitivity_dbm": -136.0,
+          "distance_floor_m": 1.0,
+          "topography_transition_m": 15.0,
+          "topography_cap_db": 35.0,
+          "clutter": {
+            "Dense Urban": {
+              "n": 3.8,
+              "loss_db": 18.0
+            },
+            "Residential": {
+              "n": 3.2,
+              "loss_db": 0.0
+            },
+            "Park/Periphery": {
+              "n": 3.5,
+              "loss_db": 12.0
+            }
+          }
+        },
+        "gateway_node_ids": [
+          9,
+          133,
+          171,
+          175,
+          624,
+          696,
+          857,
+          1444,
+          1636
+        ]
+      },
+      "validation": {
+        "nodes": 2153,
+        "gateways": 9,
+        "connected": 2113,
+        "censored_outage": 40,
+        "connected_max_abs_error_db": 0.004999185071611123,
+        "connected_rmse_db": 0.0028585210778231044,
+        "status_mismatches": 0,
+        "serving_mismatches_connected": 0,
+        "rounded_rssi_mismatches": 0,
+        "unique_self_peaks_and_report_site_associations": true,
+        "all_acceptance_checks_passed": true,
+        "k_coverage_pct": {
+          "-136": {
+            "K0": 1.8578727357176035,
+            "K1": 30.236878773803994,
+            "K2": 23.1769623780771,
+            "Kge3": 44.7282861124013
+          },
+          "-135": {
+            "K0": 2.5545750116117047,
+            "K1": 32.41987923827217,
+            "K2": 21.69066418950302,
+            "Kge3": 43.3348815606131
+          },
+          "-130": {
+            "K0": 13.794705062703205,
+            "K1": 35.85694379934974,
+            "K2": 11.05434277751974,
+            "Kge3": 39.29400836042731
+          }
+        }
+      }
+    }
+  }
+}

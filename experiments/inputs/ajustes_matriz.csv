@@ -1,0 +1,4 @@
+node_id,gateway_column,original_rssi_dbm,reference_tx_dbm,original_loss_db,used_rssi_dbm,used_loss_db,policy
+133,GW_2_RSSI,27.412,27.0,-0.41199999999999903,27.0,0.0,nonnegative_effective_loss_floor_0dB
+456,GW_5_RSSI,27.411,27.0,-0.41100000000000136,27.0,0.0,nonnegative_effective_loss_floor_0dB
+532,GW_7_RSSI,27.411,27.0,-0.41100000000000136,27.0,0.0,nonnegative_effective_loss_floor_0dB

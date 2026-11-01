@@ -1,0 +1,230 @@
+{
+  "created_utc": "2026-10-19T00:41:23.185010+00:00",
+  "algorithm": "Standard SAGA",
+  "identity": {
+    "sources_sha256": {
+      "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\exportar_matrices_baselines.py": "e575fe73c49a4ba0672897ae0339c0084ef96de0170357ad297e72097f9a3bc3",
+      "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\exportar_matriz_gemelo.py": "23fd0070e1ad9038dc283191c31a5f08c6481aef7098b1f46f109e9db5c4c006",
+      "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\MDPI_Suite_MesoCellular_6.m": "f653c048402a895652b4d09aa04cafe9219e64a3aa52936cde467aaf96657214",
+      "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\Results_Meso_Ambato_ECU_SF11_20260228_115243\\DigitalTwin_Standard_SAGA.csv": "9bdac809effb23bebacdc46b2d3b02f844cfa379849e3313744057f95c422cde",
+      "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\Results_Meso_Ambato_ECU_SF11_20260228_115243\\Academic_Deployment_Report.html": "4dcc231c8a603daabf4619beeb2a2bd15189d779fafbc40969b42b76952d89d0",
+      "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\Results_Meso_Ambato_ECU_SF11_20260228_115243\\DigitalTwin_Proposed_3D-M-SAGA.csv": "51fe929f56d532ab7a2dd4ea0b744cd5e63fc3cb9264948699081a7d3b0a5dc8"
+    },
+    "output_sha256": {
+      "Matrix_RSSI_Standard_SAGA.csv": "cd21fd4ccf94087528abf25f1e401965ba418196459c29b5c92f5a5412ed6ba8",
+      "Gateways_Standard_SAGA.csv": "e72a458aeb403687cf0bae4fe27a8185548649ac23ab98c0428fdfe80866ffdf",
+      "Nodos_RSSI_Standard_SAGA.csv": "e3e14dbf923d72a3880386962a3076a40fa6f547b20105a06e0785868a1b87bd"
+    },
+    "parameters": {
+      "city": "Ambato, ECU",
+      "city_latitude_deg": -1.2417,
+      "city_longitude_deg": -78.6197,
+      "earth_radius_m": 6371000.0,
+      "frequency_mhz": 915.0,
+      "tx_power_dbm": 27.0,
+      "gain_db": 5.0,
+      "penetration_loss_db": 0.0,
+      "gateway_height_m": 6.0,
+      "archived_sf": 11,
+      "archived_sensitivity_dbm": -136.0,
+      "distance_floor_m": 1.0,
+      "topography_transition_m": 15.0,
+      "topography_cap_db": 35.0,
+      "clutter": {
+        "Dense Urban": {
+          "n": 3.8,
+          "loss_db": 18.0
+        },
+        "Residential": {
+          "n": 3.2,
+          "loss_db": 0.0
+        },
+        "Park/Periphery": {
+          "n": 3.5,
+          "loss_db": 12.0
+        }
+      }
+    },
+    "gateway_node_ids": [
+      9,
+      133,
+      171,
+      175,
+      624,
+      696,
+      857,
+      1444,
+      1636
+    ]
+  },
+  "validation": {
+    "nodes": 2153,
+    "gateways": 9,
+    "connected": 2113,
+    "censored_outage": 40,
+    "connected_max_abs_error_db": 0.004999185071611123,
+    "connected_rmse_db": 0.0028585210778231044,
+    "status_mismatches": 0,
+    "serving_mismatches_connected": 0,
+    "rounded_rssi_mismatches": 0,
+    "unique_self_peaks_and_report_site_associations": true,
+    "all_acceptance_checks_passed": true,
+    "k_coverage_pct": {
+      "-136": {
+        "K0": 1.8578727357176035,
+        "K1": 30.236878773803994,
+        "K2": 23.1769623780771,
+        "Kge3": 44.7282861124013
+      },
+      "-135": {
+        "K0": 2.5545750116117047,
+        "K1": 32.41987923827217,
+        "K2": 21.69066418950302,
+        "Kge3": 43.3348815606131
+      },
+      "-130": {
+        "K0": 13.794705062703205,
+        "K1": 35.85694379934974,
+        "K2": 11.05434277751974,
+        "Kge3": 39.29400836042731
+      }
+    }
+  },
+  "gateway_associations": [
+    {
+      "local_gateway_id": 1,
+      "node_id": 9,
+      "latitude": -1.2384646,
+      "longitude": -78.6229858,
+      "ground_altitude_m": 2575.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": -17.68,
+      "self_peak_expected_raw_dbm": -17.67842188132897,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "12 de Noviembre & Joaquín Ayllón"
+    },
+    {
+      "local_gateway_id": 2,
+      "node_id": 133,
+      "latitude": -1.2387731,
+      "longitude": -78.6115668,
+      "ground_altitude_m": 2469.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": -17.68,
+      "self_peak_expected_raw_dbm": -17.67842188132897,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "Alemania (Bogota) & Portugal"
+    },
+    {
+      "local_gateway_id": 3,
+      "node_id": 171,
+      "latitude": -1.251298,
+      "longitude": -78.6230358,
+      "ground_altitude_m": 2658.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": -17.68,
+      "self_peak_expected_raw_dbm": -17.67842188132897,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "Antonio Arellano & Avenida Rumiñahui"
+    },
+    {
+      "local_gateway_id": 4,
+      "node_id": 175,
+      "latitude": -1.2529486,
+      "longitude": -78.6239463,
+      "ground_altitude_m": 2673.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": -17.68,
+      "self_peak_expected_raw_dbm": -17.67842188132897,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "Antonio Díaz & José Suarez"
+    },
+    {
+      "local_gateway_id": 5,
+      "node_id": 624,
+      "latitude": -1.2318571,
+      "longitude": -78.6216617,
+      "ground_altitude_m": 2535.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": -17.68,
+      "self_peak_expected_raw_dbm": -17.67842188132897,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "Avenida Pasteur & Cesar Viteri"
+    },
+    {
+      "local_gateway_id": 6,
+      "node_id": 696,
+      "latitude": -1.2280443,
+      "longitude": -78.6103981,
+      "ground_altitude_m": 2549.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": 0.32,
+      "self_peak_expected_raw_dbm": 0.3215781186710309,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "Avenida Rodrigo Pachano & El Eucalipto"
+    },
+    {
+      "local_gateway_id": 7,
+      "node_id": 857,
+      "latitude": -1.2466089,
+      "longitude": -78.6229083,
+      "ground_altitude_m": 2630.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": -17.68,
+      "self_peak_expected_raw_dbm": -17.67842188132897,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "Azuay & Biblian"
+    },
+    {
+      "local_gateway_id": 8,
+      "node_id": 1444,
+      "latitude": -1.248699,
+      "longitude": -78.6170427,
+      "ground_altitude_m": 2600.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": 0.32,
+      "self_peak_expected_raw_dbm": 0.3215781186710309,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "Española & Galapagos"
+    },
+    {
+      "local_gateway_id": 9,
+      "node_id": 1636,
+      "latitude": -1.2584502,
+      "longitude": -78.632377,
+      "ground_altitude_m": 2677.0,
+      "height_m": 6,
+      "self_peak_observed_dbm": -17.68,
+      "self_peak_expected_raw_dbm": -17.67842188132897,
+      "unique_self_candidate_and_peak": true,
+      "unique_nearest_coordinate_match": true,
+      "report_intersection_and_altitude_match": true,
+      "intersection": "Isaac Robayo & Rodrigo Vela Barahona"
+    }
+  ],
+  "rf_formula": "Same pinned Precompute_RF_ITU implementation and parameters as exportar_matriz_gemelo.py; gain included; distance>=1m; height only in topography loss.",
+  "site_inference": "One unique serving-group RSSI peak matching its own floor-distance/clutter/gain RSSI, unique coordinate association, and exact archived report intersection/altitude; then full-link best RSSI, status and serving ID verification.",
+  "censoring": "OUTAGE=-150 is an archived censoring sentinel. Raw RF values are recomputed from metadata, never filled from that sentinel.",
+  "scope": "Reconstruction at saved SF11 deployment sites; no reoptimization, ns-3 execution or field validation.",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26300-SP0"
+  }
+}

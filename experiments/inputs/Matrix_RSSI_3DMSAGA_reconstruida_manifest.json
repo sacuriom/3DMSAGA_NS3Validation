@@ -1,0 +1,218 @@
+{
+  "created_utc": "2026-10-19T00:36:10.068446+00:00",
+  "identity": {
+    "sources_sha256": {
+      "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\MDPI_Suite_MesoCellular_6.m": "f653c048402a895652b4d09aa04cafe9219e64a3aa52936cde467aaf96657214",
+      "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\Results_Meso_Ambato_ECU_SF11_20260228_115243\\DigitalTwin_Proposed_3D-M-SAGA.csv": "51fe929f56d532ab7a2dd4ea0b744cd5e63fc3cb9264948699081a7d3b0a5dc8",
+      "D:\\DOCTORADOUPS\\TESIS\\MDPI\\3D\\Results_Meso_Ambato_ECU_SF11_20260228_115243\\Academic_Deployment_Report.html": "4dcc231c8a603daabf4619beeb2a2bd15189d779fafbc40969b42b76952d89d0",
+      "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\asociacion_topologia.json": "7aa1f69184d217d7a79f5d8c79927c6bc2e02f8dc85850645d9a02a45fe91e31",
+      "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\gateways.csv": "959c5627a4eda752340abb708f94bdab09644348e8e93fc65070cf951dda3285",
+      "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\referencia_original\\Matrix_PathLoss_3D.csv": "e408dfc1b217b363ab3337cc06a8fd206d84226f757423ccf025463ac6bf4caf",
+      "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\exportar_matriz_gemelo.py": "23fd0070e1ad9038dc283191c31a5f08c6481aef7098b1f46f109e9db5c4c006"
+    },
+    "output_sha256": "46c0257da4fe5b2b3d19fabdce8f5e2507c1420bfd1bedc358dfddd1145cebd2",
+    "node_audit_sha256": "af3af09c29f5aa193819ddaf1630c2d4e29b8f844d33df585bf28695b1d1927a",
+    "parameters": {
+      "city": "Ambato, ECU",
+      "city_latitude_deg": -1.2417,
+      "city_longitude_deg": -78.6197,
+      "earth_radius_m": 6371000.0,
+      "frequency_mhz": 915.0,
+      "tx_power_dbm": 27.0,
+      "gain_db": 5.0,
+      "penetration_loss_db": 0.0,
+      "gateway_height_m": 6.0,
+      "archived_sf": 11,
+      "archived_sensitivity_dbm": -136.0,
+      "distance_floor_m": 1.0,
+      "topography_transition_m": 15.0,
+      "topography_cap_db": 35.0,
+      "clutter": {
+        "Dense Urban": {
+          "n": 3.8,
+          "loss_db": 18.0
+        },
+        "Residential": {
+          "n": 3.2,
+          "loss_db": 0.0
+        },
+        "Park/Periphery": {
+          "n": 3.5,
+          "loss_db": 12.0
+        }
+      }
+    }
+  },
+  "validation": {
+    "nodes": 2153,
+    "gateways": 10,
+    "connected_compared": 2133,
+    "outage_censored_rows": 20,
+    "best_link_connected_max_abs_error_db": 0.004998977294064844,
+    "best_link_connected_rmse_db": 0.002878311149004566,
+    "best_link_connected_mean_error_db": 3.1123826525126966e-05,
+    "rounded_rssi_mismatches": 0,
+    "status_mismatches": 0,
+    "serving_gateway_mismatches_connected": 0,
+    "raw_rssi_min_dbm": -188.97227465143538,
+    "raw_rssi_max_dbm": -17.67842188132897,
+    "best_outage_min_dbm": -152.32972767308533,
+    "best_outage_max_dbm": -136.08093300604406,
+    "best_link_coverage_pct": {
+      "-136": 99.0710636321412,
+      "-135": 98.56014862981885,
+      "-131": 91.45378541569903,
+      "-130": 89.82814677194612,
+      "-125": 79.28471899674872
+    },
+    "k_coverage_pct": {
+      "-136": {
+        "K0": 0.9289363678588017,
+        "K1": 20.8546214584301,
+        "K2": 33.4881560613098,
+        "Kge3": 44.7282861124013
+      },
+      "-135": {
+        "K0": 1.4398513701811426,
+        "K1": 23.8736646539712,
+        "K2": 31.212261960055738,
+        "Kge3": 43.474222015791916
+      },
+      "-130": {
+        "K0": 10.171853228053878,
+        "K1": 29.215048769159313,
+        "K2": 20.947515095215977,
+        "Kge3": 39.66558290757083
+      }
+    },
+    "self_site_rssi_and_gateway_identity_passed": true,
+    "acceptance_limit_max_abs_error_db": 0.011,
+    "all_acceptance_checks_passed": true
+  },
+  "gateway_mapping": [
+    {
+      "matrix_gateway_id": 1,
+      "node_id": 20,
+      "csv_row_1based": 20,
+      "latitude_used": -1.2420871,
+      "longitude_used": -78.6244964,
+      "ground_altitude_m": 2575.0,
+      "gateway_height_m": 6.0,
+      "rounded_gateway_coordinate_distance_m": 0.04583670440149652
+    },
+    {
+      "matrix_gateway_id": 2,
+      "node_id": 133,
+      "csv_row_1based": 133,
+      "latitude_used": -1.2387731,
+      "longitude_used": -78.6115668,
+      "ground_altitude_m": 2469.0,
+      "gateway_height_m": 6.0,
+      "rounded_gateway_coordinate_distance_m": 0.02485929149289532
+    },
+    {
+      "matrix_gateway_id": 3,
+      "node_id": 251,
+      "csv_row_1based": 251,
+      "latitude_used": -1.2317627,
+      "longitude_used": -78.6038384,
+      "ground_altitude_m": 2557.0,
+      "gateway_height_m": 6.0,
+      "rounded_gateway_coordinate_distance_m": 0.05558924170203081
+    },
+    {
+      "matrix_gateway_id": 4,
+      "node_id": 270,
+      "csv_row_1based": 270,
+      "latitude_used": -1.2442404,
+      "longitude_used": -78.6270216,
+      "ground_altitude_m": 2582.0,
+      "gateway_height_m": 6.0,
+      "rounded_gateway_coordinate_distance_m": 0.06289393342544972
+    },
+    {
+      "matrix_gateway_id": 5,
+      "node_id": 456,
+      "csv_row_1based": 456,
+      "latitude_used": -1.2327888,
+      "longitude_used": -78.6195681,
+      "ground_altitude_m": 2546.0,
+      "gateway_height_m": 6.0,
+      "rounded_gateway_coordinate_distance_m": 0.02486279024717972
+    },
+    {
+      "matrix_gateway_id": 6,
+      "node_id": 507,
+      "csv_row_1based": 507,
+      "latitude_used": -1.2601027,
+      "longitude_used": -78.6297795,
+      "ground_altitude_m": 2680.0,
+      "gateway_height_m": 6.0,
+      "rounded_gateway_coordinate_distance_m": 0.06482569771695446
+    },
+    {
+      "matrix_gateway_id": 7,
+      "node_id": 532,
+      "csv_row_1based": 532,
+      "latitude_used": -1.2505012,
+      "longitude_used": -78.6222609,
+      "ground_altitude_m": 2646.0,
+      "gateway_height_m": 6.0,
+      "rounded_gateway_coordinate_distance_m": 0.02486275694258785
+    },
+    {
+      "matrix_gateway_id": 8,
+      "node_id": 645,
+      "csv_row_1based": 645,
+      "latitude_used": -1.2520213,
+      "longitude_used": -78.6249918,
+      "ground_altitude_m": 2663.0,
+      "gateway_height_m": 6.0,
+      "rounded_gateway_coordinate_distance_m": 0.04008895621538439
+    },
+    {
+      "matrix_gateway_id": 9,
+      "node_id": 1158,
+      "csv_row_1based": 1158,
+      "latitude_used": -1.2311604,
+      "longitude_used": -78.6220773,
+      "ground_altitude_m": 2534.0,
+      "gateway_height_m": 6.0,
+      "rounded_gateway_coordinate_distance_m": 0.05559284286580936
+    },
+    {
+      "matrix_gateway_id": 10,
+      "node_id": 1440,
+      "csv_row_1based": 1440,
+      "latitude_used": -1.2456138,
+      "longitude_used": -78.6232024,
+      "ground_altitude_m": 2619.0,
+      "gateway_height_m": 6.0,
+      "rounded_gateway_coordinate_distance_m": 0.04971848142045969
+    }
+  ],
+  "output": "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\inputs\\Matrix_RSSI_3DMSAGA_reconstruida.csv",
+  "shape": [
+    2153,
+    10
+  ],
+  "node_audit_output": "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\inputs\\Nodos_RSSI_3DMSAGA_reconstruida.csv",
+  "associated_gateway_csv": "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\gateways.csv",
+  "formula": "RSSI=(Ptx+Gain)-(20*log10(freqMHz)-27.55)-10*n_receiver*log10(max(d_ground3D,1))-L_clutter_receiver-L_penetration-L_topography",
+  "source_function": "Precompute_RF_ITU, MDPI_Suite_MesoCellular_6.m:179-196",
+  "source_function_sha256": "14ac6fb95104b4afc2cf7d8c7427649834480889bc432696b0266501aee6aed9",
+  "projection_source": "Build_DigitalTwin_Robust, MDPI_Suite_MesoCellular_6.m:167",
+  "numeric_semantics": "NumPy float64; first-column maximum; MATLAB ties-away-from-zero round only for archive comparison. Export retains unrounded per-link values.",
+  "outage_semantics": "Archived OUTAGE=-150 is censored. No RSSI values are imputed from this sentinel. Raw OUTAGE link values are recomputed from the deterministic source formula.",
+  "gateway_semantics": "Columns preserve validated local Proposed GW IDs1..10. RF calculation uses the associated intersection node's full CSV coordinates and altitude; rounded gateway CSV coordinates are used only to verify association.",
+  "height_semantics": "Exactly as archived MATLAB: gateway installation height enters topography loss, not d_ground3D. No physical-model correction has been introduced.",
+  "scope": "Reconstructs the deterministic archived native model. This is agreement with saved model outputs, not independent field validation and not a newly optimized SF7/SF9 deployment.",
+  "gain_semantics": "The single MATLAB HW.Gain=5 dB term is already included in RSSI; importing as matrixReferenceDbm-RSSI must not add it again.",
+  "randomness": "None in RF evaluation; stochastic optimization is not rerun. The saved Proposed ten gateway sites are reused.",
+  "input_edits": "None: no RSSI clamping, no synthetic replacement of altitude, clutter or censored signal.",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26300-SP0"
+  }
+}

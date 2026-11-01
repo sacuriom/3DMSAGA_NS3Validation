@@ -1,0 +1,45 @@
+{
+  "source": "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\referencia_original\\Matrix_PathLoss_3D.csv",
+  "source_sha256": "e408dfc1b217b363ab3337cc06a8fd206d84226f757423ccf025463ac6bf4caf",
+  "derived": "D:\\DOCTORADOUPS\\TESIS\\OCTUBRE\\Validacion_ns3_v02_2026-10-18\\inputs\\Matrix_PathLoss_3D_validada.csv",
+  "derived_sha256": "9d570ef3ddff2632f744938208c9a5ba4def6ef9d52032c3a37989b93e72c3e3",
+  "reference_tx_dbm": 27.0,
+  "rows": 2153,
+  "gateways": 10,
+  "links": 21530,
+  "modified_cells": 3,
+  "policy": "For RSSI > reference power only, set effective path loss to 0 dB; all other values and IDs preserved.",
+  "interpretation": "A numerical bounding assumption, not a recalculation or empirical correction of propagation. Cause of negative input losses is unconfirmed.",
+  "changes": [
+    {
+      "node_id": "133",
+      "gateway_column": "GW_2_RSSI",
+      "original_rssi_dbm": 27.412,
+      "reference_tx_dbm": 27.0,
+      "original_loss_db": -0.41199999999999903,
+      "used_rssi_dbm": 27.0,
+      "used_loss_db": 0.0,
+      "policy": "nonnegative_effective_loss_floor_0dB"
+    },
+    {
+      "node_id": "456",
+      "gateway_column": "GW_5_RSSI",
+      "original_rssi_dbm": 27.411,
+      "reference_tx_dbm": 27.0,
+      "original_loss_db": -0.41100000000000136,
+      "used_rssi_dbm": 27.0,
+      "used_loss_db": 0.0,
+      "policy": "nonnegative_effective_loss_floor_0dB"
+    },
+    {
+      "node_id": "532",
+      "gateway_column": "GW_7_RSSI",
+      "original_rssi_dbm": 27.411,
+      "reference_tx_dbm": 27.0,
+      "original_loss_db": -0.41100000000000136,
+      "used_rssi_dbm": 27.0,
+      "used_loss_db": 0.0,
+      "policy": "nonnegative_effective_loss_floor_0dB"
+    }
+  ]
+}
