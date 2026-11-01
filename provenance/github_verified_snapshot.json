@@ -1,0 +1,246 @@
+{
+  "checked_on": "2026-11-01",
+  "repository": "https://github.com/sacuriom/3DMSAGA_NS3Validation",
+  "commit": "1f2d45d7c7b1970ee17e1e5166e01415e154d294",
+  "public_files": [
+    {
+      "path": "CITATION.cff",
+      "git_blob_sha": "cd4c24585a5abd39ba888971b80acab3d4a3e347"
+    },
+    {
+      "path": "LICENSE_PENDING.md",
+      "git_blob_sha": "3ce01044c5471800fdbefd3be16ffedd56d15076"
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha": "aefe38268ba240c6c1dd00fa5bfa125dff31622d"
+    },
+    {
+      "path": "data/simulation/F01_nodos_DT_cuatro_algoritmos.csv",
+      "git_blob_sha": "96126da71153ba7fc99960acbfab8575c35c7eb5"
+    },
+    {
+      "path": "data/simulation/F02_pares_RF_sin_censura.csv",
+      "git_blob_sha": "01afe83c6562c3a569603a1e0c3fdd529a20b7c7"
+    },
+    {
+      "path": "data/simulation/F03_clasificacion_RF_por_nodo.csv",
+      "git_blob_sha": "5464a8e09f76e9c3689286ef0e1244c16a92fe2f"
+    },
+    {
+      "path": "data/simulation/F03_tabla_concordancia.csv",
+      "git_blob_sha": "46743778bda2409cf2040169c6714dd50646db70"
+    },
+    {
+      "path": "data/simulation/F04_corridas_principales.csv",
+      "git_blob_sha": "343ea7f2550fc9ea92c1fbb398f3613082d5006f"
+    },
+    {
+      "path": "data/simulation/F04_intervalos95.csv",
+      "git_blob_sha": "42c914f8dc51de09b3343dfa65ffe81be260b210"
+    },
+    {
+      "path": "data/simulation/F05_PDR_agregado_por_nodo.csv",
+      "git_blob_sha": "08936c6d6c10fab562a19f4822142159cc583bf5"
+    },
+    {
+      "path": "data/simulation/F05_nodos_por_replica.csv",
+      "git_blob_sha": "995ba1f914b25e2cea0b7e83835e9afc1397fa2e"
+    },
+    {
+      "path": "data/simulation/F06_MonteCarlo_historico_raw.csv",
+      "git_blob_sha": "3f4adb32c132ce861cb217b9fa9d51fc15cf66bd"
+    },
+    {
+      "path": "data/simulation/F06_MonteCarlo_resumen.csv",
+      "git_blob_sha": "3e24c0a049dfc212ea4f9f6fbd1758d3e3fdfa97"
+    },
+    {
+      "path": "data/simulation/F07_K_RF_por_nodo.csv",
+      "git_blob_sha": "0263ea8f8643ca4aed725150a4c3d1601f30e613"
+    },
+    {
+      "path": "data/simulation/F07_resumen_K_RF_por_SF.csv",
+      "git_blob_sha": "62c827e86cb1c96ce294522b96129c07cdc9a97d"
+    },
+    {
+      "path": "data/simulation/F08_horas_por_replica.csv",
+      "git_blob_sha": "979e5708aa57eb53ba41814763983a3a703f6508"
+    },
+    {
+      "path": "data/simulation/F08_medias_IC95_por_hora.csv",
+      "git_blob_sha": "9e749f11de68f897a8f4f6848076f8bba94b5172"
+    },
+    {
+      "path": "data/simulation/F09_K_RF_K_recibido_PDR_por_nodo.csv",
+      "git_blob_sha": "d50f0fec97bf851aa072e64f2c60b05eca4918e8"
+    },
+    {
+      "path": "data/simulation/F10_fallo_individual_gateway.csv",
+      "git_blob_sha": "88e7c2fd591ed773d4d635ac4eae64c31ea6f21a"
+    },
+    {
+      "path": "data/simulation/F10_k_cobertura_nodos_algoritmos.csv",
+      "git_blob_sha": "59bb3a82a91b156285b3ac4de6bef3beacfb0f51"
+    },
+    {
+      "path": "data/simulation/F10_manifest_resiliencia_estatica.json",
+      "git_blob_sha": "d1af277e19a50d09a0f4aca12855c9d5e01d1042"
+    },
+    {
+      "path": "data/simulation/F10_resiliencia_estatica_resumen.csv",
+      "git_blob_sha": "73b4a25428a4957712a1b36bd1d4ce3940f09c24"
+    },
+    {
+      "path": "data/simulation/F11_comparacion_modelos_carga.csv",
+      "git_blob_sha": "c9310f85ae6eacbdaf34c70946867915a53f3290"
+    },
+    {
+      "path": "data/simulation/Matrix_RSSI_3DMSAGA_reconstruida_manifest.json",
+      "git_blob_sha": "b83622729c06c38a17d8e68414ecaac2a4a3ff73"
+    },
+    {
+      "path": "data/simulation/Matriz_afirmacion_evidencia_cierre.csv",
+      "git_blob_sha": "8e30e95d76f7c2199f523b23a322c1a5ab19fd22"
+    },
+    {
+      "path": "data/simulation/Matriz_maestra_cierre_por_nodo.csv",
+      "git_blob_sha": "9f9df8f26e7fcf6cebe58a868c8096798b97471b"
+    },
+    {
+      "path": "data/simulation/Resumen_coincidencia_y_perdidas.json",
+      "git_blob_sha": "680b88c151ab4a2018c256ed2450d3060c8c4e96"
+    },
+    {
+      "path": "data/simulation/auditoria_gemelo.json",
+      "git_blob_sha": "61021a487659939b3e4052aeb6ff1fddfd018a3b"
+    },
+    {
+      "path": "data/simulation/auditoria_resultados.json",
+      "git_blob_sha": "4366a879b8cd4f2ef863fbbab67ced52935a434e"
+    },
+    {
+      "path": "data/simulation/build_manifest.json",
+      "git_blob_sha": "31e8c79d3f7d531ab8dc3e72cc6827f542da75d0"
+    },
+    {
+      "path": "data/simulation/manifest_matriz_derivada.json",
+      "git_blob_sha": "0d2068c0e7acb9d0e83f6a7706c591b49f62ad35"
+    },
+    {
+      "path": "data/simulation/module_tests.json",
+      "git_blob_sha": "5c86e1c743b5c72dec28e7aa2f97c12a48e910da"
+    },
+    {
+      "path": "data/simulation/smoke_summary.json",
+      "git_blob_sha": "7baf8c26d9280496ac93fa2164e8396f7dbe7454"
+    },
+    {
+      "path": "docs/CARGA_GITHUB.md",
+      "git_blob_sha": "cc7d223e2ca89ae6bdc1b967eb3f8a26e617a768"
+    },
+    {
+      "path": "docs/DICCIONARIO_ARCHIVOS.md",
+      "git_blob_sha": "7c874840ed88a639fdd8c541358c51463c58cadb"
+    },
+    {
+      "path": "docs/ENTORNO_LINUX_Y_EJECUCION.md",
+      "git_blob_sha": "9f578d3c99413fa0fab3e5a4ac8a64751f750962"
+    },
+    {
+      "path": "docs/INVENTARIO_CODIGO_Y_DATOS.csv",
+      "git_blob_sha": "4424413ffb1aa80adc4afbc771821c8a285b54e6"
+    },
+    {
+      "path": "docs/PUBLICACION_Y_REPRODUCCION.md",
+      "git_blob_sha": "af290b8d5eb52f7df6d68757f841ec7137650f8f"
+    },
+    {
+      "path": "docs/PUBLICATION_STATUS.md",
+      "git_blob_sha": "f05d5e35a27c0feea94ca73f07a4a92c2e29b317"
+    },
+    {
+      "path": "docs/REFERENCIAS_REPOSITORIOS.bib",
+      "git_blob_sha": "ae7e9715cbde824c4c7cac274d0011bfe1ff004c"
+    },
+    {
+      "path": "docs/REFERENCIAS_TESIS.md",
+      "git_blob_sha": "b31c59970b52fb1be05207db8eb9a77df250b50f"
+    },
+    {
+      "path": "docs/THIRD_PARTY.md",
+      "git_blob_sha": "12c844c3bb69827035ddd1ca7048cee2ab9a98af"
+    },
+    {
+      "path": "provenance/claims.csv",
+      "git_blob_sha": "7d31cc3abf51a59e0d5357a43b192db6752d047a"
+    },
+    {
+      "path": "provenance/file_manifest.json",
+      "git_blob_sha": "c91581ca06182aa7343038963166acde060582be"
+    },
+    {
+      "path": "provenance/large_artifacts_inventory.json",
+      "git_blob_sha": "79092f609a29081222c92bdca15560d72c795719"
+    },
+    {
+      "path": "provenance/matlab_variants.json",
+      "git_blob_sha": "b62bac0343e940c545d14a42727b9e5ee3114042"
+    },
+    {
+      "path": "provenance/publication_status.json",
+      "git_blob_sha": "160306bc3547ab188feb095c831d24fac8d9f287"
+    },
+    {
+      "path": "provenance/release_assets_prepared.json",
+      "git_blob_sha": "ed84856ae5f2cbb7563e2c4f21e5d63cd625adca"
+    },
+    {
+      "path": "scripts/replay_ns3.py",
+      "git_blob_sha": "06a2773c1edf3711d7df2678e012de1ef11bb574"
+    },
+    {
+      "path": "scripts/verify_linux_environment.py",
+      "git_blob_sha": "e8f70ddef78f17ea914a193d66ae2bcae00dfdd0"
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "git_blob_sha": "a4c6c48b79b020ab71cc9452cb8360e26b7c944b"
+    },
+    {
+      "path": "src/matlab_archived/MDPI_Suite_MesoCellular_MultiAnchorGW1yGW2.m",
+      "git_blob_sha": "9e3c6299691a93b00059c3fb9e615d79713ba76d"
+    },
+    {
+      "path": "src/matlab_archived/MDPI_Suite_MesoCellular_PUCESA.m",
+      "git_blob_sha": "e906b61a61b4691f4d63fd2b189dab95071a7cb8"
+    },
+    {
+      "path": "verification/auditoria_128_corridas_28oct.json",
+      "git_blob_sha": "889f7419297908485a578f09bb24c92ac1be3117"
+    },
+    {
+      "path": "verification/credential_scan.json",
+      "git_blob_sha": "851adc89524be1111b4fba434e543a61cf05fcde"
+    },
+    {
+      "path": "verification/plan_ejemplo_sin_ejecucion.json",
+      "git_blob_sha": "cc10b3fc261e389900eae2a572887163359a52c8"
+    },
+    {
+      "path": "verification/preparacion_github_28oct.json",
+      "git_blob_sha": "889f7419297908485a578f09bb24c92ac1be3117"
+    },
+    {
+      "path": "verification/release_audit.json",
+      "git_blob_sha": "9f0dac64264125df4484efc60ed1781ee701c129"
+    },
+    {
+      "path": "verification/replay_dry_run.json",
+      "git_blob_sha": "e02bb87272bcfde41e60103a8a7f4b6c44c72bd3"
+    }
+  ],
+  "cpp_remote_path_checked": "experiments/ns3_archive/validacion_lorawan_v02.cc",
+  "cpp_remote_path_result": "404 at inspected revision",
+  "paper_package_status": "Prepared locally; not uploaded by this task"
+}
